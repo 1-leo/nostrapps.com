@@ -149,31 +149,6 @@ source = "https://github.com/nodetec/blogstack"
 thumb = "https://cdn.satellite.earth/fb48f34fba8ef6d9ef81c2e539d8b597b4519494365c48b97c7e7f9aedf1e975.svg"
 url = "https://blogstack.io/"
 
-[blowater]
-name = "Blowater"
-categories = [ "direct-message" ]
-description = "The nicest DM client on nostr"
-gallery = [
-  "https://cdn.satellite.earth/c756338de5c05c8d848f3280fac2da174e0c93cb673b9d57c011886f24869dee.png",
-  "https://cdn.satellite.earth/7f9dcddf6b751c3d78fbf7db9960fe63dfe66e2feac99c0f804e6447d75f89be.png",
-  "https://cdn.satellite.earth/b8013c451236b8ac650a88b486cb6bf2334618ebc73f09c73c05bbd828faaecf.png",
-  "https://cdn.satellite.earth/80884d10693524db99cbfe379cabd8cc77f29ccafeee2120d127e489e3dc043a.png",
-  "https://cdn.satellite.earth/7cfafaeb92406a299c072a5ceba1852a281260c67402362ee5ad3a9afb3156d5.png",
-  "https://cdn.satellite.earth/6c88139e6eac7de9d38cbd16ba9b79c9e91679d9ef79cb90bed6ac62b0e8bfd0.png"
-]
-features = [
-  "Focuses on DM experience",
-  "Getting a complete redesign",
-  "Nice threaded replies",
-  "Great media handling",
-  "Explore global notes"
-]
-npub = "npub1dww6jgxykmkt7tqjqx985tg58dxlm7v83sa743578xa4j7zpe3hql6pdnf"
-platforms = [ "web" ]
-source = "https://github.com/BlowaterNostr/blowater"
-thumb = "https://cdn.satellite.earth/53652a6f0cabe34e99d470159af4cb313aae5f6245b7deb8f8c6a4e317a84479.png"
-url = "https://blowater.deno.dev/"
-
 [camelus]
 name = "camelus"
 categories = [ "social" ]
@@ -376,12 +351,16 @@ url = "https://docstr.app/"
 [dtan]
 name = "DTAN"
 categories = [ "file-sharing" ]
-description = "Torrents over nostr"
+description = "Decentralized torrents directory"
 gallery = [
   "https://cdn.satellite.earth/c1e770ec125ef94e46e3a7b1b438c138fb4164344546f502f3d30659e9c9a0ef.png",
   "https://cdn.satellite.earth/a81755ee2e8deeb85f9802f1c5847d2ff09c0bd09b6b6b2888643144ab873591.png"
 ]
-features = [ "Torrents" ]
+features = [
+  "Browse lists of available torrents",
+  "Publish your own",
+  "Choose relays to browse on"
+]
 npub = "npub1v0lxxxxutpvrelsksy8cdhgfux9l6a42hsj2qzquu2zk7vc9qnkszrqj49"
 platforms = [ "web" ]
 source = "https://github.com/v0l"
@@ -1099,7 +1078,12 @@ gallery = [
   "https://cdn.satellite.earth/ff92e5d2eaec64b10ee04f60edc27db30edc2f776b16505d2ea324c4a9942789.png",
   "https://cdn.satellite.earth/c415b17e30b7bb07e2e08fd1384ca71c961c397e94f7fd82e7e11722ddd2dcf1.png"
 ]
-features = [ "Look up relay information" ]
+features = [
+  "Look up relay information",
+  "Browse relay feeds",
+  "Browse individual profile feeds with smart relay selection",
+  "Simple and gets the job done"
+]
 npub = "npub107jk7htfv243u0x5ynn43scq9wrxtaasmrwwa8lfu2ydwag6cx2quqncxg"
 platforms = [ "web" ]
 thumb = "https://cdn.satellite.earth/cf6aab242ddd4435fa439c89f0b36937030c4a3ace847cc1eb9dd6474a832bff.svg"
@@ -1447,7 +1431,7 @@ url = "https://github.com/grunch/rana"
 
 [relay-tools]
 name = "Relay Tools"
-categories = [ "nostr-management" ]
+categories = [ "nostr-management", "relay" ]
 description = "Spin up a relay quickly"
 gallery = [
   "https://cdn.satellite.earth/d30b48c958caf2cd1c17e9ef6a4efc24ae61967116d53941b7412fe05ef064e2.png",
@@ -1756,7 +1740,7 @@ source = "https://github.com/pablof7z/wiki"
 
 [wikistr]
 name = "Wikistr"
-thumb = "https://cdn.satellite.earth/797d197921c104bad943cd7934f71f9abb01970260ac24bd702a86caba26dae2.png"
+thumb = "https://cdn.satellite.earth/5cc7feeacfa0433d221e6412cb723f0cefc5023dcfa0a459e1ca990731abca21.png"
 npub = "npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6"
 gallery = [
   "https://cdn.satellite.earth/425b13773d13ac9bc989564c43c83a476bbc39501515d7ef648616ccc5b2227c.png",
