@@ -13,7 +13,7 @@ type AppDefinition struct {
 	URL         string   `yaml:"url"`
 }
 
-templ app(a AppDefinition) {
+templ app(platforms []string, a AppDefinition) {
 	<!DOCTYPE html>
 	<html>
 		<head>
@@ -23,7 +23,7 @@ templ app(a AppDefinition) {
 			<script src="https://unpkg.com/nostr-web-components@0.0.3/dist/nostr-name.js"></script>
 		</head>
 		<body class="body-2">
-			@pageHeader()
+			@pageHeader(platforms, true)
 			<div
 				data-w-id="fcab479d-6e6f-aee3-cf0c-98b327dbcc6d"
 				class="container-index"

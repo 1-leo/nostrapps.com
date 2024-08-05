@@ -46,6 +46,13 @@ var (
 		"video",
 		"writing",
 	}
+	platforms = []string{
+		"All",     // "all"
+		"iOS",     // "ios"
+		"Android", // "android"
+		"Web",     // "web"
+		"Desktop", // "desktop"
+	}
 )
 
 //go:embed static/*

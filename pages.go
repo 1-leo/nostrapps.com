@@ -6,7 +6,7 @@ import (
 )
 
 func handleHomePage(w http.ResponseWriter, r *http.Request) {
-	home(categories, apps).Render(r.Context(), w)
+	home(categories, platforms, apps).Render(r.Context(), w)
 }
 
 func handleAppPage(w http.ResponseWriter, r *http.Request) {
@@ -17,5 +17,5 @@ func handleAppPage(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	app(def).Render(r.Context(), w)
+	app(platforms, def).Render(r.Context(), w)
 }

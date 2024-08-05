@@ -1,6 +1,6 @@
 package main
 
-templ home(categories []string, apps map[string]AppDefinition) {
+templ home(categories []string, platforms []string, apps map[string]AppDefinition) {
 	<!DOCTYPE html>
 	<html>
 		<head>
@@ -16,65 +16,9 @@ templ home(categories []string, apps map[string]AppDefinition) {
 				content="/static/cover.png"
 				property="twitter:image"
 			/>
-			<style>
-.player {
-  position: relative;
-}
-
-.up {
-  top: -68px;
-}
-
-.title {
-  font-weight: bold;
-  font-size: 14px;
-}
-
-.controlsOuter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.controlsInner {
-  background: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.controlsInner .btn {
-  cursor: pointer;
-  transition: all 0.1s ease-in-out;
-  color: #c2b0c1;
-  padding: 16px;
-  border-radius: 8px;
-}
-.controlsInner .btn:hover {
-  background: #000;
-  color: #fff;
-}
-
-.play,
-.pause {
-  font-size: 32px;
-}
-
-.pause {
-  display: none;
-}
-
-.container-thumb {
-  border-radius: 50%;
-  box-shadow: 0px 0px 0px #d18eb88c;
-  transition: all 0.5s ease-in-out;
-  position: absolute;
-  top: -50px;
-  left: 10px;
-}
-			</style>
 		</head>
-		<body class="body">
-			@pageHeader()
+		<body class="body" x-data="{filter: {platform: 'all'}}">
+			@pageHeader(platforms, false)
 			<div class="drop-container">
 				<div data-hover="false" data-delay="0" class="dropdown w-dropdown">
 					<div class="dropdown-toggle w-dropdown-toggle">
@@ -254,7 +198,7 @@ templ home(categories []string, apps map[string]AppDefinition) {
 						}
 					</div>
 					<div fs-cmsfilter-field="" class="tabs-content w-tab-content">
-						<div data-w-tab="All Apps" class="w-tab-pane w--tab-active">
+						<div class="w-tab-pane w--tab-active">
 							<div class="category">
 								<div fs-cmsfilter-element="list" class="w-dyn-list">
 									<div
@@ -263,7 +207,12 @@ templ home(categories []string, apps map[string]AppDefinition) {
 										class="collection-list-5 w-dyn-items"
 									>
 										for slug, app := range apps {
-											<div role="listitem" class="collection-item w-dyn-item">
+											<div
+												x-show={ "platforms.includes(filter.platform) || filter.platform == 'all'" }
+												x-data={ "{platforms: " + jsEncode(app.Platforms) + "}" }
+												role="listitem"
+												class="collection-item w-dyn-item"
+											>
 												<a
 													href={ templ.SafeURL(slug) }
 													class="app-link w-inline-block"
