@@ -17,163 +17,15 @@ templ home(categories []string, platforms []string, apps map[string]AppDefinitio
 				property="twitter:image"
 			/>
 		</head>
-		<body class="body" x-data="{filter: {platform: 'all'}}">
+		<body class="body" x-data="{filter: {platform: 'all'}, count: {all: 0}}">
 			@pageHeader(platforms, false)
-			<div class="drop-container">
-				<div data-hover="false" data-delay="0" class="dropdown w-dropdown">
-					<div class="dropdown-toggle w-dropdown-toggle">
-						<div class="icon w-icon-dropdown-toggle"></div>
-						<div class="replace-text">Social</div>
-					</div>
-					<nav class="dropdown-list w-dropdown-list">
-						<a
-							data-dropdown="All Apps"
-							href="#"
-							class="replace-text w-dropdown-link"
-						>
-							All Apps
-						</a>
-						<a
-							data-dropdown="Audio"
-							href="#"
-							class="replace-text w-dropdown-link"
-						>
-							Audio
-						</a>
-						<a
-							data-dropdown="Curation"
-							href="#"
-							class="replace-text w-dropdown-link"
-						>
-							Curation
-						</a>
-						<a
-							data-dropdown="Career"
-							href="#"
-							class="replace-text w-dropdown-link"
-						>
-							Career
-						</a>
-						<a
-							data-dropdown="Community"
-							href="#"
-							class="replace-text w-dropdown-link"
-						>
-							Community
-						</a>
-						<a
-							data-dropdown="Direct Message"
-							href="#"
-							class="replace-text w-dropdown-link"
-						>
-							Direct Message
-						</a>
-						<a
-							data-dropdown="File Sharing"
-							href="#"
-							class="replace-text w-dropdown-link"
-						>
-							File Sharing
-						</a>
-						<a
-							data-dropdown="Group Chat"
-							href="#"
-							class="replace-text w-dropdown-link"
-						>
-							Group Chat
-						</a>
-						<a
-							data-dropdown="IRL"
-							href="#"
-							class="replace-text w-dropdown-link"
-						>
-							IRL
-						</a>
-						<a
-							data-dropdown="Marketplaces"
-							href="#"
-							class="replace-text w-dropdown-link"
-						>
-							Marketplaces
-						</a>
-						<a
-							data-dropdown="Money"
-							href="#"
-							class="replace-text w-dropdown-link"
-						>
-							Money
-						</a>
-						<a
-							data-dropdown="Music"
-							href="#"
-							class="replace-text w-dropdown-link"
-						>
-							Music
-						</a>
-						<a
-							data-dropdown="Privacy"
-							href="#"
-							class="replace-text w-dropdown-link"
-						>
-							Privacy
-						</a>
-						<a
-							data-dropdown="Signers"
-							href="#"
-							class="replace-text w-dropdown-link"
-						>
-							Signers
-						</a>
-						<a
-							data-dropdown="Social"
-							href="#"
-							class="replace-text w-dropdown-link"
-						>
-							Social
-						</a>
-						<a
-							data-dropdown="Streaming"
-							href="#"
-							class="replace-text w-dropdown-link"
-						>
-							Streaming
-						</a>
-						<a
-							data-dropdown="Tools"
-							href="#"
-							class="replace-text w-dropdown-link"
-						>
-							Tools
-						</a>
-						<a
-							data-dropdown="Video"
-							href="#"
-							class="replace-text w-dropdown-link"
-						>
-							Video
-						</a>
-						<a
-							data-dropdown="Writing"
-							href="#"
-							class="replace-text w-dropdown-link"
-						>
-							Writing
-						</a>
-					</nav>
-				</div>
-			</div>
 			<div>
-				<div
-					data-current="All Apps"
-					data-easing="ease"
-					data-duration-in="300"
-					data-duration-out="100"
-					class="tabs w-tabs"
-				>
+				<div class="tabs w-tabs">
 					<div class="tabs-menu w-tab-menu">
 						<a
-							data-w-tab="All Apps"
-							class="tab w-inline-block w-tab-link w--current"
+							class="tab w-inline-block w-tab-link"
+							x-bind:class="{'w--current': !filter.category}"
+							x-on:click={ "filter.category = null" }
 						>
 							<img
 								width="10"
@@ -183,10 +35,14 @@ templ home(categories []string, platforms []string, apps map[string]AppDefinitio
 								class="tab-icon"
 							/>
 							<div class="text-block-4">All Apps</div>
-							<div fs-countitems-element="value" class="count"></div>
+							<div class="count" x-text="count.all"></div>
 						</a>
 						for _, category := range categories {
-							<a data-w-tab="Audio" class="tab w-inline-block w-tab-link">
+							<a
+								class="tab w-inline-block w-tab-link"
+								x-bind:class={ "{'w--current': filter.category == '" + category + "'}" }
+								x-on:click={ "filter.category = '" + category + "'" }
+							>
 								<img
 									loading="lazy"
 									src={ "/static/category-" + category + ".svg" }
@@ -194,6 +50,7 @@ templ home(categories []string, platforms []string, apps map[string]AppDefinitio
 									class="tab-icon"
 								/>
 								<div>{ titleCase(category) }</div>
+								<div class="count" x-text={ "count['" + category + "'] || 0" }></div>
 							</a>
 						}
 					</div>
@@ -208,8 +65,9 @@ templ home(categories []string, platforms []string, apps map[string]AppDefinitio
 									>
 										for slug, app := range apps {
 											<div
-												x-show={ "platforms.includes(filter.platform) || filter.platform == 'all'" }
-												x-data={ "{platforms: " + jsEncode(app.Platforms) + "}" }
+												x-show={ "(platforms.includes(filter.platform) || filter.platform == 'all') && (!filter.category || categories.includes(filter.category))" }
+												x-data={ "{platforms: " + jsEncode(app.Platforms) + ", categories: " + jsEncode(app.Categories) + "}" }
+												x-init={ "count.all++; categories.forEach(c => {count[c] = (count[c] || 0) + 1})" }
 												role="listitem"
 												class="collection-item w-dyn-item"
 											>
