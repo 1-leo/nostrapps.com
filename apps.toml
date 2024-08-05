@@ -1,0 +1,1843 @@
+[0xchat]
+name = "0xChat"
+categories = [ "direct-message", "all-clients", "group-chat" ]
+description = "Simple and private nostr DMs"
+gallery = [
+  "https://cdn.satellite.earth/63392499ff275e26988e7cc730eceb51958a31d9c71b41e263ce195680a761d0.png",
+  "https://cdn.satellite.earth/4c6729b98add646e8b3575e20b90b685ec429662e1e7fa2107030b22fea9759f.png",
+  "https://cdn.satellite.earth/9148a7a52c90e64383698d4a1c64ec4e3f0763372886af1f1e348f34770761b7.png",
+  "https://cdn.satellite.earth/92ed453dcbcab048a5c9af86aa9c6dbddff2d481f922556bce2ffb031ee0f4e4.png",
+  "https://cdn.satellite.earth/eef50bb1cf4f54539a966480a4679a8ad69b3b736c70372d15c471e7bc9a8a5d.png",
+  "https://cdn.satellite.earth/047e414ecd7ed315c5c1a667f018be886f9549ef6e4c1f0d2fa819743bd692ea.png",
+  "https://cdn.satellite.earth/104aecf1d82725ab20a3f03192d82950e0cd71f42267687651b47811255b5127.png",
+  "https://cdn.satellite.earth/a6e0938cd8c228c9e9eeafeaa90ae6e9041fa2dbeea733c8603cb100159763d5.png",
+  "https://cdn.satellite.earth/d12d766c5751c0337a71b6fb034d7fd94cd67300838467b6f7cfcb5ca6e75a9b.png"
+]
+features = [
+  "Beautiful, simple and private nostr DMs",
+  "DMs",
+  "Group Chat",
+  "Zaps",
+  "Push notifications"
+]
+npub = "npub10td4yrp6cl9kmjp9x5yd7r8pm96a5j07lk5mtj2kw39qf8frpt8qm9x2wl"
+platforms = [ "android", "ios" ]
+thumb = "https://cdn.satellite.earth/e5a72fb34bc91dcd18825d33ee46e99750affae903d98dc9ad2ddd0bbf36b5a6.png"
+url = "https://0xchat.com/"
+
+[advanced-nostr-search]
+name = "Advanced Nostr Search"
+categories = [ "nostr-management", "all-clients" ]
+description = "Advanced search for Nostr"
+gallery = [
+  "https://cdn.satellite.earth/fc236dc7a87c81708528d9ae75a05f2c4aa3e40a38ded4cc733c159d5e49036d.png"
+]
+features = [
+  "Search by author",
+  "Search by keyword from author",
+  "Search between dates"
+]
+npub = "npub1vp8fdcyejd4pqjyrjk9sgz68vuhq7pyvnzk8j0ehlljvwgp8n6eqsrnpsw"
+platforms = [ "web" ]
+source = "https://github.com/SamSamskies/advancednostrsearch"
+thumb = "https://cdn.satellite.earth/77c850813b3d0ca8a84139282b0640169238635436885cea4aa74ffd0d7b8c8f.png"
+url = "https://advancednostrsearch.vercel.app"
+
+[alby]
+name = "Alby"
+categories = [ "all-clients", "money", "signers" ]
+description = "Your bitcoin and nostr companion for the web"
+gallery = [
+  "https://cdn.satellite.earth/b82b2119ec14276befa0cebeeea57ef4ce23db2bd15eca60758c4c4f532661a4.png",
+  "https://cdn.satellite.earth/b8d3104a2cdc60010976bd98c7e4d911b62bfb99e1ca12633f93834289b97e26.png",
+  "https://cdn.satellite.earth/0bf7c549069b0e9f4d6548105247869da9e6fc25e3535628ec6a1ef55a2e648a.png",
+  "https://cdn.satellite.earth/c584f0b9bb154caf93e8a71d34f3d7723fe04bad0da2e686ba0bfdbdb47fbc02.png"
+]
+features = [
+  "Nostr wallet connect for one tap zapping via nostr clients",
+  "Nostr authenticator (never enter your nsec into apps)",
+  "Chrome extension",
+  "Simple and easy to use",
+  "Frequently maintained",
+  "Send and receive sats",
+  "Custodial"
+]
+npub = "npub1getal6ykt05fsz5nqu4uld09nfj3y3qxmv8crys4aeut53unfvlqr80nfm"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/c37b7a44906ee3450b96e3b66e7320af08a5487f0e7b6b39728fdf5eb2ae57ea.png"
+url = "https://getalby.com/"
+
+[amber]
+name = "Amber"
+categories = [ "all-clients", "signers" ]
+description = "Nostr signer on android"
+gallery = [ ]
+features = [ "Works on Android 👍" ]
+npub = "npub1w4uswmv6lu9yel005l3qgheysmr7tk9uvwluddznju3nuxalevvs2d0jr5"
+platforms = [ "android" ]
+thumb = "https://cdn.satellite.earth/f47cc0402578f70291b0623b55247d21b26ac3a636ec26e46d8350a85107e69c.svg"
+url = "https://github.com/greenart7c3/Amber/releases/tag/v0.0.2"
+
+[amethyst]
+name = "Amethyst"
+categories = [ "social", "community", "all-clients", "streaming" ]
+description = "Amethyst brings the best decentralized social network to your Android phone"
+gallery = [
+  "https://cdn.satellite.earth/03b136945e39297d8d9a6cf97af702de038a2b594a89fc988a78dff97667e2eb.webp",
+  "https://cdn.satellite.earth/9f3138becf917f83e471c85128859def0a9b4e063dc2c8cfbfcb99035bb73018.webp",
+  "https://cdn.satellite.earth/4e676f41809805ef84719c244c84b36e1b3af69698b92e30e947b4812e7ff241.webp"
+]
+features = [
+  "Awesome android client",
+  "Twitter-like experience",
+  "Well designed",
+  "Updated frequently with the latest NIPS",
+  "Join Communities",
+  "Watch Live Streams"
+]
+npub = "npub1gcxzte5zlkncx26j68ez60fzkvtkm9e0vrwdcvsjakxf9mu9qewqlfnj5z"
+platforms = [ "android" ]
+source = "https://github.com/vitorpamplona/amethyst"
+thumb = "https://cdn.satellite.earth/1a4d9d7bb7f3e481aeb5f98b6626b5b4b85d90d59f4d4b00ffa7edbf1c19d6e7.png"
+url = "https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst&hl=en&gl=US"
+
+[autozap]
+name = "Autozap"
+categories = [ "all-clients", "money" ]
+description = "Custom interval zap subscriptions"
+gallery = [ ]
+features = [ "Set up to auto-zap anyone at custom intervals" ]
+npub = "npub1u8lnhlw5usp3t9vmpz60ejpyt649z33hu82wc2hpv6m5xdqmuxhs46turz"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/9fa63109844c503dc4383e6bf085a429c19fe8c969366f22fec9b680f85503ee.png"
+url = "https://www.zapplepay.com/autozap"
+
+[badges]
+name = "Badges Page"
+categories = [ "nostr-management", "all-clients" ]
+description = "A manager for your nostr badges"
+gallery = [
+  "https://cdn.satellite.earth/a3d2ae50bc500938792957e1d59e0c81cacffa42e762da149c1d6badac635390.png",
+  "https://cdn.satellite.earth/fb09ceee4276676b529d6434e05242d2c0607126d5b860387d53a7ca8ba52b86.png",
+  "https://cdn.satellite.earth/23d4c097e1a5557c3f2fc12b7a3b0cfa096cec6fac225f5932808e0600a560e5.png"
+]
+features = [
+  "Create and award badges",
+  "Manage badges awarded to you",
+  "Simple interface"
+]
+npub = "npub107jk7htfv243u0x5ynn43scq9wrxtaasmrwwa8lfu2ydwag6cx2quqncxg"
+platforms = [ "web" ]
+source = "https://github.com/verbiricha/badges"
+thumb = "https://cdn.satellite.earth/f3d1586f50b7fa832e27f568d102c0c059db9d61377c234e5435650380a76ecf.svg"
+url = "https://badges.page/"
+
+[blogstack]
+name = "blogstack"
+categories = [ "blogging", "all-clients" ]
+description = "Decentralized blogs over relay using nostr w/ ⚡ lightning tips"
+gallery = [ ]
+features = [
+  "Browse by relays or topics",
+  "Log in with extension",
+  "Read long form posts",
+  "Write long form posts"
+]
+npub = "npub1ygzj9skr9val9yqxkf67yf9jshtyhvvl0x76jp5er09nsc0p3j6qr260k2"
+platforms = [ "web" ]
+source = "https://github.com/nodetec/blogstack"
+thumb = "https://cdn.satellite.earth/fb48f34fba8ef6d9ef81c2e539d8b597b4519494365c48b97c7e7f9aedf1e975.svg"
+url = "https://blogstack.io/"
+
+[blowater]
+name = "Blowater"
+categories = [ "all-clients", "direct-message" ]
+description = "The nicest DM client on nostr"
+gallery = [
+  "https://cdn.satellite.earth/c756338de5c05c8d848f3280fac2da174e0c93cb673b9d57c011886f24869dee.png",
+  "https://cdn.satellite.earth/7f9dcddf6b751c3d78fbf7db9960fe63dfe66e2feac99c0f804e6447d75f89be.png",
+  "https://cdn.satellite.earth/b8013c451236b8ac650a88b486cb6bf2334618ebc73f09c73c05bbd828faaecf.png",
+  "https://cdn.satellite.earth/80884d10693524db99cbfe379cabd8cc77f29ccafeee2120d127e489e3dc043a.png",
+  "https://cdn.satellite.earth/7cfafaeb92406a299c072a5ceba1852a281260c67402362ee5ad3a9afb3156d5.png",
+  "https://cdn.satellite.earth/6c88139e6eac7de9d38cbd16ba9b79c9e91679d9ef79cb90bed6ac62b0e8bfd0.png"
+]
+features = [
+  "Focuses on DM experience",
+  "Getting a complete redesign",
+  "Nice threaded replies",
+  "Great media handling",
+  "Explore global notes"
+]
+npub = "npub1dww6jgxykmkt7tqjqx985tg58dxlm7v83sa743578xa4j7zpe3hql6pdnf"
+platforms = [ "web" ]
+source = "https://github.com/BlowaterNostr/blowater"
+thumb = "https://cdn.satellite.earth/53652a6f0cabe34e99d470159af4cb313aae5f6245b7deb8f8c6a4e317a84479.png"
+url = "https://blowater.deno.dev/"
+
+[camelus]
+name = "camelus"
+categories = [ "social", "all-clients" ]
+description = "Camelus tries to be smart about relays and caching to make sure you don't have to worry too much about your data plan."
+gallery = [
+  "https://cdn.satellite.earth/5b222d746f906fe9aa7227715f8501d3edcafc689629ad65a788c5733777c69a.webp",
+  "https://cdn.satellite.earth/cfb3ebc498509dad73ae3347406a73faa9418c416c93af7462eb759d92cc90cc.webp",
+  "https://cdn.satellite.earth/3ba5cdf191cbc8e8680b2228eb1ac4696ff9945c59e1310680c5a6c4ffdc3115.webp"
+]
+features = [
+  "Smart caching to save your phone's battery",
+  "Twitter-like experience",
+  "Android Only"
+]
+npub = "npub1w9llyw8c3qnn7h27u3msjlet8xyjz5phdycr5rz335r2j5hj5a0qvs3tur"
+platforms = [ "android" ]
+source = "https://github.com/leo-lox/camelus"
+thumb = "https://cdn.satellite.earth/6557d2f459053ca0b997a3a2570352352accde31ed8ecac8ec718eb3ca7054e1.webp"
+url = "https://play.google.com/store/apps/details?id=de.lox.dev.camelus"
+
+[chesstr]
+name = "Chesstr"
+categories = [ "all-clients", "games" ]
+description = "Nostr-powered chess"
+gallery = [
+  "https://cdn.satellite.earth/01adc585116965e17e80f90bfeb22ae093d1fc521e001515a78e6b0139a33ccb.png"
+]
+features = [ "Play chess on nostr" ]
+npub = "npub1vt803quxxq32fuwkp42g2lyaw2t9qupvnl3z0vyc3s9kudkyhn8qt28cxv"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/ab94d584eb4c052633085218d3c915d802e5e595fa11541ddf5ec276bfb4b90e.svg"
+url = "https://chesstr.pages.dev/"
+
+[citrine]
+name = "Citrine"
+categories = [ "all-clients", "nostr-management" ]
+description = "Citrine is a nostr relay for android."
+gallery = [
+  "https://cdn.satellite.earth/1617c4ea99795a49a9361d7f498bd998e7349195b4ca9e2f6726eb6eb0a341c1.png"
+]
+features = [
+  "Citrine is a nostr relay for android. It allows any nostr client that supports Android to send and receive events from this application.",
+  "Run a local relay on your android phone",
+  "Restore follows"
+]
+npub = "npub1w4uswmv6lu9yel005l3qgheysmr7tk9uvwluddznju3nuxalevvs2d0jr5"
+platforms = [ "android" ]
+source = "https://github.com/greenart7c3/Citrine"
+thumb = "https://cdn.satellite.earth/ae8b1590bbb858e9875e1244510af9f22d8a525557623ffee07fd17375119817.png"
+url = "https://github.com/greenart7c3/Citrine/releases"
+
+[coracle]
+name = "Coracle"
+categories = [ "social", "all-clients" ]
+description = "Nostr, the easy way."
+gallery = [
+  "https://cdn.satellite.earth/621067dcc446cdb6bda35b798d9a13652f90240b2af723e96fb3437c39065a96.png",
+  "https://cdn.satellite.earth/c6a8af522611991f8287583ac4cd661790d55f17aa501e9b146e82e8e0905ff1.png"
+]
+features = [
+  "Threads/social",
+  " Profile search",
+  " Login via extension",
+  " Profile sharing via QR codes",
+  " NIP 05 verification",
+  " Bech32 entity search",
+  " Notifications",
+  " Chat and direct messages",
+  " Note composition with mentions and topics",
+  " Follow and follower lists",
+  " Profile pages, follow/unfollow, mute",
+  " Persistent color-coded relay list",
+  " Smart relay selection and display",
+  " Connection quality information",
+  " Invoice, bech32 entity, mention, link, image, and video rendering",
+  " Installable as a progressive web app",
+  " Media uploads",
+  " Lightning zaps",
+  " Feeds customizable by person, relay, and topic",
+  " Keyword mutes",
+  " Exportable copy of all user events",
+  " Reporting and basic distributed moderation",
+  " Content and person recommendations",
+  " Profile and content search"
+]
+npub = "npub1jlrs53pkdfjnts29kveljul2sm0actt6n8dxrrzqcersttvcuv3qdjynqn"
+platforms = [ "web" ]
+source = "https://github.com/staab/coracle"
+thumb = "https://cdn.satellite.earth/eb8057eae78b894074d6ec0cd74919b67611c2b2d0673db7360393239e4241b4.png"
+url = "https://app.coracle.social"
+
+[corny-chat]
+name = "Corny Chat"
+categories = [ "all-clients", "audio" ]
+description = "Corny Chat is your place for chatting with friends!"
+gallery = [
+  "https://cdn.satellite.earth/29e3ed5bd3bb606d3a2cb70e101a5e2e787e79b557d2046d16fd7361edf8afff.png",
+  "https://cdn.satellite.earth/a55d25263c55e56ce00b64c1c84b7f896034667d768a8e2404f28cf7e4899b92.png"
+]
+features = [
+  "Audio Chat",
+  "Scheduled Rooms",
+  "Log in with nostr",
+  "Add to Calendar",
+  "Corny"
+]
+npub = "npub1yx6pjypd4r7qh2gysjhvjd9l2km6hnm4amdnjyjw3467fy05rf0qfp7kza"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/b84b2a6c2565e81a158a966b5089d65b00e10001c525e7fe97a5bf933cf0ef08.png"
+url = "https://cornychat.com/"
+
+[creatr]
+name = "Creatr"
+categories = [ "all-clients", "nostr-management", "marketplace" ]
+description = "Subscription-enabled relay to support creators"
+gallery = [
+  "https://cdn.satellite.earth/10a3f9d85365a3fcd6200d4875f49cdf075b901adc510b089ae45ed56a14d15d.png",
+  "https://cdn.satellite.earth/7f27730ed56cfaaf447b98a586ba57d63b742810cc7812a988a8f3683567f1d3.png",
+  "https://cdn.satellite.earth/83e862c9ec5011ec394c333a25ea483ee43b187c8cc2d1baca80b38e4ceddaf8.png"
+]
+features = [ "Paid subscriptions" ]
+npub = "npub18kzz4lkdtc5n729kvfunxuz287uvu9f64ywhjz43ra482t2y5sks0mx5sz"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/318b8e7529d150230c3ad52c33b70a69e48a3a77bfe547156222aff28ced39f6.png"
+url = "https://creatr.nostr.wine/"
+
+[current]
+name = "Current"
+categories = [ "social", "all-clients" ]
+description = "The power of Bitcoin + nostr at your hands"
+gallery = [
+  "https://cdn.satellite.earth/1b56db36ff5096408f45d75095c873f4d010c129769f9ec866f708afccd3ba50.png",
+  "https://cdn.satellite.earth/c60e93da2f9049fc071ca9603e4f7132f28773386d1cf6bb8a388bc1b0ba2441.png",
+  "https://cdn.satellite.earth/74a917393e6280532e00b0f25db4231accd233af90bb2ea64f0e74aeb98aeecc.png",
+  "https://cdn.satellite.earth/41c2861219edf7d7191b03c90e7dcd8b3a145ffecb4c6d775807d7084441d92c.png"
+]
+features = [ "Beginner-friendly onboarding", "Unique feed view" ]
+npub = "npub1current7ntwqmh2twlrtl2llequeks0zfh36v69x4d3wmckg427safsh3w"
+platforms = [ "ios", "android" ]
+source = "https://github.com/starbackr-com/current"
+thumb = "https://cdn.satellite.earth/e830c0b473bf19b92fdd194a6060cd32eb3106246e64a0a39f39b470aaea80c1.webp"
+url = "https://app.getcurrent.io/"
+
+[damus]
+name = "Damus"
+categories = [ "social", "all-clients" ]
+description = "A popular social client for iOS"
+gallery = [
+  "https://cdn.satellite.earth/5da2fa87634ccdf1b0e3f7601f3d8e381dbce0525f4baa91da908c679713f671.png",
+  "https://cdn.satellite.earth/8de7ef163e5fd05905543989114f61452f73469e4115a69c1b6b82801ad82e4f.png",
+  "https://cdn.satellite.earth/a54fb2be4ed76b52e6ab440dee754518c40ccd20e574ff3653260ae2da8fe5f2.png",
+  "https://cdn.satellite.earth/9dffc9a57daae532f0ee4811ec3d0a804a23b84c76303ba133c254ba4c2d5f6e.png",
+  "https://cdn.satellite.earth/a6c4b4542184fe3f1cf81aedcda34574855290073aed1ea42afb46d4cffb8931.png"
+]
+features = [
+  "Twitter-like experience",
+  "Easy to use interface",
+  "Zap pre-set and custom amounts (lightning payments)",
+  "Multi-wallet support",
+  "Block lists"
+]
+npub = "npub1xtscya34g58tk0z605fvr788k263gsu6cy9x0mhnm87echrgufzsevkk5s"
+platforms = [ "ios", "desktop" ]
+source = "https://github.com/damus-io/damus"
+thumb = "https://cdn.satellite.earth/cb72c77cd77b6de306e30092eb66edf2271afb85a05852e19e94188d8b83c520.png"
+url = "https://apps.apple.com/us/app/damus/id1628663131"
+
+[docstr]
+name = "Docstr"
+categories = [ "all-clients", "office-tools" ]
+description = "Documents on nostr"
+gallery = [
+  "https://cdn.satellite.earth/525ccbb840d17ac153d710993f48faa6893f6debef0b71e9b2e82473d2ce1880.png",
+  "https://cdn.satellite.earth/1f7195b8e48f7e99cdad2177754fe03a050ea7186f53319a5883585daaf454c3.png"
+]
+features = [
+  "Create and delegate documents",
+  "Public only (for now)",
+  "Dark and Light modes"
+]
+npub = "npub18c556t7n8xa3df2q82rwxejfglw5przds7sqvefylzjh8tjne28qld0we7"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/4e801d6f3ca8d691577289f751b6200bb544af8ab24469bf6a506c3312a2469a.png"
+url = "https://docstr.app/"
+
+[dtan]
+name = "DTAN"
+categories = [ "all-clients", "file-sharing" ]
+description = "Torrents over nostr"
+gallery = [
+  "https://cdn.satellite.earth/c1e770ec125ef94e46e3a7b1b438c138fb4164344546f502f3d30659e9c9a0ef.png",
+  "https://cdn.satellite.earth/a81755ee2e8deeb85f9802f1c5847d2ff09c0bd09b6b6b2888643144ab873591.png"
+]
+features = [ "Torrents" ]
+npub = "npub1v0lxxxxutpvrelsksy8cdhgfux9l6a42hsj2qzquu2zk7vc9qnkszrqj49"
+platforms = [ "web" ]
+source = "https://github.com/v0l"
+thumb = "https://cdn.satellite.earth/1d0692530fec2818cd8b87d2cc5a3c297b2fb5b5d83171026745848e620165af.png"
+url = "https://dtan.xyz/"
+
+[emojito]
+name = "Emojito"
+categories = [ "all-clients", "nostr-management" ]
+description = "Create custom emoji sets"
+gallery = [
+  "https://cdn.satellite.earth/71e988d53a4c71efccdbaa7eae555e95567a912b1bc08bd6206f5a626cf555a1.png",
+  "https://cdn.satellite.earth/66e33c03a502a876965c61b7213d746180229b4573a16718fd75f2eb45b1979b.png"
+]
+features = [ "Create custom emoji sets to be used on supported clients" ]
+npub = "npub107jk7htfv243u0x5ynn43scq9wrxtaasmrwwa8lfu2ydwag6cx2quqncxg"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/fac90a5973650cd728396e39d55a6b7b994fb91c7ad289b213195285285560b9.png"
+url = "https://emojito.meme/"
+
+[enuts]
+name = "eNuts"
+categories = [ "all-clients", "money" ]
+description = "Simple, private, ecash."
+gallery = [
+  "https://cdn.satellite.earth/b06ba94385f2ec1573d42ad4167b2fcedc1fb264aa913906298e2be30475680b.png",
+  "https://cdn.satellite.earth/6b46c1dfb936f2d59a8a6da3be49229bdc302ab20f04b821189bf6e7c4f841ad.png",
+  "https://cdn.satellite.earth/57ee04c817fa741b46b992171ace64a8ec849ecd59a8b0dd51086fbc764d8b34.png",
+  "https://cdn.satellite.earth/2844a3ab8392d6f90dead236652d8f6736eb5e0c8e1edf004573a1a4670a02ec.png",
+  "https://cdn.satellite.earth/284b8772fd0d44dbd9920aacf92d2bbfefbfe7fa206db5f97775e25647b90149.png",
+  "https://cdn.satellite.earth/690440e1cf8e79069c412746bedbfbd8bafc57930c765a09e24da4472c69299b.png",
+  "https://cdn.satellite.earth/546c300e548780b5ca259fc71c602f773c60d7f9c51819cfe9a4e0cac94160aa.png",
+  "https://cdn.satellite.earth/b3eb7410b3b9ed6815f23cdce51bbc918de7efa111e0a62943fc1b777e0b2390.png",
+  "https://cdn.satellite.earth/6712b672ad9dd86c242b3b94670551719ee4e571887fde0fbea77e7cfdbe0f59.png"
+]
+features = [
+  "Send ecash via nostr dms",
+  "Contact list",
+  "Simple and intuitive interface"
+]
+npub = "npub1pp355axf69z8ndrz8zdnqa54s90e5xy737mwqk9e9cvt606nwszsdx8nu7"
+platforms = [ "ios" ]
+source = "https://github.com/cashubtc/eNuts"
+thumb = "https://cdn.satellite.earth/f955ccea66885339ca753c860085e694951dc18129a1d4399144c5c11371ed6b.png"
+url = "https://apps.apple.com/de/app/enuts/id6477824421"
+
+[flare]
+name = "Flare"
+categories = [ "video", "all-clients" ]
+description = "Upload and share videos"
+gallery = [
+  "https://cdn.satellite.earth/bafa4259803b0e75571e8c3157ea3bed41c5ccb94f48bb6c1af0b587767cc8c6.png",
+  "https://cdn.satellite.earth/98827e77caa51f22b22e2a7cd088616207beb4235986e5f23287d95dff9199d3.png",
+  "https://cdn.satellite.earth/3246c7bfd4a311e71f231b2c9c025ae870cc97a48500ce63c1fa3c351b8cbd20.png",
+  "https://cdn.satellite.earth/27041dcc501a93d99a4519f42a96012be276f7448ba973f5c43c2e4f4fdcb6c2.png"
+]
+features = [ "Browse videos", "Upload and share videos", "Zap uploaders" ]
+npub = "npub1zach44xjpc4yyhx6pgse2cj2pf98838kja03dv2e8ly8lfr094vqvm5dy5"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/e797f698e0ecf3395085435ed881e7e1b8ba138a2ab5ea3cc304834bbc9f59b8.svg"
+url = "https://www.flare.pub/"
+
+[flockstr]
+name = "Flockstr"
+categories = [ "meatspace", "all-clients" ]
+description = "Events and meetup scheduling"
+gallery = [
+  "https://cdn.satellite.earth/676f20e1899d6035f3ba07ce11abda4c563bf29ed67d9935d8841424d08229e7.png",
+  "https://cdn.satellite.earth/97be687af237261c82d55c3d21b581ce0bb7bacec183ae0dfee6a11482a31e47.png",
+  "https://cdn.satellite.earth/6448198ed55fd46cd72e3fbcaa94814db01cfb0c9e1852d3ecd9c3fbe8011640.png"
+]
+features = [
+  "Explore upcoming events",
+  "Create new events and meetups",
+  "Meet IRL!"
+]
+npub = "npub1zach44xjpc4yyhx6pgse2cj2pf98838kja03dv2e8ly8lfr094vqvm5dy5"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/136b0aee37705f4b0469149303b3b5dd9b293418a31cda01055450c47cd1f675.svg"
+url = "https://www.flockstr.com/"
+
+[flycat]
+name = "Flycat"
+categories = [ "social", "blogging", "all-clients" ]
+description = "Explore Nostr universe and long form content"
+gallery = [
+  "https://cdn.satellite.earth/c0db325584f1856f2a1b9dd4326c6bb7b0847fbc102e859f36b1650917ecae78.png",
+  "https://cdn.satellite.earth/046c1fe63a976558136a0c63ba9bb1428308b93ac687f55ca0f71399abe4e51b.png",
+  "https://cdn.satellite.earth/6c0d4a9449b2b0f9bd860a20ea472381f4628ba6b058575c848bdd9b9f4202dd.png",
+  "https://cdn.satellite.earth/ce2270f47b61fd8350d7fffb3f3647095c993ae032e678a9107be79a60b9ffe1.png",
+  "https://cdn.satellite.earth/04ccab032a2fe233613282857e618b923cabac887f95f2e526f8dbb8fb01fa43.png"
+]
+features = [
+  "Snappy nostr browsing",
+  "Back up your data",
+  "Browse long form content",
+  "Light mode"
+]
+npub = "npub1ghzp7g0peac4lfkeegst3cqz546dk7a5n6twazvrf3nd432yddaqa3qtwq"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/4e2a16023e0fbfa97c5dcf514331893452024f999489e383114680b46c5a6e4c.png"
+url = "https://flycat.club/"
+
+[formstr]
+name = "Formstr"
+categories = [ "nostr-management", "all-clients" ]
+description = "Create and share forms"
+gallery = [
+  "https://cdn.satellite.earth/d5fd8984575d5da50162620416f405c9f7bca816682d5bc1fe5ad1c9dc80cb95.png",
+  "https://cdn.satellite.earth/abde70bfce69b63b46a15767754a8d68d761a329948eb16172a650158c110355.png"
+]
+features = [ "Create and share forms" ]
+npub = "npub1cgd35mxmy37vhkfcmjckk9dylguz6q8l67cj6h9m45tj5rx569cql9kfex"
+platforms = [ "web" ]
+source = "https://github.com/abhay-raizada/nostr-forms"
+thumb = "https://cdn.satellite.earth/a7cdfbf9fad0fcd1ad67a2e2511f3c2c9977f9ed2ecac7f55d77ff938a84a2e2.svg"
+url = "https://formstr.app/"
+
+[fountain]
+name = "Fountain"
+categories = [ "music", "all-clients" ]
+description = "The podcast app that pays"
+gallery = [ ]
+features = [
+  "Earn sats while listening to podcasts",
+  "Create and share clips, get paid on your clips",
+  "Boost your favorite podcasts",
+  "Discover clips from friends"
+]
+npub = "npub1v5ufyh4lkeslgxxcclg8f0hzazhaw7rsrhvfquxzm2fk64c72hps45n0v5"
+platforms = [ "ios", "android" ]
+thumb = "https://cdn.satellite.earth/3bfffd395331892664cf589db1d14140e660bb237811cd9cad406f2d8168abb1.png"
+url = "https://www.fountain.fm/"
+
+[freefrom]
+name = "FreeFrom"
+categories = [ "social", "all-clients" ]
+description = "FreeFrom is an app dedicated to bringing privacy and free speech back to SNS"
+gallery = [
+  "https://cdn.satellite.earth/48ce0c7c89d2447b2e272509371f6f2f732bc38c534bc4a71e68b11a37ccc2d3.png",
+  "https://cdn.satellite.earth/dd5b86bf7c46cabdcbd43a76d3abe2086ae5573cc269fbe630328612ee876557.png",
+  "https://cdn.satellite.earth/a54efd06086d9decb661df4cf598905e67d73662860d31d59b7d4d3b540b542e.png",
+  "https://cdn.satellite.earth/f921fd243a9a878d80a8cc73b950517dcf3df45621184862f8b8abc87e011601.png",
+  "https://cdn.satellite.earth/2de28a1818f4e08148f3eda3d6bd6f9ba531ca3fc019d7e8ca669215b4746da6.png",
+  "https://cdn.satellite.earth/8413dc05bbbd9d741e41027d28f5b0f898f542bb70adb473e59865d02408cce6.png"
+]
+features = [
+  "No phone number and email required to sign up",
+  "Free migration of social content within the Nostr",
+  "Excellent user experience",
+  "Double-enhanced private communication"
+]
+npub = "npub1sctag667a7np6p6ety2up94pnwwxhd2ep8n8afr2gtr47cwd4ewsvdmmjm"
+platforms = [ "ios", "android" ]
+thumb = "https://cdn.satellite.earth/a21a0c29fc3afe32275ba835e62bd5fd50a032c519fadb8aad6b29fa10854463.png"
+url = "https://freefrom.space/"
+
+[freerse]
+name = "Freerse"
+categories = [ "social", "all-clients" ]
+description = "Value Rewards Creativity"
+gallery = [
+  "https://cdn.satellite.earth/2c48fc03c16b66c49705800aa10590f0d18c77c2a4d3d94e3a1882460296d2d3.png",
+  "https://cdn.satellite.earth/3ecf87956c5b7d3c70bd0c092c31b89c2a91333f985a738361585b99004a6d82.png",
+  "https://cdn.satellite.earth/d59a70c34ca26419d4d34b6652cc0d4118b48a395d5077829603c078751097f6.png",
+  "https://cdn.satellite.earth/5befcc04ae69737cb3efc974c61322cb75bbc5ea90e6f00242abb5dae1c5a5e9.png",
+  "https://cdn.satellite.earth/008329e5f0fb24fbc955b1aa560b4084c47001eddd4e6095976454b89ab9dd53.png"
+]
+features = [ "Search by hashtag", "Minimal" ]
+npub = "npub129z0az8lgffuvsywazww07hx75qas3veh3dazsq56z8y39v86khs2uy5gm"
+platforms = [ "android", "ios" ]
+thumb = "https://cdn.satellite.earth/871bcf61e82d675665a5ff92d18cc68d8eeb3f3a80f0f384bef39f4cf9488c94.png"
+url = "https://freerse.com/"
+
+[habla]
+name = "Habla"
+categories = [ "blogging", "all-clients" ]
+description = "A long form content client for nostr notes"
+gallery = [
+  "https://cdn.satellite.earth/b700265561ded33e44b1b9b2e33c277e829c8e8cd238c685f41a45aad710bb46.png",
+  "https://cdn.satellite.earth/c61691a3ed6024dcdb66e8b261baa4951908392b1e2edbd69d081239df6ae799.png"
+]
+features = [
+  "Long form publishing",
+  "Markdown support",
+  "Rich text editor",
+  "Dark and light modes",
+  "Browse by relay",
+  "Made on nostr, content mirrored to other nostr platforms.",
+  "Extension-only sign-in"
+]
+npub = "npub107jk7htfv243u0x5ynn43scq9wrxtaasmrwwa8lfu2ydwag6cx2quqncxg"
+platforms = [ "web" ]
+source = "https://github.com/verbiricha/habla"
+thumb = "https://cdn.satellite.earth/270694a2f68d486a4f97dfafed7622839869a8759161dfe9946f64a1418a1885.svg"
+url = "https://habla.news/"
+
+[heya]
+name = "Heya"
+categories = [ "all-clients", "money" ]
+description = "Lightning fundraisers"
+gallery = [ ]
+features = [ "Create a lightning fundraiser" ]
+npub = "npub107jk7htfv243u0x5ynn43scq9wrxtaasmrwwa8lfu2ydwag6cx2quqncxg"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/2e37c0b09807094dc80c1142bcd78fe05ba880551b1560fc939a21e08f8b3de0.svg"
+url = "https://heya.fund/"
+
+[highlighter]
+name = "Highlighter"
+categories = [
+  "nostr-management",
+  "all-clients",
+  "bookmarking",
+  "blogging",
+  "video"
+]
+description = "Discover and share curated insights by people you trust"
+gallery = [
+  "https://cdn.satellite.earth/5855f741c50ec73b60b0824e14e7c4cdf17a1c94e5bd79e5d7db0aa7e8836444.png",
+  "https://cdn.satellite.earth/aef12a938d09cc1d050e856f6cf0530acda5829605c473c351610809ff6b3c88.png",
+  "https://cdn.satellite.earth/baaad34a0c325fc176131a16f70308ebbf2b5ae9c9ace754988df422822ec5d8.png",
+  "https://cdn.satellite.earth/f135120c4c1120adf1701fd6166b4ebd184d35eebee16edade540fb8422cb629.png",
+  "https://cdn.satellite.earth/60617d694d05bd74406960e9357ca138539e717a299dd0b69a584d826cade6e9.png",
+  "https://cdn.satellite.earth/d6d36ca31f935df3d4023c67d159961b9f7de93d7ba09bf6b934dcc7953d5f81.png",
+  "https://cdn.satellite.earth/32b339c37472c4c6a8addfe7027281cb76a655e3190999df43557ccc7ec2921f.png",
+  "https://cdn.satellite.earth/b29692b839cf356130350514adc6beedc23611a2ad5e5fee7576705f18a48c7c.png"
+]
+features = [
+  "Discover what people you trust found interesting and insightful",
+  "Understand why they found it interesting or insightful with their comments attached",
+  "Send sats (zap), comment or share your favorite highlights",
+  "Highlight anything"
+]
+npub = "npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/cea3aaa17c24a51bb4f18e3de40fab722c0393fd730045f577538e40844e8b7f.svg"
+url = "https://highlighter.com/"
+
+[hivetalk]
+name = "HiveTalk"
+categories = [ "all-clients", "audio" ]
+description = "Free Browser based Real-time video calls."
+gallery = [
+  "https://cdn.satellite.earth/fd6686d866558b09b96e2a7fd2e52b3aec8ed087331b15dd51a6149852210656.png",
+  "https://cdn.satellite.earth/7b59254e1b8935aa3a18be19a33a52e722fd48d24412534ca3e708abde5a9dff.png",
+  "https://cdn.satellite.earth/8ae686e4d38989e9834696da1cc4cdb59095ef0d63494cf6c548352a4828b8cd.png",
+  "https://cdn.satellite.earth/0175150fb0a54060017ad687a2e8cb292a03156f0fe4e0ff085ca946b588c878.png",
+  "https://cdn.satellite.earth/33fe42f2eaaca0638c43a0554d1247c13e4b025ea366839064d15c732cc8a50f.png",
+  "https://cdn.satellite.earth/2d661998f2bedf3bfa48bab1ad6ff6a19b66038d04c5459b9ef6e26ce2d81ae5.png",
+  "https://cdn.satellite.earth/770050ee45e556969dce836d9b244de42b2ccdfb85b828e7ded728e06f6fa2cc.png"
+]
+features = [
+  "Screen sharing",
+  "Webcam streaming",
+  "Audio streaming",
+  "Chat",
+  "Recording meetings",
+  "Zap",
+  "Collaborative whiteboard",
+  "File sharing",
+  "Total privacy",
+  "Maximum security"
+]
+npub = "npub18pudjhdhhp2v8gxnkttt00um729nv93tuepjda2jrwn3eua5tf5s80a699"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/e34d9f1bbafae4b2abd2af079f9ffef2d2fe375f0f3684f0f739bc72ddfb502b.svg"
+url = "https://hivetalk.org/"
+
+[iris]
+name = "Iris"
+categories = [ "social", "all-clients" ]
+description = "Nostr client for better social networks"
+gallery = [
+  "https://cdn.satellite.earth/2ee56a265bc49ec9c763743e267375e760930c239497f2a4af1d0db00e095e25.png",
+  "https://cdn.satellite.earth/c42cf1c6dcb4ca51759f6a5b1d03cb0d1a71df3fc917d86acb668c580892d9fe.png"
+]
+features = [
+  "No phone number or signup required.",
+  "Secure: It's open source. Users can validate that big brother doesn't read your private messages.",
+  "Available: It works offline-first and is not dependent on any single centrally managed server.",
+  "No installation required",
+  "Progressive web app",
+  "Easy media-only browsing"
+]
+npub = "npub1g53mukxnjkcmr94fhryzkqutdz2ukq4ks0gvy5af25rgmwsl4ngq43drvk"
+platforms = [ "web", "ios" ]
+source = "https://github.com/irislib/iris-messenger"
+thumb = "https://cdn.satellite.earth/68354f1473351bf43b54a60b326c68ff31279617900af9c21ff149127b5ba250.webp"
+url = "https://iris.to/"
+
+[joinstr]
+name = "Joinstr"
+categories = [ "all-clients", "privacy" ]
+description = "Coinjoin over nostr relays"
+gallery = [
+  "https://cdn.satellite.earth/5f2932907d923bb9ef27847a8946c16f03bcf835dd3e4b9c7347e787a3164f3e.webp",
+  "https://cdn.satellite.earth/49648d2cb304387b9602706b8ffcbaf40ccda98f546d8cf5e79d43c1de300dd9.webp",
+  "https://cdn.satellite.earth/c25fafb4159028427373bd2113fedc0a52b7baf59fbec748f682a9038b90aaa9.webp",
+  "https://cdn.satellite.earth/bd697fcfd1525daac752b894a835b5efa57ea900ea4e6fa0939a0fb65096e649.webp",
+  "https://cdn.satellite.earth/706c129cadb0987e538c0bbea3056281e92ef689045ca8633740b906fd1919d5.webp",
+  "https://cdn.satellite.earth/9d01ca6d7a265166ba1ab387f825e98d7966f26f535a9a3ec054b0bc1d56390b.webp"
+]
+features = [
+  "Electrum Plugin only (for now)",
+  "Decentralized",
+  "Better UI/UX",
+  "Nostr relays used for coordination",
+  "Custom pool amounts and number of participants",
+  "Easy to implement in different wallets"
+]
+npub = "npub1v6qjdzkwgaydgxjvlnq7vsqxlwf4h0p4j7pt8ktprajd28r82tvs54nzyr"
+platforms = [ "desktop" ]
+thumb = "https://cdn.satellite.earth/fd912433aad54ecf156b6fe39363d169f336d8acd3ef41fa450b84b2187af5db.svg"
+url = "https://joinstr.xyz/"
+
+[keys-band]
+name = "Keys Band"
+categories = [ "all-clients", "signers" ]
+description = "Safe nsecs"
+gallery = [ "https://cdn.satellite.earth/31eafcfda80c17f0f5419dae2ca01ad27df04de45c693e4ac764fb7b9f49fa50.png" ]
+features = [
+  "Multiple key management",
+  "Light and dark mode",
+  "Save preferred relays"
+]
+npub = "npub1jpqqht86ks4gkfdepreugedwfcz8gg5me9v8q7jmq9vyv2805rlseq7fpk"
+platforms = [ "web" ]
+source = "https://github.com/toastr-space/keys-band"
+thumb = "https://cdn.satellite.earth/9236649ee08f7ce60e4d061a37e6d56d986bb2bbb3b78faed494a224ba131a31.png"
+url = "https://keys.band/"
+
+[listr]
+name = "Listr"
+categories = [ "nostr-management", "all-clients", "bookmarking" ]
+description = "Create nostr lists"
+gallery = [
+  "https://cdn.satellite.earth/a0fd9f344ed98c80f54b08236fa4c702384123fd691f7e4add0119e973a61736.png",
+  "https://cdn.satellite.earth/a55c219aff69472435adcf127dc3aef59dc45f4004df7e3be95164ed7adb7d84.png",
+  "https://cdn.satellite.earth/8f4b6cc0d84866f597e499df40ce5927f964440f7aa34f51a7862a2153f126a7.png",
+  "https://cdn.satellite.earth/6014f63f4371f7188eef56a3744ab720940cb68cbe4056d4f72d69468c4630e8.png",
+  "https://cdn.satellite.earth/66bc92e834cc641f1fd5619f20df7b8e8fc3e08f61ddbc143d82fd0c24915061.png"
+]
+features = [ "Create and share lists", "Browse other people's lists" ]
+npub = "npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/b6225467a0cdf710d77b69e7fc82af692a758263f7f5cee31c8e5ccf72b54d95.png"
+url = "https://listr.lol/"
+
+[lowent]
+name = "LowEnt"
+categories = [ "group-chat", "all-clients" ]
+description = "Anon Chatrooms"
+gallery = [
+  "https://cdn.satellite.earth/11b754a306a507c5c04fd11922b7224414c5924f2e67cf709b757b73d3e9b6d9.png",
+  "https://cdn.satellite.earth/52fba3b17d10cdff22b70f41b0229de91fa88e3808a1b4f903a8dd06710c5e13.png",
+  "https://cdn.satellite.earth/9c7d3d6f21aaa824090a81f1dcfff3c66cde40d2273bfb005d006dce485c6257.png"
+]
+features = [ "Anon chat rooms", "Log in with nostr", "Cipher rooms" ]
+npub = "npub1gzuushllat7pet0ccv9yuhygvc8ldeyhrgxuwg744dn5khnpk3gs3ea5ds"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/7a9af35067afeab2026d4aeb7548079c0bc3ebcf98678be03dfc625edba0b0ef.png"
+url = "https://lowent.xyz/"
+
+[lume]
+name = "Lume"
+categories = [ "all-clients", "social" ]
+description = "Beautiful desktop client"
+gallery = [ "https://cdn.satellite.earth/cf8937c0b802b1019dfcd9ec4257db02bd71a26d97bf1fad193f7ed9eb1b9779.png" ]
+features = [
+  "Desktop app",
+  "Clean and beautiful design",
+  "Multi-column ",
+  "Spaces",
+  "Trending"
+]
+npub = "npub1zfss807aer0j26mwp2la0ume0jqde3823rmu97ra6sgyyg956e0s6xw445"
+platforms = [ "desktop" ]
+source = "https://github.com/luminous-devs/lume"
+thumb = "https://cdn.satellite.earth/9bbe29bafb3c0dd41cd1b0fa1fedcfe80c8e425635f13be5f90ce6ae894927c5.svg"
+url = "https://lume.nu/"
+
+[memestr]
+name = "Memestr"
+categories = [ "bookmarking", "all-clients" ]
+description = "Memes over nostr"
+gallery = [
+  "https://cdn.satellite.earth/86444b5e3691f2658ad1c9d18586ae559d3d16714149c3609f2fd920b5ab136b.png",
+  "https://cdn.satellite.earth/5d70c04a25d45a88b2cabd9546393d390a5d72493779d59da7c7b4b87aa9cbf4.png"
+]
+features = [ "Browse and post memes" ]
+npub = "npub1zumzudhtu2558fgvycnjlc7pq9l4m338vghgcfzafftz9qg45ruslzpl4x"
+platforms = [ "web" ]
+source = "https://github.com/Aarubama/memestr"
+thumb = "https://cdn.satellite.earth/5f27d74f2d961d23141bb560491ecbbd72aeaa93f1208dc3e2d6d7d26b447fd0.svg"
+url = "https://memestr.app/"
+
+[nos-social]
+name = "Nos Social"
+categories = [ "social", "all-clients" ]
+description = "Join your peers in a healthy social network. Nos is our Nostr client for humans, not algorithms."
+gallery = [
+  "https://cdn.satellite.earth/8f1e6de5420eff8ade427a472f804258b4fa9d0a8801945bd89c4158161e97d6.png",
+  "https://cdn.satellite.earth/258e5368f77f788241ab71da764e38b233874853938e305ce3c4d99112fc551f.png",
+  "https://cdn.satellite.earth/b9d804fdc10ad92122cdfb88116def406d08c19a07df00d4ccaa11d9fa38fe66.png",
+  "https://cdn.satellite.earth/4ab0674d3c503f612c05149a36c316367d0ab38f430f2f6ced917af785041e54.png",
+  "https://cdn.satellite.earth/d224a0353d46d62ec15f6e5718857144f7f0a56dc3f4d63b683bc1d0e69e00cb.png"
+]
+features = [
+  "Currently in TestFlight",
+  "Safety first: mute, report, content warnings, delete",
+  "Reach restricted to 2 hops - people you follow and people they follow.",
+  "Community-focused relays"
+]
+npub = "npub1pu3vqm4vzqpxsnhuc684dp2qaq6z69sf65yte4p39spcucv5lzmqswtfch"
+platforms = [ "ios" ]
+source = "https://github.com/planetary-social/nos"
+thumb = "https://cdn.satellite.earth/0d16dff6557e6c0c33207dac79dfec87f3a7c43c6b5ac4dd65f1fe445ee1c3a2.png"
+url = "https://www.nos.social/"
+
+[nos2x]
+name = "nos2x"
+categories = [ "all-clients", "signers" ]
+description = "The OG signer"
+gallery = [ "https://cdn.satellite.earth/1e964adae42a416e985cb269621c4e90fad0491dc2f14d165ac2d50ad3033007.png" ]
+features = [
+  "The original signer by nostr creator fiatjaf",
+  "Versatile, no frills",
+  "Relay preference storage"
+]
+npub = "npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/c27be7ca88098725d14ddb176dc56cc417edc5096d82fafe20a728ed9d1e20f2.png"
+url = "https://chromewebstore.google.com/detail/nos2x/kpgefcfmnafjgpblomihpgmejjdanjjp"
+
+[nosdrive]
+name = "Nosdrive"
+categories = [ "all-clients", "nostr-management" ]
+description = "Back up your notes to Google Drive"
+gallery = [
+  "https://cdn.satellite.earth/4c4d11676e7efafd2b5d5754ba3c141890dc424aa2d4d8d080810484923e0561.png"
+]
+features = [ "Save your nostr notes to Google Drive" ]
+npub = "npub108pv4cg5ag52nq082kd5leu9ffrn2gdg6g4xdwatn73y36uzplmq9uyev6"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/bf68854638a8b9bdb1edff42b0f3baac8b4c4c58726d3f3345c73daa02db6532.svg"
+url = "https://nosdrive.app/"
+
+[nosta]
+name = "Nosta"
+categories = [ "nostr-management", "all-clients" ]
+description = "Simple, guided nostr onboarding "
+gallery = [
+  "https://cdn.satellite.earth/d529bedb37d68b5b3890c45601103d8cd10575b38f4042373e2641212743344c.png",
+  "https://cdn.satellite.earth/e242fb3596e19ba5a689ef5da585c04352e44486e79b02b95ec72ab082c098af.png",
+  "https://cdn.satellite.earth/b44b14532c81fe325df73139f4cd3a0b87504805fd1f6227ebfd12fed168f91e.png",
+  "https://cdn.satellite.earth/0331f04938db6d4885d52bf2d4f0665025546957dbe81d6f5d419d332653f7ad.png"
+]
+features = [
+  "Guided onboarding",
+  "Recovery phrase to restore access",
+  "Good UX with explainers",
+  "Beautiful design"
+]
+npub = "npub1kuc70777tsvj67fl75s2dmy376t97hv05xmyuyshzzy6vhj5q5jstv0eyw"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/efcb1b9c6d1d3f8238ba2e7c083e058e36f9f039f7aef42e231961555a76b2da.jpg"
+url = "https://nosta.me/"
+
+[nostr-app-manager]
+name = "Nostr App Manager"
+categories = [ "all-clients", "nostr-management" ]
+description = "Discover nostr apps"
+gallery = [
+  "https://cdn.satellite.earth/8c8b137c56c67c25e226c698b9f223549c32ad87834df1986b638a9607cda427.png",
+  "https://cdn.satellite.earth/56bd56c02f250b8006151f3b80082ceeda8e98dd94726a85afd374c7de214454.png",
+  "https://cdn.satellite.earth/f3e502e9788890677f840b575d466bc60f5f53a863f5921fa9962014becf95b4.png"
+]
+features = [
+  "Discover app of the day",
+  "Discover new apps",
+  "Search all nostr apps",
+  "Discover nostr DVMs",
+  "Discover nostr code repositories",
+  "App reviews",
+  "Nostr native - takes a different approach from NostrApps.com"
+]
+npub = "npub1xdtducdnjerex88gkg2qk2atsdlqsyxqaag4h05jmcpyspqt30wscmntxy"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/0a901b92a7456714b319d32f7798ffcfa47aaedc17bb612cce62e1ce78448683.svg"
+url = "https://nostrapp.link/"
+
+[nostr-band]
+name = "Nostr Band"
+categories = [ "nostr-management", "all-clients" ]
+description = "Nostr data and statistics advanced search."
+gallery = [
+  "https://cdn.satellite.earth/c5ec5a508bb87805a21f7f60ad568b6cf1960b5737e789f9ce46ed683f006945.png",
+  "https://cdn.satellite.earth/7b42c1eb3351740406cdc25a3ed70a15a2310b0eaaefc79395a4292f0e1b7080.png",
+  "https://cdn.satellite.earth/5a5f65bed8f50b27256507bbcaf7803755dcc0306af6b2fde8e382064454df7b.png",
+  "https://cdn.satellite.earth/d7814e3990bf1e79f8681b3232b20b258e857751eb15e3bba0c66007ec5563ea.png"
+]
+features = [
+  "Search keywords, hashtags, pubkeys, posts",
+  "Look up Nostr statistics",
+  "Embed widgets",
+  "API for clients",
+  "NIP05 Service"
+]
+npub = "npub1xdtducdnjerex88gkg2qk2atsdlqsyxqaag4h05jmcpyspqt30wscmntxy"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/f3088e283f25a4542417178a9f8906296ff9117b9a29c55d1caf793b618ae19c.svg"
+url = "https://nostr.band/"
+
+[nostr-connect]
+name = "Nostr Connect"
+categories = [ "all-clients", "signers" ]
+description = "Simple nostr signer"
+gallery = [
+  "https://cdn.satellite.earth/dd02507ee1ab860ea1ff492a7d8e102c7c118c18e5fd115aa283b2b29135e530.png",
+  "https://cdn.satellite.earth/df942464339d68ca07641b7b7fc497e1820ce81343e12467d412b77c70710b4d.png",
+  "https://cdn.satellite.earth/41d9618006e01724ad0ba32433733411b301d29152e06157ff879bdcc482c34a.png",
+  "https://cdn.satellite.earth/0a523cc3e3b36afb41c33f08fa285c5775b8bcb46a73656a4412efd070020680.png",
+  "https://cdn.satellite.earth/0fae334b018ebe62728bda4f97182aa1221b37ff60ce71eb8b9dfd8c64f4c0d9.png"
+]
+features = [
+  "A skinned fork of nos2x by fiatjjaf",
+  "Chrome",
+  " &amp;&nbsp",
+  "Firefox",
+  "Store preferred relay set",
+  "Individually revokable permissions"
+]
+npub = "npub1zfss807aer0j26mwp2la0ume0jqde3823rmu97ra6sgyyg956e0s6xw445"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/77b8ee1524761f99c825ef7c48fada261c94a1de60470cce6c57c3c9d96e30db.svg"
+url = "https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj"
+
+[zap-cooking]
+name = "Zap Cooking"
+categories = [ "bookmarking", "all-clients" ]
+description = "Recipes over nostr"
+gallery = [
+  "https://cdn.satellite.earth/65b7f301313936479e2dfb5212c5bf67099a52f49f100ce76c3b122f7590e704.png",
+  "https://cdn.satellite.earth/6c9f85cf88adbc810c70d439402ee5e37a5b85886025b2492e8073cec9efa073.png"
+]
+features = [
+  "Browse recipes",
+  "Add your own recipes",
+  "Earn sats via zaps"
+]
+npub = "npub15u3cqhx6vuj3rywg0ph5mfv009lxja6cyvqn2jagaydukq6zmjwqex05rq"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/f1b9ba8e35154b3c591272985c1763896b516d080936958ab659f9b3e8122809.svg"
+url = "https://zap.cooking/"
+
+[nostr-nests]
+name = "Nostr Nests"
+categories = [ "audio", "all-clients" ]
+description = "Audio Chats"
+gallery = [
+  "https://cdn.satellite.earth/2cd89f6b5f7a9bf2e67a804f84b845dbbdc37f3b15fb2a419c28de03890317ff.png",
+  "https://cdn.satellite.earth/cb60246a7ed8a69a1adce4374ee6b1b7423e6e985b8656903e9dfd52add3c097.png",
+  "https://cdn.satellite.earth/047a23523d79e59050766dd71d0a52791caef01eee556139bde9f756208d1a1a.png"
+]
+features = [
+  "Start audio chats",
+  "Troll box (chat)",
+  "Instant zaps (lightning payments)"
+]
+npub = "npub1v0lxxxxutpvrelsksy8cdhgfux9l6a42hsj2qzquu2zk7vc9qnkszrqj49"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/b28e30a02c235d81d6daa1ef8e58b12be886941760e55b4ac23527c8568d3d06.svg"
+url = "https://nostrnests.com/"
+
+[nostr-watch]
+name = "Nostr.Watch"
+categories = [ "nostr-management", "all-clients" ]
+description = "Explore relays like a boss"
+gallery = [
+  "https://cdn.satellite.earth/4596c7faca3befde8c6cdd2fee80dbda8578916c6843693f1d3664883b4dfdb7.png",
+  "https://cdn.satellite.earth/093a595613c087535acd2960360850728358e61fa51f313ede8fadb177523899.png"
+]
+features = [ "Look up relay data", "Find fastest relays", "Relay map" ]
+npub = "npub1uac67zc9er54ln0kl6e4qp2y6ta3enfcg7ywnayshvlw9r5w6ehsqq99rx"
+platforms = [ "web" ]
+source = "https://github.com/dskvr/nostr-watch"
+thumb = "https://cdn.satellite.earth/a77d4ed9d30ff59da43d77397ff5c63cfacf4b80f4cabb4186b2533ae47e4ad2.png"
+url = "https://nostr.watch/relays/find"
+
+[nostr-zap]
+name = "Nostr Zap"
+categories = [ "nostr-management", "all-clients" ]
+description = "Add zaps to anything"
+gallery = [ ]
+features = [
+  "Add a zap button on your website and get zapped from anywhere",
+  "Add zaps to content (once broadcasted as a note on nostr)",
+  "Support for multiple buttons"
+]
+npub = "npub1vp8fdcyejd4pqjyrjk9sgz68vuhq7pyvnzk8j0ehlljvwgp8n6eqsrnpsw"
+platforms = [ "web" ]
+source = "https://github.com/SamSamskies/nostr-zap"
+thumb = "https://cdn.satellite.earth/9f13ab0cd6a6837a5bcb6542d6c6c6563a4715a3159b71a5190b920a057f3d80.png"
+url = "https://github.com/SamSamskies/nostr-zap"
+
+[nostree]
+name = "Nostree"
+categories = [ "bookmarking", "all-clients", "nostr-management" ]
+description = "List and link aggregator."
+gallery = [
+  "https://cdn.satellite.earth/9fc6da6660d1a3b5bacf40d234da538e5ffbe61d3edb4716944fcfc98daa3025.png",
+  "https://cdn.satellite.earth/80b04060765572e4de406f771d5dba3781bfcd1e0b2b12273cbf31854124932f.png",
+  "https://cdn.satellite.earth/fa8cbbd7ba304e9ee877b1af08b1608d1fbd3e90862c38757cb845e59bc65c64.png",
+  "https://cdn.satellite.earth/0284115b5f6feeebe8fa5525acb5ef3f69b706f430add5876b112484bfdb633f.png",
+  "https://cdn.satellite.earth/a6775392942a1b1412bb3259cd112e17c2ed2114dac2dfe8f5c7baf3f41bc2df.png"
+]
+features = [ "Create link lists", "Multiple lists", "Theming " ]
+npub = "npub1gzuushllat7pet0ccv9yuhygvc8ldeyhrgxuwg744dn5khnpk3gs3ea5ds"
+platforms = [ "web" ]
+source = "https://github.com/gzuuus/linktr-nostr"
+thumb = "https://cdn.satellite.earth/93c90f7833cb0649fe6a04dd8c6eb9a22798497e299ee3f7c03349306aa2827c.svg"
+url = "https://nostree.me/"
+
+[nostrends]
+name = "Nostrends"
+categories = [ "nostr-management", "all-clients" ]
+description = "See what's trending on Nostr"
+gallery = [
+  "https://cdn.satellite.earth/549d5b6d960410f30817c6782547132faa88fb1491bd9a3c1e68d19e733b0c06.png",
+  "https://cdn.satellite.earth/33ce3e47afdd779c2223554a4fc1956ec2744444d4694fbad6ba16d41259cf90.png"
+]
+features = [
+  "Global daily and weekly trending notes",
+  "Global daily and weekly trending notes specifically in Japan",
+  "Shows the top trending notes",
+  "Super simple",
+  "Clean UI"
+]
+npub = "npub1f5uuywemqwlejj2d7he6zjw8jz9wr0r5z6q8lhttxj333ph24cjsymjmug"
+platforms = [ "web" ]
+source = "https://github.com/akiomik/nostrends"
+thumb = "https://cdn.satellite.earth/8eb3b7475962a4d9bd907bb28731835a4ecd93da7071091aeeb6fe3de89d201e.png"
+url = "https://nostrends.vercel.app/"
+
+[nostrmo]
+name = "Nostrmo"
+categories = [ "all-clients", "social" ]
+description = "A nostr client for iOS, Android, MacOS and Windows."
+gallery = [
+  "https://cdn.satellite.earth/08921290e4deaedad5a2a578b39b623a521cc8a1acfbc5c5757d484652381b44.png",
+  "https://cdn.satellite.earth/fa9a816589ae0b97d9116f0d38d3c593647fb8e68d4c86722346e530443ccd26.png",
+  "https://cdn.satellite.earth/e52320f5211078d8acf402d2122807ed2e95ce5abbfa25abccd7a2f7821a2159.png",
+  "https://cdn.satellite.earth/182c4253e9436849b872c3dba9f475eab6fe21d58ab822146241ed0ff8063107.png",
+  "https://cdn.satellite.earth/87296e7428f489d036bc83cbfd866b5c82d23eb18056bdfa18feccd49301a52e.jpg",
+  "https://cdn.satellite.earth/8b875d672cb54847e6c375d5b53e19056a73cc038739b5ecff1bb054dd086a39.jpg",
+  "https://cdn.satellite.earth/99ffd71229ce07381d9e6595269674d39d783ac5c0f4ef8eaba6621cc2d4de0d.jpg"
+]
+features = []
+npub = "npub19yeqjawls407xjnmgkk6yss7936pcd7qzd5srlj8wye6j8433vrsjazqwk"
+platforms = [ "android", "ios", "desktop", "web" ]
+source = "https://github.com/haorendashu/nostrmo"
+thumb = "https://cdn.satellite.earth/7b4e64c55494ba459cd40901394a56a9c67d308241ddaf40a0a44aa8578f5053.svg"
+url = "https://apps.apple.com/us/app/nostrmo/id6447441761"
+
+[nostrocket]
+name = "Nostrocket"
+categories = [ "nostr-management", "all-clients" ]
+description = "Separation of Business and State"
+gallery = [
+  "https://cdn.satellite.earth/d27d517f88cef16cc59387ef66c368a7caca21ec99c3f552b78a9014e269192b.png",
+  "https://cdn.satellite.earth/9d72662f6822f052e56721578d5133654ff468f5c3806a3389d1ebfb395dcb45.png",
+  "https://cdn.satellite.earth/2b22117ab4ae8b8ea015fa68bb3ecefb7b79d1049459abdd0e0881de5b1c94bd.png"
+]
+features = [
+  "Create issues that matter to you",
+  "Award merits to contributors",
+  "Solve problems"
+]
+npub = "npub1mygerccwqpzyh9pvp6pv44rskv40zutkfs38t0hqhkvnwlhagp6s3psn5p"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/0d405c31c16d931135fa206e7659abc7bbdf8c2115230bb98f14cbc4b075ab90.png"
+url = "https://nostrocket.org/rockets"
+
+[nostrrr]
+name = "Nostrrr"
+categories = [ "all-clients", "nostr-management" ]
+description = "Nostr relay explorer"
+gallery = [
+  "https://cdn.satellite.earth/75fae4d84924f1d4c3cf067a0ef7f16cb92c5d1efc9786cdc4612a64f4c35971.png",
+  "https://cdn.satellite.earth/6efb1d1deefdce3350a3d41d290e5dae8590f60df1f9e5195420104007a511d4.png",
+  "https://cdn.satellite.earth/ff92e5d2eaec64b10ee04f60edc27db30edc2f776b16505d2ea324c4a9942789.png",
+  "https://cdn.satellite.earth/c415b17e30b7bb07e2e08fd1384ca71c961c397e94f7fd82e7e11722ddd2dcf1.png"
+]
+features = [ "Look up relay information" ]
+npub = "npub107jk7htfv243u0x5ynn43scq9wrxtaasmrwwa8lfu2ydwag6cx2quqncxg"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/cf6aab242ddd4435fa439c89f0b36937030c4a3ace847cc1eb9dd6474a832bff.svg"
+url = "https://nostrrr.com/"
+
+[nostrudel]
+name = "noStrudel"
+categories = [
+  "all-clients",
+  "community",
+  "social",
+  "streaming",
+  "file-sharing",
+  "nostr-management"
+]
+description = "The jack of all trades"
+gallery = [
+  "https://cdn.satellite.earth/55e1d16d351ba44a60fc681389258446522a87660a17b6185ec50aa6ffde75ad.png",
+  "https://cdn.satellite.earth/af918456343d683c7176ad41d85714a72e671eecddc8865df52f1bb7341148c3.png",
+  "https://cdn.satellite.earth/3969e4bf85252e4767a394eb2ce50f86ccb7b59a553e67b9d448969113b3aea7.png",
+  "https://cdn.satellite.earth/531dc37a450e1480d46b3b91d4186b606d71de0a91fe808be04d614b534ea73b.png",
+  "https://cdn.satellite.earth/fa8fe44bc2db59adf92ac57aca112071584b8256007836adb1386142bbec3af8.png"
+]
+features = [
+  "Feature-rich",
+  "Highly customizable",
+  "Mute words",
+  "Communities",
+  "Streaming (watch)",
+  "Lists",
+  "Tools shortcuts",
+  "Sidebar comments"
+]
+npub = "npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/c8d939904dbe80b2a36badace31914984b9459794550b1a557c43936f779af13.png"
+url = "https://nostrudel.ninja/"
+
+[nostter]
+name = "Nostter"
+categories = [ "social", "all-clients" ]
+description = "Calm social client"
+gallery = [
+  "https://cdn.satellite.earth/8973059c317aa505df9aa3b6c679872c85d8d102e864ea2a998f8e741400e046.png",
+  "https://cdn.satellite.earth/d94adf28fa39933f764072c843b9a0686f82e617364e478353c5498534f49e66.png",
+  "https://cdn.satellite.earth/9f433938ca655982f29ca50ba0a923246217c8606a8f559ca47618cda5b91944.png",
+  "https://cdn.satellite.earth/95875590f17402b18b9ab687c4df5f147761721d1907c9c97f25171146c7186b.png"
+]
+features = [
+  "Twitter style feed",
+  "Cute logo",
+  "Mute words",
+  "Minimal and calm"
+]
+npub = "npub1s02jksmr6tgmcksf3hnmue7pyzlm0sxwarh7lk8tdeprw2hjg6ysp7fxtw"
+platforms = [ "web" ]
+source = "https://github.com/SnowCait/nostter"
+thumb = "https://cdn.satellite.earth/5ffa60e1d900cdaf31fca109eb7f18e715b692cf8d941b16a639a01389a8847b.svg"
+url = "https://nostter.app/"
+
+[nostur]
+name = "Nostur"
+categories = [ "social", "all-clients" ]
+description = "iOS client for Nostr"
+gallery = [
+  "https://cdn.satellite.earth/023b5864bc783531805b80463b9d3fa16a816cecdedf088af6953bca951aba5e.png",
+  "https://cdn.satellite.earth/45d9cb32fcc565e70660b203d0fc3c9888ae90eb3b8ae1fc3aa76fd8aa592392.png",
+  "https://cdn.satellite.earth/4087bed7a3789324bd28540fd0a38a1b0e808c927cb5da72e2f83325021dcc0b.png"
+]
+features = [
+  "Multi-account",
+  "Guest account",
+  "Your posts stored on your device and can be exported",
+  "Bookmarks and personal notes",
+  "Follow and explore timeline",
+  "Remembers where you left off scrolling when reopening app",
+  "Undo accidental tap on Like",
+  "Autocomplete names when typing",
+  "Lightning zaps",
+  "Lightning wallet selection",
+  "Direct Messages",
+  "Domain verification",
+  "Badges",
+  "Block list",
+  "Muted conversations",
+  "Notifications for mentions, reactions and zaps",
+  "Image previews/zoom/pan",
+  "Gif/Video playback",
+  "Option to turn signature verification off",
+  "Option to hide badges from profile and emojis from names",
+  "Fast local database",
+  "Big detail pane for iPad/macOS",
+  "Login as someone else (read-only mode)",
+  "Choose which relays to send to and receive from"
+]
+npub = "npub1n0sturny6w9zn2wwexju3m6asu7zh7jnv2jt2kx6tlmfhs7thq0qnflahe"
+platforms = [ "ios" ]
+thumb = "https://cdn.satellite.earth/b8175c6c56618d70e4df740ab18d75d1d70e10de52a9be978e274d3fc836302f.png"
+url = "https://nostur.com/"
+
+[npub-cash]
+name = "Npub Cash"
+categories = [ "all-clients", "money" ]
+description = "eCash for all"
+gallery = [
+  "https://cdn.satellite.earth/37ae61e3155228a5a1c3a5eacc071e4d09960c2ce31224c5162f7cce7c609f80.png",
+  "https://cdn.satellite.earth/9f41a7829dbfbf8eeed9ea0d2b94ef014a8bbddf110033baca255b0e864a25b2.png",
+  "https://cdn.satellite.earth/5d94e065cd6cff040cc1222b171b4aa2f27c06663063b81c6ec6c11ba6903abe.png"
+]
+features = [
+  "EXPERIMENTAL!!!! Do not store any meaningful amounts of money!!!!!",
+  "Cashu protocol ecash for each npub",
+  "No registration required",
+  "No KYC",
+  "Instant privacy-enabling ecash payments",
+  "Get paid from any lightning address",
+  "Issue lightning invoices"
+]
+npub = "npub1mhcr4j594hsrnen594d7700n2t03n8gdx83zhxzculk6sh9nhwlq7uc226"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/01b69856dc2912e21f238e7a54abce3f5f1f3b45dc639d86abfceb8df993932c.png"
+url = "https://npub.cash/"
+
+[npub-pro]
+name = "npub.pro"
+categories = [ "all-clients", "nostr-management", "blogging" ]
+description = "Website from your nostr content"
+gallery = [
+  "https://cdn.satellite.earth/957377be480dda1c2da26c5ec89dacdd347b537489a0becf6595ec4cc24d8188.png",
+  "https://cdn.satellite.earth/521da16b9aedb6942cd6a4b34c3427674fede7a8a4b7f17c6066d2a2027e9448.png",
+  "https://cdn.satellite.earth/89b885fbefe46b0638fba9463b8db1536531fda99d7bf4eb9fa34fa8326bd8f3.png",
+  "https://cdn.satellite.earth/362c48bf1406d224eefaed8384cd91000c60083194fd947d943c2104a91e323e.png"
+]
+features = [
+  "Create a website out of your nostr content",
+  "SEO friendly",
+  "Use any 3rd party tools",
+  "Works like an app",
+  "Beautiful Ghost themes to choose from",
+  "Zero maintenance",
+  "Custom domains",
+  "Open source and self-hostable",
+  "Natively Social",
+  "Publish from any other nostr app"
+]
+npub = "npub1xdtducdnjerex88gkg2qk2atsdlqsyxqaag4h05jmcpyspqt30wscmntxy"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/47d5e9ee499e816d06ef5b5920b5922259becc035df51df542293f3c036d5996.svg"
+url = "https://npub.pro/"
+
+[nsec-app]
+name = "Nsec App"
+categories = [ "all-clients", "signers" ]
+description = "Use Nostr apps safely"
+gallery = [
+  "https://cdn.satellite.earth/f1635b3c0961eaa59334e8e59a593d0c500facd5542a17bb3fceb90ee5211f74.png",
+  "https://cdn.satellite.earth/71e39e28d25b4d0b73bb6e796d79ade791f34477a82b3703a63a694d16d4d0f8.png",
+  "https://cdn.satellite.earth/7b6c2d8723052384c94a878000d316eeaa36488d9c8d929811c64aa948d1356a.png"
+]
+features = [
+  "Log in to nostr apps without an extension",
+  "Key recovery via email",
+  "Password protected encrypted local key storage",
+  "Manage multiple apps"
+]
+npub = "npub1xdtducdnjerex88gkg2qk2atsdlqsyxqaag4h05jmcpyspqt30wscmntxy"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/601a58f69b180265ac2571a74777d13d95a34318c04ef2a9829c1584fcfb9eed.png"
+url = "https://nsec.app/"
+
+[oddbean]
+name = "Oddbean"
+categories = [ "social", "all-clients" ]
+description = "Hacker News style client"
+gallery = [ "https://cdn.satellite.earth/7c04a3e9e60136c6ad040b4e6f96e22c8892747a054e221e33035359f1a33b2d.png" ]
+features = [ "Hacker News style" ]
+npub = "npub1yxprsscnjw2e6myxz73mmzvnqw5kvzd5ffjya9ecjypc5l0gvgksh8qud4"
+platforms = [ "web" ]
+source = "https://github.com/hoytech"
+thumb = "https://cdn.satellite.earth/edca834d3b87bceb516bec386ad300b05ab36e74a352fd2c1f1a8e3078b2deb7.svg"
+url = "https://oddbean.com/"
+
+[openvibe]
+name = "Openvibe"
+categories = [ "all-clients", "social" ]
+description = "Interact with anyone on the open internet."
+gallery = [
+  "https://cdn.satellite.earth/6bde88a7e21438a27b9f1f3321612995f10285b23f6ded16d11982ff05f27eee.png",
+  "https://cdn.satellite.earth/1ec2e8d047626ef74f9735e8979481ff63737054e6ee291c4f7744ab9282887b.png",
+  "https://cdn.satellite.earth/e8b20d741e7d5e157672e1690de83c118671c4f956a6ffc029ba5a5f2653b481.png",
+  "https://cdn.satellite.earth/464f31a87d567c765e07f8b6fa2adc36a0a85ec779d82ec1527be4a228e812be.png",
+  "https://cdn.satellite.earth/f18a605d2c82d73cedb48d3cd86a30587960d2a0efdd883600658a892c79f69d.png",
+  "https://cdn.satellite.earth/c643f9a43d71c14bab7740b34092937b581514f7ce63f3b6da327c4f52656c7e.png",
+  "https://cdn.satellite.earth/da82b862cd106b4766b58145d46d2952a5dac20cd1cce46d36867e02c28bc6b1.png",
+  "https://cdn.satellite.earth/2a410908987f34bcb76f1ff9024941d6aa1067480300a81757cffd797ddd78b5.png",
+  "https://cdn.satellite.earth/5100712608a0c6b725206b1c88f58d7b89db2c8ca7126f9ad63427c609d59518.png",
+  "https://cdn.satellite.earth/7bef560a311e822c94b38f728585d3e409281a614c36c6716f7fd97766ca0d9b.png",
+  "https://cdn.satellite.earth/58f719ff5bf22566942d9b9c11a76a8b02cf110c2e2a3d6707882e11074e0e2e.png"
+]
+features = [
+  "Post to Nostr and Mastodon",
+  "Nice, clean and modern design",
+  "Simple and intuitive",
+  "Gifs, stickers integration",
+  "Dark and light mode"
+]
+npub = "npub1plstrz6dhu8q4fq0e4rjpxe2fxe5x87y2w6xpm70gh9qh5tt66kqkgkx8j"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/8e1a5dc395a0146061da2f41433c9e04f9a98cd12a2bd95218fc7a0f9fd85b56.png"
+url = "https://openvibe.social/"
+
+[ostrich-work]
+name = "Ostrich Work"
+categories = [ "all-clients", "career" ]
+description = "Job Board over Nostr"
+gallery = [
+  "https://cdn.satellite.earth/d20cd21fbb8210876bb7f2c04b35d987bddd88cef528ff21ed0366fc9ab6466c.png",
+  "https://cdn.satellite.earth/6e31ef2a5128a02bbeff5055b799abd8ec86e346b7da6f711c022e758615925f.png",
+  "https://cdn.satellite.earth/8aff2a5c6635cfd001ffb7724874b985742816f46629b5a8fbced71bf2dcfce2.png"
+]
+features = [ "Post jobs for 20k sats", "Message posters" ]
+npub = "npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/a333ac9cf4784ae3db3dd126dea1132e93a5433d66b34622e7f984a369b9979e.svg"
+url = "https://ostrich.work/"
+
+[pinstr]
+name = "Pinstr"
+categories = [ "nostr-management", "all-clients", "bookmarking" ]
+description = "Like Pinterest but on nostr with zaps"
+gallery = [
+  "https://cdn.satellite.earth/e3edfcf3b9064626b782d24f19dd068e799c9ca439737cd6f923f242532d7f16.png",
+  "https://cdn.satellite.earth/6e6e2163c9b98ec41829346e1208817920451904fbc48759f580593d06351459.png"
+]
+features = [
+  "Curate lists, users, links",
+  "Share lists",
+  "Earn sats with zaps",
+  "Discover interesting content"
+]
+npub = "npub18c556t7n8xa3df2q82rwxejfglw5przds7sqvefylzjh8tjne28qld0we7"
+platforms = [ "web" ]
+source = "https://github.com/sepehr-safari/pinstr"
+thumb = "https://cdn.satellite.earth/20fa5c2237ff9a1f2d34ffa73cbb8d8d38c048efea658baf81baad857f850d33.svg"
+url = "https://pinstr.app/"
+
+[plebeian-market]
+name = "Plebeian Market"
+categories = [ "all-clients", "marketplace" ]
+description = "Buy and sell stuff for sats"
+gallery = [
+  "https://cdn.satellite.earth/87645ea89024515b72678c2128c8b20b10597fb8609a6baa7c271637aaecb24d.png",
+  "https://cdn.satellite.earth/b7476932f931f4bfd4b7aa06dc7289bfbb7c3d7faed98622bd246b8d45d9ae93.png",
+  "https://cdn.satellite.earth/4ee2ed3cf449068f8a9118aedae3b53e79f6665234ecf46ae96a21bab77f2c3f.png"
+]
+features = [
+  "Buy and sell things for sats",
+  "Bid in auctions",
+  "Integrated with nostr"
+]
+npub = "npub1a3um269aaf3u5cy37kuykrrrnsg2pyv7za06pxjduv25lq5sdujs2qmdj6"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/792280c1ef9699589aa713692b727f2865630d8104a5fb04e4e40c9bddca54ec.png"
+url = "https://plebeian.market/"
+
+[plebhy]
+name = "Plebhy"
+categories = [ "all-clients", "nostr-management" ]
+description = "Decentralized gif library built on nostr"
+gallery = [
+  "https://cdn.satellite.earth/7d182e949fac619314b939c3f3ad275cfc9de269ee1dbbf72d003a4858270073.png",
+  "https://cdn.satellite.earth/2f90be9b34a31be3e93c00b8987053d1877b8ef8847cb61370f10606fdd26762.png",
+  "https://cdn.satellite.earth/36d8886b5e38bb4d75e893a3c7206e3dd8256a5b588f53c97eac271538cab401.png",
+  "https://cdn.satellite.earth/6761262632c238d8a2d9d13d65b48be8f348d08bc7e7d436fe92d2083bd3b708.png"
+]
+features = [ "Create and discover gifs and stickers" ]
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/ffc3280271463aab58b2dde35f5e0da423022f855b19ea807a267a6b90279388.png"
+url = "https://plebhy.com/"
+
+[pollerama]
+name = "Pollerama"
+categories = [ "all-clients", "nostr-management" ]
+description = "Nostr polls"
+gallery = [
+  "https://cdn.satellite.earth/bc274a5e1cbd6128339a379be25bc45d80f755753a4af5378bece84a1da48acb.png",
+  "https://cdn.satellite.earth/ab96b9a238c01cf492bd2e5044f5e06673f8f784205caf156a2ff7e8a5f2a833.png"
+]
+features = [ "Create nostr polls", "Vote", "Share", "Fun" ]
+npub = "npub1cgd35mxmy37vhkfcmjckk9dylguz6q8l67cj6h9m45tj5rx569cql9kfex"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/e7316fb7fdea488085364cb5124a8cecfc0d635d266056c518ae44e29e658a90.svg"
+url = "https://pollerama.fun/"
+
+[primal]
+name = "Primal"
+categories = [ "social", "all-clients" ]
+description = "Multi-platform client"
+gallery = [
+  "https://cdn.satellite.earth/b2cfa1e28cdcca55c60aa1f4d486cf6da4a663e1dc403d5efbd113f9438d9562.png",
+  "https://cdn.satellite.earth/159c386367b1781f0ae251bc687ccbdf6302dc6b6e235abefe5002776155f06f.png",
+  "https://cdn.satellite.earth/4b584539bdc80de04a3ec5c8f3ebcb3e1d8275825705117a3f1c86b4115dd7e1.png"
+]
+features = [
+  "Clean interface",
+  "Awesome stat explore section",
+  "Handy trending notes",
+  "Fast"
+]
+npub = "npub12vkcxr0luzwp8e673v29eqjhrr7p9vqq8asav85swaepclllj09sylpugg"
+platforms = [ "web", "android", "ios" ]
+thumb = "https://cdn.satellite.earth/e38c2555c5125be2431728250555e073c950856e7873ea401df142b729f30813.svg"
+url = "https://primal.net/downloads"
+
+[rabbit]
+name = "Rabbit"
+categories = [ "social", "all-clients" ]
+description = "Multi-column layout client"
+gallery = [
+  "https://cdn.satellite.earth/c5891f86aade7c5e7d4b3d668c17f41384a4caec4088dc2bce1ccf9dcb595f4b.png",
+  "https://cdn.satellite.earth/f75d097d6694cd6421c6ed123e06eba37af7c45a71cca00d31de0f175a6d0c7d.png"
+]
+features = [ "Multi-column", "Tweetdeck-like UI" ]
+npub = "npub1jcsr6e38dcepf65nkmrc54mu8jd8y70eael9rv308wxpwep6sxwqgsscyc"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/35caf3ec824c5cf301c61d921e5e3cf3d12f9ef40e742e1ea26657cf3b093a9b.png"
+url = "https://syusui-s.github.io/rabbit/#/"
+
+[rana]
+name = "Rana"
+categories = [ "nostr-management", "all-clients" ]
+description = "Nostr vanity key generator"
+gallery = [
+  "https://cdn.satellite.earth/c4a0b6024478fcb7b166bbf4a5bebc881c99b2a96f406fc5e32082da10710d9e.png",
+  "https://cdn.satellite.earth/5273ce580b73ecfed980d97c85b7980b59aed950f993831b2fd40bbc4bc273ae.png"
+]
+features = [
+  "Generates vanity keys through proof of work",
+  "Fameatspacey easy to use after you install the prerequisites, even for non-developers",
+  "Requires Rust"
+]
+platforms = [ "cli" ]
+source = "https://github.com/grunch/rana"
+thumb = "https://cdn.satellite.earth/15ddaf027e72f11d3445a65eafa504c680278dc3ddda88a84143a2ba85a44691.png"
+url = "https://github.com/grunch/rana"
+
+[relay-tools]
+name = "Relay Tools"
+categories = [ "all-clients", "nostr-management" ]
+description = "Spin up a relay quickly"
+gallery = [
+  "https://cdn.satellite.earth/d30b48c958caf2cd1c17e9ef6a4efc24ae61967116d53941b7412fe05ef064e2.png",
+  "https://cdn.satellite.earth/75fc389f8e2f1bd04de0dea5291cad7deb851e3b9972e1b2c824a43f94d4c439.png",
+  "https://cdn.satellite.earth/efbc207255e717ca8dd2d1f070cbf51a3b54eca44a328bd5b1426f185cc1e31d.png"
+]
+features = [
+  "Create relays of any type quickly",
+  "Simple monthly fee",
+  "Pay in sats",
+  "Super easy"
+]
+npub = "npub10npj3gydmv40m70ehemmal6vsdyfl7tewgvz043g54p0x23y0s8qzztl5h"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/7919e8af450d035907d23c95a8f5589fcd293ed2def94ecd0d4ad7f5d4cce2d6.png"
+url = "https://relay.tools/"
+
+[satcom]
+name = "Satcom"
+categories = [ "all-clients", "nostr-management" ]
+description = "The internet's comment section"
+gallery = [ ]
+features = [
+  "Nostr comments on every website",
+  "Find out what people are saying about a website or page you're browsing"
+]
+npub = "npub1alpha9l6f7kk08jxfdaxrpqqnd7vwcz6e6cvtattgexjhxr2vrcqk86dsn"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/b67d473b4f2dff1475756539b6768d675ff24143efbce3d1079c2c818c325b57.svg"
+url = "https://satcom.app/"
+
+[satellite]
+name = "Satellite"
+categories = [ "social", "community", "all-clients" ]
+description = "Nostr client with a 62 mile view"
+gallery = [
+  "https://cdn.satellite.earth/a2d1987d0d9b10603f15bf064323f95e1be8dae872890631f3b04c883c945f0b.png",
+  "https://cdn.satellite.earth/8c31894c7f27d68c4be95eb2178e4658598385c487b4a68e66f7dac222f715bf.png",
+  "https://cdn.satellite.earth/d1a4c785a66b0e803beaca2bcd9d393b1d27aa1f43adb885e97fd4bf048b5eea.png",
+  "https://cdn.satellite.earth/dab1bc188a684019b12218eabebc5ab3b080de9acefc4dc03e991955c1d0b9f5.png"
+]
+features = [
+  "Clean and minimal UI",
+  "Unique, futuristic look and feel",
+  "Side-loading threads so you don't lose your place in the feed",
+  "Fast"
+]
+npub = "npub1lunaq893u4hmtpvqxpk8hfmtkqmm7ggutdtnc4hyuux2skr4ttcqr827lj"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/81eff66604f9a094d26917ddc728a8840c7d0f482bbaa6911944fc9f820c2fae.png"
+url = "https://satellite.earth/"
+
+[satlantis]
+name = "Satlantis"
+categories = [ "all-clients", "community", "nostr-management", "meatspace" ]
+description = "Find local bitcoin standard communities "
+gallery = [
+  "https://cdn.satellite.earth/ccf8c0c771f5f8f39a6253eb8a3bf14796d57c59daff2c497e7169d9c7b11e14.png",
+  "https://cdn.satellite.earth/3c6e7b22a37da91a7b544d296e591f51f3ec9c3eaf4cf314011c1f9a3df3ff8c.png",
+  "https://cdn.satellite.earth/459636df4c6edbfd75370776cb9bc53fba12edcdb078774591f3317f55b20ea1.png",
+  "https://cdn.satellite.earth/9b0d1ef2f17e067003e2cb0e85c3cf07f4bdf2f53b28e3d6d5f8ca438bf5780e.png",
+  "https://cdn.satellite.earth/839e13c6a1c1331893be59fa7e16a1108f31e989314d38ebfa212e19b898f099.png"
+]
+features = [
+  "Find local communities running on the bitcoin standard",
+  "Cost of living and other stats breakdown",
+  "Join communities",
+  "Find local events"
+]
+npub = "npub1dtgg8yk3h23ldlm6jsy79tz723p4sun9mz62tqwxqe7c363szkzqm8up6m"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/6e206ba028db42ecfc86429a52245bdf3f659c36c79e04a6b2f5d1c589dff8c0.png"
+url = "https://www.satlantis.io/"
+
+[shipyard]
+name = "Shipyard"
+categories = [ "all-clients", "nostr-management", "blogging" ]
+description = "Schedule notes"
+gallery = [
+  "https://cdn.satellite.earth/8749dcef54552d37312fd3492e3bbd79d9e5dbb48504ff4e60b81b3eb3f39442.png",
+  "https://cdn.satellite.earth/e68102092dc378a3ec6e8c86919892d24c58ef9d2723e1fdfa9da597bcba605e.png"
+]
+features = [
+  "Schedule nostr notes",
+  "Schedule reposts",
+  "Note drafts",
+  "Multi-account support"
+]
+npub = "npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/e91ca1e8fbab281cb08668fe4860875c84299fb726228bc8c64e6e9ba326a6dc.svg"
+url = "https://shipyard.pub/"
+
+[shopstr]
+name = "Shopstr"
+categories = [ "marketplace", "all-clients" ]
+description = "Buy and sell for sats over nostr"
+gallery = [
+  "https://cdn.satellite.earth/41addb314958e7e58b9b8f0b2d70d552700b514145177d5d9a3b955b94cbfca8.png",
+  "https://cdn.satellite.earth/6c7101aa7d6c5bf1734a380515191e3e504828e7de27893a209f4004295fdfab.png"
+]
+features = [
+  "Buy and sell items for sats",
+  "Message seller",
+  "Log in with nostr",
+  "Cashu integration"
+]
+npub = "npub16dhgpql60vmd4mnydjut87vla23a38j689jssaqlqqlzrtqtd0kqex0nkq"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/548fb6eb0ce5def851fb6d0dabf0e0e31d427abc23fb10fd2ea3838724886202.png"
+url = "https://shopstr.store/"
+
+[slidestr]
+name = "Slidestr"
+categories = [ "all-clients", "media" ]
+description = "Immersive media browsing"
+gallery = [
+  "https://cdn.satellite.earth/a1016da33503d2a564227f95672789b8a03b5a78863fec8b3fb47e81c38a4fa5.png",
+  "https://cdn.satellite.earth/3ede171aa0a919ed6cba8de58079788acf52c39699f3fcfd946ed59b1e3cd692.png",
+  "https://cdn.satellite.earth/ab8702c4c8b91636e632fa8c6bf98e74e76ef5aef3d084d93c08af8a141f52e2.png",
+  "https://cdn.satellite.earth/ee9554609c4c0e8a6651f9987d2e98452a6da5fbca046ac77233c2f6f07c2a2c.png",
+  "https://cdn.satellite.earth/62c4248bae302e26a0c9d78669a4a4a50337aa33b81b379e8a7ecb638f0ce4aa.png",
+  "https://cdn.satellite.earth/fde8081718c9e29c492b3fdacc55b26c8cce2fee2f1f2147be509ad7b3b257da.png",
+  "https://cdn.satellite.earth/7f4f252d7d0e239389c098aed2ee4a31594dd077d186038c5dd7eb60f02761a7.png"
+]
+features = [
+  "Compact media browsing",
+  "Images and videos",
+  "Full screen media"
+]
+npub = "npub1klr0dy2ul2dx9llk58czvpx73rprcmrvd5dc7ck8esg8f8es06qs427gxc"
+platforms = [ "web" ]
+source = "https://git.v0l.io/florian/nostr-slideshow"
+thumb = "https://cdn.satellite.earth/f6f748ac94361bc7454464d651c4caae28a540642f103712ade281da07c4ae7d.svg"
+url = "https://slidestr.net/"
+
+[snort]
+name = "Snort"
+categories = [ "social", "all-clients" ]
+description = "Make Nostr sexy"
+gallery = [
+  "https://cdn.satellite.earth/d3be3ed192261daea42076632f6ee81f025d35ce6ac15738668ee60152a89788.png",
+  "https://cdn.satellite.earth/a5ab036e64e22833ef5fab13064a540646515bdecb79587dbbe0940e20d4c9e1.png",
+  "https://cdn.satellite.earth/16e26e46f82f4a098b188e54a080d950a6a424da41d951e44ab2a86228a772ac.png",
+  "https://cdn.satellite.earth/a04d0da01158617cb38d230e92ff5b36dfb5496cac68496270844b28d3410c74.png",
+  "https://cdn.satellite.earth/6ba8e331d1e05a75a34e78001b67e734bf6d68e345176a757ea78a71b8696cd4.png",
+  "https://cdn.satellite.earth/3fa88d273248e691925c9952f39ae13d6dd5db1ebd0b3b9e3bab947afffaf6a2.png"
+]
+features = [
+  "Twitter-like experience",
+  "Dark and light mode",
+  "Custom zap amounts",
+  "Bookmarks",
+  "Pinned notes",
+  "Alby integration"
+]
+npub = "npub1v0lxxxxutpvrelsksy8cdhgfux9l6a42hsj2qzquu2zk7vc9qnkszrqj49"
+platforms = [ "web" ]
+source = "https://github.com/v0l/snort"
+thumb = "https://cdn.satellite.earth/bcdaa1704da7ab79c222de2ad8197d148f925f53ce8cfc23ecfb5e83d976f9df.svg"
+url = "https://snort.social/"
+
+[spring]
+name = "Spring"
+categories = [ "all-clients", "browsers" ]
+description = "A purpose-built nostr browser"
+gallery = [
+  "https://cdn.satellite.earth/4f01b1e204f1b7a51db1187d3e0a6cdc61251e4a83526f64d74234a86363ba04.webp",
+  "https://cdn.satellite.earth/1c473f7067a6dd7fab72b904b8eabd39a10912f4ef3661f9a11fac930cca58ec.webp",
+  "https://cdn.satellite.earth/41019c18809b29ca703add25d387d06c222685af5ce79a2c2c497a895fbd046e.webp",
+  "https://cdn.satellite.earth/995e8051fbb64b3d07728e5195ea90f6bcde75583bb8e4fbae73c005a59a0d8f.webp",
+  "https://cdn.satellite.earth/91cca3d7bab00cda78dfc3ac5efef08d6ecb8049a0bbbd4b287a1b4cc1be36dc.webp",
+  "https://cdn.satellite.earth/4c9cc313f1785aae5944b6621d2360ef168832d85014bbedfe13bc8422eda754.webp",
+  "https://cdn.satellite.earth/ec83d017336656d6267dae484ebd51d2e48aa408ddf3f236137cdfdb4bd77aaf.webp",
+  "https://cdn.satellite.earth/282d619897539e70a476a9e256d4bfb2886d55c664385b8613eb371a34707fee.webp"
+]
+features = [
+  "Browse nostr web apps from one place",
+  "High level summary of trending profiles, trending notes and popular apps",
+  "Choose which app will open various event kinds",
+  "Looks great",
+  "Safe key storage",
+  "App Catalog",
+  "Wallet Connect"
+]
+npub = "npub1xdtducdnjerex88gkg2qk2atsdlqsyxqaag4h05jmcpyspqt30wscmntxy"
+platforms = [ "android" ]
+source = "https://github.com/brugeman"
+thumb = "https://cdn.satellite.earth/ed19ea2967509be1fbda85bad638a2dcd4485a0b1598891e4c297127cdc7bada.png"
+url = "https://spring.site/"
+
+[stemstr]
+name = "Stemstr"
+categories = [ "music", "all-clients" ]
+description = "Music collaboration and sharing client for producers and artists."
+gallery = [
+  "https://cdn.satellite.earth/aee2ca50765dd59ea3b280e3cfad5ef1f619ee8e7f6d1d0398e6be58cd70a7a0.png",
+  "https://cdn.satellite.earth/c929700ed3d6ab7be3a1c8b80efcb8a06212602a6944558d6fd10daa3bb9913c.png",
+  "https://cdn.satellite.earth/37d21449820517d084911995c41c93d6785380b37965801002e3687e7304df12.png",
+  "https://cdn.satellite.earth/821310a7969305fba3cfa1be04414a0d9c24fb9f41162f6bf3b761cb10f5d5f6.png",
+  "https://cdn.satellite.earth/67f2434bc58b42288602c9448acdb3bc763750e13efe558bda9fce81c10702c3.png"
+]
+features = [
+  "Collaborate with others to create your next hit",
+  "Music-focused interface",
+  "Remix function"
+]
+npub = "npub1stemstrls4f5plqeqkeq43gtjhtycuqd9w25v5r5z5ygaq2n2sjsd6mul5"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/e8f203c7ba02892458b65b37df3cd91c5abd9e05793fe6c027923b7c9757610f.png"
+url = "https://stemstr.app/"
+
+[swarmstr]
+name = "Swarmstr"
+categories = [ "nostr-management", "all-clients" ]
+description = "Discover nostr content"
+gallery = [
+  "https://cdn.satellite.earth/70de466542a594cb669b60ec8acd2b31d9d0b581c6e9d3b6856b0807ca912bd7.png",
+  "https://cdn.satellite.earth/a32159708006cd14bce5dcd5dca9ba6c15fe52a32d9688ad36fd8585192053f7.png",
+  "https://cdn.satellite.earth/26cf27b018eb13602dec622607141d5964233c2518351b35e02fe5345901e4ea.png",
+  "https://cdn.satellite.earth/03627f1c6fd816bf81a3856ab1cb25861a91291dec3c4a112dc6c4cb453ef5fe.png",
+  "https://cdn.satellite.earth/d7ff96a85b73d6a3b6900d10b9f1e7bffb8ef691fd51fb1f2a30bbf975e0c6d5.png",
+  "https://cdn.satellite.earth/3f19d9e02431f22c5d47920e086125514f3efe42c31669131df7cf624cd8c0a8.png"
+]
+features = [
+  "Browse popular tags and searches",
+  "Get answers to your nostr-related questions",
+  "Light and dark modes"
+]
+npub = "npub178umpxtdflcm7a08nexvs4mu384kx0ngg9w8ltm5eut6q7lcp0vq05qrg4"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/7d4ff0f532aab5f9346bedeeba67ba90ec82261ddc373dd01cc773eba3cb8f9d.png"
+url = "https://swarmstr.com/"
+
+[tunestr]
+name = "Tunestr"
+categories = [ "all-clients", "music", "video" ]
+description = "Live streamed music events"
+gallery = [
+  "https://cdn.satellite.earth/c0d26e4d20809544506953910f2ed0eb3930d47a313ce6de4cfa6f471c7f26f4.png",
+  "https://cdn.satellite.earth/e7ccbcb07ddfa661bb9af145a388857b2a3f63c672f6511a36cba6caa38342fa.png"
+]
+features = [
+  "Watch live streamed music events",
+  "Zap artists directly with bitcoin lightning payments"
+]
+npub = "npub1a6c3jcdj23ptzcuflek8a04f4hc2cdkat95pd6n3r8jjrwyzrw0q43lfrr"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/42c41e7812106fffd5b64ed7826d777c5359824c01dc7c7ef361ac4b90eafa41.svg"
+url = "https://welcome.tunestr.io/"
+
+[wavman]
+name = "Wavman"
+categories = [ "music", "all-clients" ]
+description = "Fun nostr music player"
+gallery = [ "https://cdn.satellite.earth/9b1cb3f617ef8c6f1eb5d5f279cb2a2586a11b8e4b9157dabffbc57ea59d888c.png" ]
+features = [ "Nostr and chill" ]
+npub = "npub1yfg0d955c2jrj2080ew7pa4xrtj7x7s7umt28wh0zurwmxgpyj9shwv6vg"
+platforms = [ "web" ]
+source = "https://github.com/wavlake/wavman"
+thumb = "https://cdn.satellite.earth/7e60744db4c26556f930b36c63ea434fe89a923b4e1b97745fa86eaed65d6b26.png"
+url = "https://www.wavman.app"
+
+[yakihonne]
+name = "Yakihonne"
+categories = [ "blogging", "all-clients" ]
+description = "Publish and curate long-form content"
+gallery = [
+  "https://cdn.satellite.earth/9a9630e5b9fc020bce549175daa0e6a9772ed41879b8ba4100ff0ce2b8c18888.webp",
+  "https://cdn.satellite.earth/f021da89100c2d6a9e66d9598f62170b1fcfdaeb6d6526cc2715c0a3abe9f90c.webp",
+  "https://cdn.satellite.earth/345d56ce228ac5a89d271d787a659419bfff9562093588fe4063a2acb872d6e1.webp",
+  "https://cdn.satellite.earth/d76764c2c8b4c667b6abc8c0274ca02ea1f875cc8c98675ef9130860e4f7de9a.webp",
+  "https://cdn.satellite.earth/a99479db13451b7eb272063c009fed02529d9059e4a77f33834783f459b8c3be.webp"
+]
+features = [
+  "Supports articles publishing",
+  "Supports curations (set of articles concerning a specific topic) publishing",
+  "Follow your favorite authors",
+  "Search your favorite topics and become a well-known content creator throughout the nostr network",
+  "Sustainable relay, ensure your data safety with nostr-01.yakihonne.com relay, which guarantees the anti-censorship aspect",
+  "Modern UI/UX design with dozen of features for you to browse.",
+  "‍"
+]
+npub = "npub1yzvxlwp7wawed5vgefwfmugvumtp8c8t0etk3g8sky4n0ndvyxesnxrf8q"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/4c63603f9e9539a230d0cdb3657f9d2185830209056b7c2b38f95bfd603cca79.svg"
+url = "https://yakihonne.com/"
+
+[yondar]
+name = "Yondar"
+categories = [ "meatspace", "all-clients" ]
+description = "The social map"
+gallery = [
+  "https://cdn.satellite.earth/a8088aa6045ed4c0483595f997e15466b92de1bca667222e06310b6ba1f6b807.png",
+  "https://cdn.satellite.earth/238f7e09752cf7e80750cfff02dd0cf3713f984df0c5fafd39a66a63fda46197.png"
+]
+features = [
+  "Add places to a map",
+  "See places by your friends or follows",
+  "Chat"
+]
+npub = "npub1arkn0xxxll4llgy9qxkrncn3vc4l69s0dz8ef3zadykcwe7ax3dqrrh43w"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/7780bdeea69b4062e8e559285c75b9a68cb41dc857ff0660845d999772152cc2.svg"
+url = "https://go.yondar.me/"
+
+[zap-store]
+name = "Zap.store"
+categories = [ "all-clients", "nostr-management", "bookmarking" ]
+description = "zap.store is a permissionless app store"
+gallery = [
+  "https://cdn.satellite.earth/339ca1993bb8667a5800b2b1ffad6a0120fba836081343596e4a9ac9617cf0cd.png",
+  "https://cdn.satellite.earth/d889e93fbc58f07503d0699d851cdf4f9e0876ea09e5a8628a320ebbfa20dfff.png",
+  "https://cdn.satellite.earth/dee8a9c2e8c1a63aec583a808cef40e0893117038ec2ca55cb15bf3c76ea5793.png",
+  "https://cdn.satellite.earth/cbcba5aa84fda744490cb3aa1b6584f441c71c2886e133eb8e4c4f935d785797.png"
+]
+features = [
+  "Permissionless",
+  "Android only",
+  "Discover nostr and bitcoin apps"
+]
+npub = "npub1wf4pufsucer5va8g9p0rj5dnhvfeh6d8w0g6eayaep5dhps6rsgs43dgh9"
+platforms = [ "android" ]
+source = "https://github.com/zapstore/zapstore"
+thumb = "https://cdn.satellite.earth/0255d7bdd965e5e54f19e4c8eafbd060c30dbaf50329d21366de09bfa6b81fb6.png"
+url = "https://zap.store/download/"
+
+[zap-stream]
+name = "Zap.Stream"
+categories = [ "streaming", "all-clients", "video" ]
+description = "Live stream and zap"
+gallery = [
+  "https://cdn.satellite.earth/088ce8a19e2fe9795270f00564053f6b20b1f159df56afc2334fca347eeda151.png",
+  "https://cdn.satellite.earth/e7253d83e5756d57869ef1254e38066f4d37302b44920e2cb75b90eafeb6169e.png",
+  "https://cdn.satellite.earth/4421eb4f2528ce61d8d796c808405fc7b6d251fed198c89b3023fcc6aa406275.png",
+  "https://cdn.satellite.earth/a0f5cd7d312aac693fcf7e6d606778af4d820cf5e4674ad18adf7b45f9f7e416.png",
+  "https://cdn.satellite.earth/85050350d1dd9b1a76e07e72165c1cc2b5ac72a17f2a9b21cd9db132fe5f73a0.png",
+  "https://cdn.satellite.earth/bda3ec3c411ead4fdc1a4cc832515c1c6a772bc5d3e4b8931ac7c0dcfd1bd4c2.png"
+]
+features = [
+  "Start live stream via zap.stream or Cloudflare",
+  "Watch other live streams",
+  "Chat via nostr",
+  "Custom emojis",
+  "Zap streamers in real time",
+  "Zap chat participants in real time",
+  "Set up stream goals",
+  "Emoji Reactions",
+  "Responsive"
+]
+npub = "npub1v0lxxxxutpvrelsksy8cdhgfux9l6a42hsj2qzquu2zk7vc9qnkszrqj49"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/71dcbdc1413713d148c18d92e3b66ceaef78919cba4bfbab6086d42f9cc12a96.svg"
+url = "https://zap.stream/"
+
+[zaplife]
+name = "Zaplife"
+categories = [ "nostr-management", "all-clients" ]
+description = "See who zaps who on Nostr"
+gallery = [
+  "https://cdn.satellite.earth/1d9cca97df5f393aa50962913af3413c9cee84a47c3c86b01ba020b204f287d5.png",
+  "https://cdn.satellite.earth/e0e245e1b264b288164bc73afcd90a65b11a6b145fe77fda60fc06dcab9dec73.png",
+  "https://cdn.satellite.earth/ebea371645052b6d04a405e32120e085d5723f438486f9170444ed57bda9727b.png",
+  "https://cdn.satellite.earth/e7af748f74f3b5683ecfa4fee8d77cb0ee41ac0d85a0a415dccaf8fc11c838a0.png"
+]
+features = [
+  "See total sats zapped in the past hour, 4 hours, 24 hours and 7 days",
+  "See who zapped who individually",
+  "See notes that got the most zaps"
+]
+npub = "npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/4bdf13ef448d784a7935608dba45155be261787cf95d1e24e61c6b841635d473.png"
+url = "https://zaplife.lol/"
+
+[zappdit]
+name = "Zappdit"
+categories = [ "community", "all-clients" ]
+description = "Like Reddit, but on Nostr"
+gallery = [
+  "https://cdn.satellite.earth/55e62d83521cfccea2c00f7356f144f42edb2119c474c7bf2d7cf4d3890d5979.png",
+  "https://cdn.satellite.earth/1885d7aabd823907b2886f061faa20d3adb2ab47af6fafeee0cd554b2db31821.png"
+]
+features = [
+  "Nice onboarding",
+  "Personalized hashtag feed",
+  "Communities"
+]
+npub = "npub1ltx67888tz7lqnxlrg06x234vjnq349tcfyp52r0lstclp548mcqnuz40t"
+platforms = [ "web" ]
+source = "https://github.com/vivganes"
+thumb = "https://cdn.satellite.earth/8c76cabdb96a369917aa8951e3a6605b58c80b28884050266008310ad989818b.svg"
+url = "https://zapddit.com/"
+
+[zapper]
+name = "Zapper"
+categories = [ "all-clients", "money" ]
+description = "Send bulk lightning payments over nostr"
+gallery = [
+  "https://cdn.satellite.earth/2591952f964a3c9690ec416c33890ff55df032172b98fa5cdadfcee2328a3f92.png",
+  "https://cdn.satellite.earth/6a7b2e19176478a15d4d6df427e731b356edf15d383167d595b33a37e93bc489.png",
+  "https://cdn.satellite.earth/fe23c3dedb1f51c69018397af1973bfd0f338f494bc0c21ee9bd49e3e312e214.png",
+  "https://cdn.satellite.earth/84feea62e8c3f23201ba9c2e36b013873c686572eb5e7934ad76ac07a2042129.png",
+  "https://cdn.satellite.earth/d3158c11d5f2ec31b2b0ec4558f7d0618991e4119d3b1562fae4171dbbb062ee.png",
+  "https://cdn.satellite.earth/d7661c2cda02ba82f482375176b90d6295913ac816b60c556306751b5749cb02.png"
+]
+features = [ "Zap in bulk", "Light and dark modes", "Automated zapping" ]
+npub = "npub1xdtducdnjerex88gkg2qk2atsdlqsyxqaag4h05jmcpyspqt30wscmntxy"
+platforms = [ "web" ]
+thumb = "https://cdn.satellite.earth/e5d55eebac84ea6d49c3bee6802aeacacbdd93ae4b2338a02f02623f6ec6beee.svg"
+url = "https://zapper.fun/"
+
+[zapplepay]
+name = "Zapplepay"
+categories = [ "money", "nostr-management", "all-clients" ]
+description = "Zap from any client 🖕"
+gallery = [ "https://cdn.satellite.earth/be6dfb25ac5cd408d18a58504bd12ef200ca514b8287ca74f5a593b96cada02c.png" ]
+features = [
+  "Zap from any client",
+  "Bypass Apple's draconian rules",
+  "nostr wallet connection",
+  "Say FU to Apple",
+  "FU, Apple 🖕"
+]
+npub = "npub1u8lnhlw5usp3t9vmpz60ejpyt649z33hu82wc2hpv6m5xdqmuxhs46turz"
+platforms = [ "web" ]
+source = "https://github.com/benthecarman/zapple-pay-backend"
+thumb = "https://cdn.satellite.earth/c98f7615f9b43184b524530f26809c9d6a52d637277a47c6a2700ee3949ae62c.png"
+url = "https://www.zapplepay.com/"

@@ -1,0 +1,349 @@
+package main
+
+templ home(categories []string, apps map[string]AppDefinition) {
+	<!DOCTYPE html>
+	<html>
+		<head>
+			@headCommon()
+			<title>Nostr Apps</title>
+			<meta content="Explore Nostr Apps" property="og:title"/>
+			<meta
+				content="/static/cover.png"
+				property="og:image"
+			/>
+			<meta content="Explore Nostr Apps" property="twitter:title"/>
+			<meta
+				content="/static/cover.png"
+				property="twitter:image"
+			/>
+			<style>
+.player {
+  position: relative;
+}
+
+.up {
+  top: -68px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.controlsOuter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.controlsInner {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.controlsInner .btn {
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  color: #c2b0c1;
+  padding: 16px;
+  border-radius: 8px;
+}
+.controlsInner .btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+.play,
+.pause {
+  font-size: 32px;
+}
+
+.pause {
+  display: none;
+}
+
+.container-thumb {
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px #d18eb88c;
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  top: -50px;
+  left: 10px;
+}
+			</style>
+		</head>
+		<body class="body">
+			@pageHeader()
+			<div class="drop-container">
+				<div data-hover="false" data-delay="0" class="dropdown w-dropdown">
+					<div class="dropdown-toggle w-dropdown-toggle">
+						<div class="icon w-icon-dropdown-toggle"></div>
+						<div class="replace-text">Social</div>
+					</div>
+					<nav class="dropdown-list w-dropdown-list">
+						<a
+							data-dropdown="All Apps"
+							href="#"
+							class="replace-text w-dropdown-link"
+						>
+							All Apps
+						</a>
+						<a
+							data-dropdown="Audio"
+							href="#"
+							class="replace-text w-dropdown-link"
+						>
+							Audio
+						</a>
+						<a
+							data-dropdown="Curation"
+							href="#"
+							class="replace-text w-dropdown-link"
+						>
+							Curation
+						</a>
+						<a
+							data-dropdown="Career"
+							href="#"
+							class="replace-text w-dropdown-link"
+						>
+							Career
+						</a>
+						<a
+							data-dropdown="Community"
+							href="#"
+							class="replace-text w-dropdown-link"
+						>
+							Community
+						</a>
+						<a
+							data-dropdown="Direct Message"
+							href="#"
+							class="replace-text w-dropdown-link"
+						>
+							Direct Message
+						</a>
+						<a
+							data-dropdown="File Sharing"
+							href="#"
+							class="replace-text w-dropdown-link"
+						>
+							File Sharing
+						</a>
+						<a
+							data-dropdown="Group Chat"
+							href="#"
+							class="replace-text w-dropdown-link"
+						>
+							Group Chat
+						</a>
+						<a
+							data-dropdown="IRL"
+							href="#"
+							class="replace-text w-dropdown-link"
+						>
+							IRL
+						</a>
+						<a
+							data-dropdown="Marketplaces"
+							href="#"
+							class="replace-text w-dropdown-link"
+						>
+							Marketplaces
+						</a>
+						<a
+							data-dropdown="Money"
+							href="#"
+							class="replace-text w-dropdown-link"
+						>
+							Money
+						</a>
+						<a
+							data-dropdown="Music"
+							href="#"
+							class="replace-text w-dropdown-link"
+						>
+							Music
+						</a>
+						<a
+							data-dropdown="Privacy"
+							href="#"
+							class="replace-text w-dropdown-link"
+						>
+							Privacy
+						</a>
+						<a
+							data-dropdown="Signers"
+							href="#"
+							class="replace-text w-dropdown-link"
+						>
+							Signers
+						</a>
+						<a
+							data-dropdown="Social"
+							href="#"
+							class="replace-text w-dropdown-link"
+						>
+							Social
+						</a>
+						<a
+							data-dropdown="Streaming"
+							href="#"
+							class="replace-text w-dropdown-link"
+						>
+							Streaming
+						</a>
+						<a
+							data-dropdown="Tools"
+							href="#"
+							class="replace-text w-dropdown-link"
+						>
+							Tools
+						</a>
+						<a
+							data-dropdown="Video"
+							href="#"
+							class="replace-text w-dropdown-link"
+						>
+							Video
+						</a>
+						<a
+							data-dropdown="Writing"
+							href="#"
+							class="replace-text w-dropdown-link"
+						>
+							Writing
+						</a>
+					</nav>
+				</div>
+			</div>
+			<div>
+				<div
+					data-current="All Apps"
+					data-easing="ease"
+					data-duration-in="300"
+					data-duration-out="100"
+					class="tabs w-tabs"
+				>
+					<div class="tabs-menu w-tab-menu">
+						<a
+							data-w-tab="All Apps"
+							class="tab w-inline-block w-tab-link w--current"
+						>
+							<img
+								width="10"
+								loading="lazy"
+								alt=""
+								src="/static/grid.svg"
+								class="tab-icon"
+							/>
+							<div class="text-block-4">All Apps</div>
+							<div fs-countitems-element="value" class="count"></div>
+						</a>
+						for _, category := range categories {
+							<a data-w-tab="Audio" class="tab w-inline-block w-tab-link">
+								<img
+									loading="lazy"
+									src={ "/static/category-" + category + ".svg" }
+									alt=""
+									class="tab-icon"
+								/>
+								<div>{ titleCase(category) }</div>
+							</a>
+						}
+					</div>
+					<div fs-cmsfilter-field="" class="tabs-content w-tab-content">
+						<div data-w-tab="All Apps" class="w-tab-pane w--tab-active">
+							<div class="category">
+								<div fs-cmsfilter-element="list" class="w-dyn-list">
+									<div
+										fs-countitems-element="list"
+										role="list"
+										class="collection-list-5 w-dyn-items"
+									>
+										for slug, app := range apps {
+											<div role="listitem" class="collection-item w-dyn-item">
+												<a
+													href={ templ.SafeURL(slug) }
+													class="app-link w-inline-block"
+												>
+													<div class="item-left">
+														<div class="thumb-placeholder">
+															<img
+																alt={ app.Name }
+																loading="lazy"
+																src={ app.Thumb }
+																class="app-thumb"
+															/>
+														</div>
+														<div class="meta">
+															<h2 fs-cmsfilter-field="app" class="app-title">
+																{ app.Name }
+															</h2>
+															<p class="description">{ app.Description }</p>
+														</div>
+													</div>
+												</a>
+												<div class="collection-list-wrapper-7 w-dyn-list">
+													<div role="list" class="collection-list-19 w-dyn-items">
+														<div role="listitem" class="w-dyn-item">
+															for _, platform := range app.Platforms {
+																<div class="tag">
+																	{ platform }
+																</div>
+															}
+														</div>
+													</div>
+												</div>
+											</div>
+										}
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=641d0d46d5c124ac928a6027" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+			<script>
+      document.addEventListener('click', function (event) {
+        // Check if clicked element or its parent has the data-dropdown attribute
+        let dropdownElement = event.target.hasAttribute('data-dropdown')
+          ? event.target
+          : event.target.closest('[data-dropdown]')
+
+        if (dropdownElement) {
+          // Get the value of the data-dropdown attribute
+          const dropdownValue = dropdownElement.getAttribute('data-dropdown')
+
+          // Find the matching tab element using the data-w-tab attribute
+          const tabElement = document.querySelector(
+            `[data-w-tab="${dropdownValue}"]`
+          )
+
+          // If a matching tab is found, trigger a click on it
+          if (tabElement) {
+            tabElement.click()
+          }
+
+          // Extract text directly from the dropdown element
+          const dropdownText = dropdownElement.textContent.trim()
+
+          // Find the element with .replace-text class
+          const replaceTextElement = document.querySelector('.replace-text')
+
+          // If found, replace its text content with the text extracted from data-dropdown element
+          if (replaceTextElement) {
+            replaceTextElement.textContent = dropdownText
+          }
+        }
+      })
+
+      $('[data-dropdown]').click(function () {
+        $('.dropdown').triggerHandler('w-close.w-dropdown')
+      })
+    </script>
+		</body>
+	</html>
+}

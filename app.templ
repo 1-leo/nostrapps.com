@@ -1,0 +1,121 @@
+package main
+
+type AppDefinition struct {
+	Name        string   `yaml:"name"`
+	Npub        string   `yaml:"npub"`
+	Categories  []string `yaml:"categories"`
+	Description string   `yaml:"description"`
+	Gallery     []string `yaml:"gallery"`
+	Features    []string `yaml:"features"`
+	Platforms   []string `yaml:"platforms"`
+	Source      string   `yaml:"source"`
+	Thumb       string   `yaml:"thumb"`
+	URL         string   `yaml:"url"`
+}
+
+templ app(a AppDefinition) {
+	<!DOCTYPE html>
+	<html>
+		<head>
+			@headCommon()
+			<title>{ a.Name } - nostrapps.com</title>
+			<meta content={ a.Description } name="description"/>
+			<script src="https://unpkg.com/nostr-web-components@0.0.3/dist/nostr-name.js"></script>
+		</head>
+		<body class="body-2">
+			@pageHeader()
+			<div
+				data-w-id="fcab479d-6e6f-aee3-cf0c-98b327dbcc6d"
+				class="container-index"
+			>
+				<div class="category app">
+					<div class="app-meta">
+						<div class="div-block-7">
+							<div class="app-thumb single">
+								<img
+									src={ a.Thumb }
+									loading="lazy"
+									alt={ a.Name }
+									class="image-3"
+								/>
+							</div>
+							<div class="item-meta">
+								<h1 class="title">{ a.Name }</h1>
+								<div class="div-block">
+									<div class="description">By</div>
+									<a
+										href={ templ.SafeURL("https://njump.me/" + a.Npub) }
+										class="description author"
+									>
+										<nostr-name pubkey={ a.Npub }></nostr-name>
+									</a>
+								</div>
+								<p class="description single">{ a.Description }</p>
+							</div>
+						</div>
+						<div class="div-block-9">
+							<a href={ templ.SafeURL(a.URL) } class="download-button w-button">
+								Visit
+							</a>
+						</div>
+					</div>
+					<div class="item-section">
+						<h4 class="section-heading">Platforms</h4>
+						<div>
+							<div class="collection-list-wrapper-2 w-dyn-list">
+								<div role="list" class="w-dyn-items w-row">
+									for _, platform := range a.Platforms {
+										<div
+											role="listitem"
+											class="collection-item-3 w-dyn-item w-col w-col-2"
+										>
+											<img
+												src={ "/static/platform-" + platform + ".png" }
+												loading="lazy"
+												alt={ platform }
+												class="platform-image"
+											/>
+										</div>
+									}
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item-section">
+						<h4 class="section-heading">Highlights</h4>
+						<div class="rich-text-block w-richtext">
+							<ul role="list">
+								for _, f := range a.Features {
+									<li>{ f }</li>
+								}
+							</ul>
+						</div>
+					</div>
+					<div class="item-section">
+						if len(a.Gallery) > 0 {
+							<h4 class="section-heading">Screenshots</h4>
+							<div class="collection-list-wrapper w-dyn-list">
+								<div role="list" class="collection-list w-dyn-items">
+									for _, pic := range a.Gallery {
+										<div
+											role="listitem"
+											class="collection-item-2 w-dyn-item w-dyn-repeater-item"
+										>
+											<a href={ templ.SafeURL(pic) } class="w-inline-block w-lightbox">
+												<img
+													src={ pic }
+													loading="lazy"
+													class="app-gallery"
+												/>
+											</a>
+										</div>
+									}
+								</div>
+							</div>
+						}
+					</div>
+				</div>
+			</div>
+		</body>
+	</html>
+}
