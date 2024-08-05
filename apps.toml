@@ -332,7 +332,7 @@ url = "https://apps.apple.com/us/app/damus/id1628663131"
 
 [docstr]
 name = "Docstr"
-categories = [ "office-tools" ]
+categories = [ "writing" ]
 description = "Documents on nostr"
 gallery = [
   "https://cdn.satellite.earth/525ccbb840d17ac153d710993f48faa6893f6debef0b71e9b2e82473d2ce1880.png",
@@ -1413,7 +1413,7 @@ url = "https://syusui-s.github.io/rabbit/#/"
 
 [rana]
 name = "Rana"
-categories = [ "nostr-management" ]
+categories = [ "nostr-management", "tools" ]
 description = "Nostr vanity key generator"
 gallery = [
   "https://cdn.satellite.earth/c4a0b6024478fcb7b166bbf4a5bebc881c99b2a96f406fc5e32082da10710d9e.png",
@@ -1596,7 +1596,7 @@ url = "https://snort.social/"
 
 [song]
 name = "Song"
-categories = [ "relay" ]
+categories = [ "relay", "tools" ]
 description = "A personal git server tightly integrated with Nostr"
 platforms = [ "server" ]
 features = [
