@@ -20,7 +20,7 @@ templ home(categories []string, platforms []string, apps map[string]AppDefinitio
 		<body class="body" x-data="{filter: {platform: 'all', search: ''}, count: {all: 0}}">
 			@pageHeader(platforms, false)
 			<div>
-				<div class="tabs w-tabs">
+				<div class="tabs">
 					<div class="tabs-menu w-tab-menu">
 						<a
 							class="tab w-inline-block w-tab-link"
@@ -34,7 +34,7 @@ templ home(categories []string, platforms []string, apps map[string]AppDefinitio
 								src="/static/grid.svg"
 								class="tab-icon"
 							/>
-							<div class="text-block-4">All Apps</div>
+							<div>All Apps</div>
 							<div class="count" x-text="count.all"></div>
 						</a>
 						for _, category := range categories {
@@ -54,22 +54,17 @@ templ home(categories []string, platforms []string, apps map[string]AppDefinitio
 							</a>
 						}
 					</div>
-					<div fs-cmsfilter-field="" class="tabs-content w-tab-content">
+					<div class="tabs-content w-tab-content">
 						<div class="w-tab-pane w--tab-active">
 							<div class="category">
-								<div fs-cmsfilter-element="list" class="w-dyn-list">
-									<div
-										fs-countitems-element="list"
-										role="list"
-										class="collection-list-5 w-dyn-items"
-									>
+								<div>
+									<div class="collection-list-5">
 										for slug, app := range apps {
 											<div
 												x-data={ "{platforms: " + jsEncode(app.Platforms) + ", categories: " + jsEncode(app.Categories) + ", fulltext: `" + app.Fulltext() + "`}" }
 												x-init={ "count.all++; categories.forEach(c => {count[c] = (count[c] || 0) + 1})" }
 												x-show={ "(platforms.includes(filter.platform) || filter.platform == 'all') && (!filter.category || categories.includes(filter.category)) && (fulltext.match(filter.search))" }
-												role="listitem"
-												class="collection-item w-dyn-item"
+												class="collection-item"
 											>
 												<a
 													href={ templ.SafeURL(slug) }
@@ -85,16 +80,16 @@ templ home(categories []string, platforms []string, apps map[string]AppDefinitio
 															/>
 														</div>
 														<div class="meta">
-															<h2 fs-cmsfilter-field="app" class="app-title">
+															<h2 class="app-title">
 																{ app.Name }
 															</h2>
 															<p class="description">{ app.Description }</p>
 														</div>
 													</div>
 												</a>
-												<div class="collection-list-wrapper-7 w-dyn-list">
-													<div role="list" class="collection-list-19 w-dyn-items">
-														<div role="listitem" class="w-dyn-item">
+												<div class="collection-list-wrapper-7">
+													<div class="collection-list-19">
+														<div>
 															for _, platform := range app.Platforms {
 																<div class="tag">
 																	{ platform }

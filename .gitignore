@@ -1,3 +1,5 @@
 .env
 *_templ.go
 nostrapps.com
+static/bundle.css
+node_modules

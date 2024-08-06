@@ -11,10 +11,7 @@ templ app(platforms []string, a AppDefinition) {
 		</head>
 		<body class="body-2">
 			@pageHeader(platforms, true)
-			<div
-				data-w-id="fcab479d-6e6f-aee3-cf0c-98b327dbcc6d"
-				class="container-index"
-			>
+			<div class="container-index z-10">
 				<div class="category app">
 					<div class="app-meta">
 						<div class="div-block-7">
@@ -49,12 +46,11 @@ templ app(platforms []string, a AppDefinition) {
 					<div class="item-section">
 						<h4 class="section-heading">Platforms</h4>
 						<div>
-							<div class="collection-list-wrapper-2 w-dyn-list">
-								<div role="list" class="w-dyn-items w-row">
+							<div class="collection-list-wrapper-2">
+								<div class="w-row">
 									for _, platform := range a.Platforms {
 										<div
-											role="listitem"
-											class="collection-item-3 w-dyn-item w-col w-col-2"
+											class="collection-item-3 w-col w-full sm:w-1/6"
 										>
 											<img
 												src={ "/static/platform-" + platform + ".png" }
@@ -71,7 +67,7 @@ templ app(platforms []string, a AppDefinition) {
 					<div class="item-section">
 						<h4 class="section-heading">Highlights</h4>
 						<div class="rich-text-block w-richtext">
-							<ul role="list">
+							<ul>
 								for _, f := range a.Features {
 									<li>{ f }</li>
 								}
@@ -81,14 +77,11 @@ templ app(platforms []string, a AppDefinition) {
 					<div class="item-section">
 						if len(a.Gallery) > 0 {
 							<h4 class="section-heading">Screenshots</h4>
-							<div class="collection-list-wrapper w-dyn-list">
-								<div role="list" class="collection-list w-dyn-items">
+							<div class="collection-list-wrapper">
+								<div class="collection-list">
 									for _, pic := range a.Gallery {
-										<div
-											role="listitem"
-											class="collection-item-2 w-dyn-item w-dyn-repeater-item"
-										>
-											<a href={ templ.SafeURL(pic) } class="w-inline-block w-lightbox">
+										<div class="collection-item-2">
+											<a href={ templ.SafeURL(pic) } class="w-inline-block">
 												<img
 													src={ pic }
 													loading="lazy"

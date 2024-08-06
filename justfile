@@ -1,12 +1,16 @@
+export PATH := "./node_modules/.bin:" + env_var('PATH')
+
 dev:
     fd 'go|html|md|templ|base.css' | entr -r bash -c 'just build && godotenv ./nostrapps.com'
+
+build: templ tailwind
+    CC=musl-gcc go build -ldflags="-s -w -linkmode external -extldflags '-static' -s -w" -o ./
 
 templ:
     templ generate
 
-build:
-    just templ
-    CC=musl-gcc go build -ldflags="-s -w -linkmode external -extldflags '-static' -s -w" -o ./
+tailwind:
+    tailwind -i base.css -o static/bundle.css
 
 deploy: build
     ssh root@erhard 'systemctl stop nostrapps.com'
