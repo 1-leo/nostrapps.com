@@ -99,6 +99,9 @@ func main() {
 
 	// routes
 	mux.Handle("/static/", http.FileServer(http.FS(static)))
+	mux.HandleFunc("/apps/{app}", func(w http.ResponseWriter, r *http.Request) {
+		http.Redirect(w, r, "/"+r.PathValue("app"), 301)
+	})
 	mux.HandleFunc("/{app}", handleAppPage)
 	mux.HandleFunc("/{$}", handleHomePage)
 
