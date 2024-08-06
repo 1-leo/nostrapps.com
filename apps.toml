@@ -1594,28 +1594,6 @@ source = "https://github.com/v0l/snort"
 thumb = "https://cdn.satellite.earth/bcdaa1704da7ab79c222de2ad8197d148f925f53ce8cfc23ecfb5e83d976f9df.svg"
 url = "https://snort.social/"
 
-[song]
-name = "Song"
-categories = [ "relay", "tools" ]
-description = "A personal git server tightly integrated with Nostr"
-platforms = [ "server" ]
-features = [
-  "Simple and lightweight single-binary",
-  "Acts as a Nostr relay",
-  "No JavaScript",
-  "Syntax highlighting",
-  "NIP-34 repository announcements and patches supported natively",
-  "Pre-authorized Nostr-based `git push` over HTTP"
-]
-gallery = [
-  "https://cdn.satellite.earth/45e78e976d387b1da4b788fc4d6a2c8f9a28031aa8f75cab1e710e25f6cf41a0.png",
-  "https://cdn.satellite.earth/ca449ddbfa556350b77307389dd028f673f491cbb308d656ee6298b420215550.png",
-  "https://cdn.satellite.earth/fae89c9ea85b45ac9d78776a494f5fb5b9eabbba744c7692d21776af8b9830c0.png"
-]
-source = "https://git.fiatjaf.com/song"
-url = "https://git.fiatjaf.com/song"
-thumb = "https://cdn.satellite.earth/a34527088046ace8922c0e70861521dfb769cfa04060eadea709fec7abafc1b3.png"
-
 [spring]
 name = "Spring"
 categories = [ "browsers" ]
