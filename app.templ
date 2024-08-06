@@ -1,18 +1,5 @@
 package main
 
-type AppDefinition struct {
-	Name        string   `yaml:"name"`
-	Npub        string   `yaml:"npub"`
-	Categories  []string `yaml:"categories"`
-	Description string   `yaml:"description"`
-	Gallery     []string `yaml:"gallery"`
-	Features    []string `yaml:"features"`
-	Platforms   []string `yaml:"platforms"`
-	Source      string   `yaml:"source"`
-	Thumb       string   `yaml:"thumb"`
-	URL         string   `yaml:"url"`
-}
-
 templ app(platforms []string, a AppDefinition) {
 	<!DOCTYPE html>
 	<html>

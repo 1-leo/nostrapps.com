@@ -65,10 +65,8 @@ templ pageHeader(platforms []string, isAppPage bool) {
 							<input
 								class="search w-input"
 								maxlength="256"
-								name="name"
 								placeholder="Search"
-								type="text"
-								id="name"
+								x-on:input="filter.search = $event.target.value"
 							/>
 							<div class="filter-area">
 								<div class="text-block-5">Filter:</div>
