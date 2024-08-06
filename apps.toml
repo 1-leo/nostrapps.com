@@ -1237,6 +1237,31 @@ platforms = [ "web" ]
 thumb = "https://cdn.satellite.earth/601a58f69b180265ac2571a74777d13d95a34318c04ef2a9829c1584fcfb9eed.png"
 url = "https://nsec.app/"
 
+[obsidian-nostr-writer]
+name = "Obsidian Nostr Writer"
+npub = "npub10a8kw2hsevhfycl4yhtg7vzrcpwpu7s6med27juf4lzqpsvy270qrh8zkw"
+source = "https://github.com/jamesmagoo/nostr-writer"
+url = "https://obsidian.md/plugins?search=nostr#"
+platforms = [ "desktop" ]
+categories = [ "writing" ]
+features = [
+  "Directly publish your articles from Obsidian to Nostr with a couple of clicks",
+  "Quickly compose and publish short form notes too",
+  "Images in your .md file will automatically be uploaded and handled when you publish",
+  "Add tags to your posts",
+  "See all posts sent from Obsidian with links to view",
+  "Configure to send to whatever relays you like",
+  "Publish under different nostr accounts",
+  "Easily view and download your Nostr bookmarks into Obsidian for reference and local use",
+  "Automatically populates article information fields from the frontmatter"
+]
+thumb = "https://cdn.satellite.earth/26669dbdcc7eba4a89ce9754a6fae800e0d965e8a0fa849c037fb4d4668a708c.png"
+gallery = [
+  "https://cdn.satellite.earth/48870669e1c251156406a1109e0fc568bc4929af775d29fd2d5272503f8d6291.png",
+  "https://cdn.satellite.earth/eff1b28e1a32e4b7fe60cf29897ea9d77c5863768555a37fef3a823650f49d0c.png",
+  "https://cdn.satellite.earth/1b2c8c97a4bbd645aae0816582f0ea93456a161eff8670ba3a6d10c60f58a681.png"
+]
+
 [oddbean]
 name = "Oddbean"
 categories = [ "social" ]
