@@ -76,7 +76,7 @@ features = [ "Works on Android 👍" ]
 npub = "npub1w4uswmv6lu9yel005l3qgheysmr7tk9uvwluddznju3nuxalevvs2d0jr5"
 platforms = [ "android" ]
 thumb = "https://cdn.satellite.earth/f47cc0402578f70291b0623b55247d21b26ac3a636ec26e46d8350a85107e69c.svg"
-url = "https://github.com/greenart7c3/Amber/releases/tag/v0.0.2"
+url = "https://github.com/greenart7c3/Amber/releases"
 
 [amethyst]
 name = "Amethyst"
@@ -974,22 +974,6 @@ source = "https://github.com/dskvr/nostr-watch"
 thumb = "https://cdn.satellite.earth/a77d4ed9d30ff59da43d77397ff5c63cfacf4b80f4cabb4186b2533ae47e4ad2.png"
 url = "https://nostr.watch/relays/find"
 
-[nostr-zap]
-name = "Nostr Zap"
-categories = [ "nostr-management" ]
-description = "Add zaps to anything"
-gallery = [ ]
-features = [
-  "Add a zap button on your website and get zapped from anywhere",
-  "Add zaps to content (once broadcasted as a note on nostr)",
-  "Support for multiple buttons"
-]
-npub = "npub1vp8fdcyejd4pqjyrjk9sgz68vuhq7pyvnzk8j0ehlljvwgp8n6eqsrnpsw"
-platforms = [ "web" ]
-source = "https://github.com/SamSamskies/nostr-zap"
-thumb = "https://cdn.satellite.earth/9f13ab0cd6a6837a5bcb6542d6c6c6563a4715a3159b71a5190b920a057f3d80.png"
-url = "https://github.com/SamSamskies/nostr-zap"
-
 [nostree]
 name = "Nostree"
 categories = [ "curation", "nostr-management" ]
@@ -1410,24 +1394,6 @@ npub = "npub1jcsr6e38dcepf65nkmrc54mu8jd8y70eael9rv308wxpwep6sxwqgsscyc"
 platforms = [ "web" ]
 thumb = "https://cdn.satellite.earth/35caf3ec824c5cf301c61d921e5e3cf3d12f9ef40e742e1ea26657cf3b093a9b.png"
 url = "https://syusui-s.github.io/rabbit/#/"
-
-[rana]
-name = "Rana"
-categories = [ "nostr-management", "tools" ]
-description = "Nostr vanity key generator"
-gallery = [
-  "https://cdn.satellite.earth/c4a0b6024478fcb7b166bbf4a5bebc881c99b2a96f406fc5e32082da10710d9e.png",
-  "https://cdn.satellite.earth/5273ce580b73ecfed980d97c85b7980b59aed950f993831b2fd40bbc4bc273ae.png"
-]
-features = [
-  "Generates vanity keys through proof of work",
-  "Fameatspacey easy to use after you install the prerequisites, even for non-developers",
-  "Requires Rust"
-]
-platforms = [ "cli" ]
-source = "https://github.com/grunch/rana"
-thumb = "https://cdn.satellite.earth/15ddaf027e72f11d3445a65eafa504c680278dc3ddda88a84143a2ba85a44691.png"
-url = "https://github.com/grunch/rana"
 
 [relay-tools]
 name = "Relay Tools"
