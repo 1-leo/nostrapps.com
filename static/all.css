@@ -1444,7 +1444,6 @@ li {
 }
 .form-block {
   justify-content: space-between;
-  width: 100%;
   margin-bottom: 0;
   display: flex;
 }
@@ -1617,7 +1616,7 @@ li {
     padding-bottom: 1%;
     display: block;
   }
-  .form-block {
+  .form-block .filter-area {
     display: none;
   }
   .div-block-8 {
