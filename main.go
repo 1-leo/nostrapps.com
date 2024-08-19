@@ -45,6 +45,7 @@ var (
 		"tools",
 		"video",
 		"writing",
+		"gaming",
 	}
 	platforms = []string{
 		"All",     // "all"

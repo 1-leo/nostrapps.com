@@ -1942,3 +1942,25 @@ platforms = [ "web" ]
 source = "https://github.com/benthecarman/zapple-pay-backend"
 thumb = "https://cdn.satellite.earth/c98f7615f9b43184b524530f26809c9d6a52d637277a47c6a2700ee3949ae62c.png"
 url = "https://www.zapplepay.com/"
+
+[deg-mods]
+name = "DEG Mods"
+categories = [ "gaming"]
+description = "Censorship-resistant game mods platform"
+gallery = [
+  "https://image.nostr.build/9ea5f70a647581e5ea8855edcc2afb59b33195a3498c4052fa6350e414c03c50.jpg",
+  "https://image.nostr.build/f9a74d52547e84e51934f03358e5c41a2f99b896f1b2369fc3f4027d0f1a0d6f.jpg",
+  "https://image.nostr.build/cbd806c58a0f5e33b721cd9205c53aae64a422f271a8434b4d9bb8c3ba4e5c90.jpg",
+  "https://image.nostr.build/374bb4ca83211fd1f5646b611af188a424ebb1b44df1cb7ad29208868ac12675.jpg"
+]
+features = [
+  "Never get your game mod page get taken down",
+  "Never get your profile banned",
+  "Never lose your followers",
+  "Get 100% of tips revenue"
+]
+npub = "npub17jl3ldd6305rnacvwvchx03snauqsg4nz8mruq0emj9thdpglr2sst825x"
+platforms = [ "web" ]
+source = "https://git.nostrdev.com/degmods/degmods.com"
+thumb = "https://image.nostr.build/d7a8b7ccf2ecd02f0496cf95ff860309c87dcb053c5bc030557b9f47be7c2bd2.png"
+url = "https://degmods.com/"
