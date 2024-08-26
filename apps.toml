@@ -1,3 +1,33 @@
+[SatShoot]
+name = "SatShoot"
+categories = [ "freelancing", "troubleshooting", "career", "marketplaces" ]
+description = "Freelance for sats on Nostr"
+gallery = [
+    "https://satshoot.com/screenshots/mobile/app_screenshot_1.jpg",
+    "https://satshoot.com/screenshots/mobile/app_screenshot_2.jpg",
+    "https://satshoot.com/screenshots/mobile/app_screenshot_3.jpg",
+    "https://satshoot.com/screenshots/mobile/app_screenshot_4.jpg",
+    "https://satshoot.com/screenshots/desktop/app_screenshot_1.jpg",
+    "https://satshoot.com/screenshots/desktop/app_screenshot_2.jpg",
+    "https://satshoot.com/screenshots/desktop/app_screenshot_3.jpg",
+    "https://satshoot.com/screenshots/desktop/app_screenshot_4.jpg",
+]
+features = [
+    "Post problems on SatShoot",
+    "Make money solving problems as a Freelancer",
+    "Share problems or freelance services on your feed",
+    "Bidding system for Clients to choose the best Offer",
+    "Chat in DMs",
+    "Post Reviews on Freelancers or Clients",
+    "Build Reputation",
+    "Public Zaps as Payments",
+    "Use your Web of Trust to keep scammers away"
+]
+npub = "npub16p8v7varqwjes5hak6q7mz6pygqm4pwc6gve4mrned3xs8tz42gq7kfhdw"
+platforms = [ "web" ]
+thumb = "https://image.nostr.build/43b219f4d0931ba751aea6b3abacbe36d174a2d3f59c56dfa1e438d83c9b318e.jpg"
+url = "https://satshoot.com/"
+
 [0xchat]
 name = "0xChat"
 categories = [ "direct-message", "group-chat" ]
