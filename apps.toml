@@ -6,11 +6,11 @@ gallery = [
     "https://satshoot.com/screenshots/mobile/app_screenshot_1.jpg",
     "https://satshoot.com/screenshots/mobile/app_screenshot_2.jpg",
     "https://satshoot.com/screenshots/mobile/app_screenshot_3.jpg",
-    "https://satshoot.com/screenshots/mobile/app_screenshot_4.jpg",
-    "https://satshoot.com/screenshots/desktop/app_screenshot_1.jpg",
-    "https://satshoot.com/screenshots/desktop/app_screenshot_2.jpg",
-    "https://satshoot.com/screenshots/desktop/app_screenshot_3.jpg",
-    "https://satshoot.com/screenshots/desktop/app_screenshot_4.jpg",
+    "https://satshoot.com//screenshots/mobile/app_screenshot_4.jpg",
+    "https://satshoot.com/screenshots/desktop/app_screenshot_1_desktop.png",
+    "https://satshoot.com/screenshots/desktop/app_screenshot_2_desktop.png",
+    "https://satshoot.com/screenshots/desktop/app_screenshot_3_desktop.png",
+    "https://satshoot.com/screenshots/desktop/app_screenshot_4_desktop.png",
 ]
 features = [
     "Post problems on SatShoot",
