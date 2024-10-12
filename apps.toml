@@ -1964,3 +1964,25 @@ platforms = [ "web" ]
 source = "https://git.nostrdev.com/degmods/degmods.com"
 thumb = "https://image.nostr.build/d7a8b7ccf2ecd02f0496cf95ff860309c87dcb053c5bc030557b9f47be7c2bd2.png"
 url = "https://degmods.com/"
+
+[Nostrame]
+name = "Nostrame"
+categories = [ "signers", "nostr-management" ]
+description = "Nostr Account Management Extension"
+gallery = [
+    "https://image.nostr.build/575e2e92a68b810f82faf43819184beb69719bb6177e9b9f3233a5315d604b10.png"
+]
+features = [
+    "Derive accounts from a mnemonic seed",
+    "Generate random mnemonic accounts",
+    "NIP-07 - window.nostr capability for web browsers",
+    "Import external accounts",
+    "Set basic metadata on Nostr",
+    "Enjoy encryption secured by a master password",
+    "Lock and unlock the vault with ease",
+    "Easily import and export backups"
+]
+npub = "npub1lm93678pyyxxdta28lyjaq4pyfps6cqpk9y04w3seu4wfeh6alesnzwwz2"
+platforms = [ "web" ]
+thumb = "https://image.nostr.build/453bef44562672bc893fed27530a3611dbe86c0ecfd2187edba863beab8fb6d3.png"
+url = "https://chromewebstore.google.com/detail/nostrame/phfdiknibomfgpefcicfckkklimoniej"
