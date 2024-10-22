@@ -766,10 +766,10 @@ li {
 }
 .search {
   background-color: #000;
-  background-image: url(https://dev2.hazlitt.fiatjaf.com/static/search-icon.svg);
+  background-image: url(/static/search-icon.svg);
   background-position: 0;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 26px;
   border: 0 #000;
   flex: 1;
   height: 50px;
