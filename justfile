@@ -12,7 +12,7 @@ templ:
 tailwind:
     tailwind -i base.css -o static/bundle.css
 
-deploy: build
-    ssh root@erhard 'systemctl stop nostrapps.com'
-    scp nostrapps.com erhard:nostrapps.com/nostrapps.com
-    ssh root@erhard 'systemctl start nostrapps.com'
+deploy target: build
+    ssh root@{{target}} 'systemctl stop nostrapps.com'
+    scp nostrapps.com {{target}}:nostrapps.com/nostrapps.com
+    ssh root@{{target}} 'systemctl start nostrapps.com'
