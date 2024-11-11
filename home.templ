@@ -39,7 +39,7 @@ templ home(categories []string, platforms []string, apps map[string]AppDefinitio
 						</a>
 						for _, category := range categories {
 							<a
-  							href={ "#" + category }
+								href={ templ.SafeURL("#" + category) }
 								class="tab w-inline-block w-tab-link"
 								x-bind:class={ "{'w--current': filter.category == '" + category + "'}" }
 								x-on:click={ "filter.category = '" + category + "'" }
