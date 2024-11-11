@@ -17,7 +17,7 @@ templ home(categories []string, platforms []string, apps map[string]AppDefinitio
 				property="twitter:image"
 			/>
 		</head>
-		<body class="body" x-data="{filter: {platform: 'all', search: ''}, count: {all: 0}}">
+		<body class="body" x-data="{filter: {platform: 'all', search: '', category: window.location.hash.slice(1)}, count: {all: 0}}">
 			@pageHeader(platforms, false)
 			<div>
 				<div class="tabs">
@@ -39,6 +39,7 @@ templ home(categories []string, platforms []string, apps map[string]AppDefinitio
 						</a>
 						for _, category := range categories {
 							<a
+  							href={ "#" + category }
 								class="tab w-inline-block w-tab-link"
 								x-bind:class={ "{'w--current': filter.category == '" + category + "'}" }
 								x-on:click={ "filter.category = '" + category + "'" }
