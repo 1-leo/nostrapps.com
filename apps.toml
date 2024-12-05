@@ -144,8 +144,8 @@ features = [
 ]
 npub = "npub1jlrs53pkdfjnts29kveljul2sm0actt6n8dxrrzqcersttvcuv3qdjynqn"
 platforms = [ "web" ]
-source = "https://github.com/staab/coracle"
-thumb = "https://cdn.satellite.earth/eb8057eae78b894074d6ec0cd74919b67611c2b2d0673db7360393239e4241b4.png"
+source = "https://github.com/coracle-social/coracle"
+thumb = "https://coracle-media.us-southeast-1.linodeobjects.com/logomark-light.png"
 url = "https://coracle.social"
 
 
