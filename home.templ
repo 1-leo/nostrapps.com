@@ -17,7 +17,13 @@ templ home(categories []string, platforms []string, apps map[string]AppDefinitio
 				property="twitter:image"
 			/>
 		</head>
-		<body class="body" x-data="{filter: {platform: 'all', search: '', category: window.location.hash.slice(1)}, count: {all: 0}}">
+		<script>
+			function navigateTo(category, platform){
+				const newUrl = `#${category}${platform ? '#' + platform : ''}`;
+				window.history.pushState({}, '', newUrl);
+			}
+		</script>
+		<body class="body" x-data="{filter: {search: '', category: (window.location.hash.split('#')[1] || ''), platform: (window.location.hash.split('#')[2] || 'all')}, count: {all: 0}}">
 			@pageHeader(platforms, false)
 			<div>
 				<div class="tabs">
@@ -25,7 +31,7 @@ templ home(categories []string, platforms []string, apps map[string]AppDefinitio
 						<a
 							class="tab w-inline-block w-tab-link"
 							x-bind:class="{'w--current': !filter.category}"
-							x-on:click={ "filter.category = null" }
+							x-on:click={ "filter.category = ''; navigateTo(filter.category, filter.platform)" }
 						>
 							<img
 								width="10"
@@ -39,10 +45,9 @@ templ home(categories []string, platforms []string, apps map[string]AppDefinitio
 						</a>
 						for _, category := range categories {
 							<a
-								href={ templ.SafeURL("#" + category) }
 								class="tab w-inline-block w-tab-link"
 								x-bind:class={ "{'w--current': filter.category == '" + category + "'}" }
-								x-on:click={ "filter.category = '" + category + "'" }
+								x-on:click={ "filter.category = '" + category + "'; navigateTo(filter.category, filter.platform)" }
 							>
 								<img
 									loading="lazy"

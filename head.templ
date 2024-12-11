@@ -77,10 +77,11 @@ templ pageHeader(platforms []string, isAppPage bool) {
 										class="radio-button-field w-radio"
 									>
 										<input
-											x-on:change="filter.platform = $event.target.value"
+											x-on:change="filter.platform = $event.target.value; navigateTo(filter.category, filter.platform); console.log('Selected platform:', filter.platform)"
 											type="radio"
 											name="Platform"
 											value={ strings.ToLower(platform) }
+											x-bind:checked="filter.platform === $el.value"
 											id="all"
 											class="absolute w-0 opacity-0"
 										/>
