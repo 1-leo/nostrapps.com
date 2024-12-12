@@ -3,14 +3,14 @@ module fiatjaf.com/nostrapps.com
 go 1.22.5
 
 require (
-	github.com/a-h/templ v0.2.747
+	github.com/a-h/templ v0.2.793
 	github.com/fiatjaf/khatru v0.7.2
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/nbd-wtf/go-nostr v0.34.5
 	github.com/pelletier/go-toml v1.9.5
 	github.com/rs/cors v1.11.0
 	github.com/rs/zerolog v1.33.0
-	golang.org/x/text v0.15.0
+	golang.org/x/text v0.17.0
 )
 
 require (
@@ -37,6 +37,6 @@ require (
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasthttp v1.51.0 // indirect
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d // indirect
-	golang.org/x/net v0.24.0 // indirect
-	golang.org/x/sys v0.21.0 // indirect
+	golang.org/x/net v0.28.0 // indirect
+	golang.org/x/sys v0.23.0 // indirect
 )
