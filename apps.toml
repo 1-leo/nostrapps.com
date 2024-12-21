@@ -490,6 +490,30 @@ source = "https://github.com/max21dev/groups"
 thumb = "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://groups.nip29.com/&size=256"
 url = "https://groups.nip29.com"
 
+[narr]
+name = "Narr"
+categories = [ "blogging" ]
+description = "Read RSS feeds and Nostr long-form content feeds"
+gallery = [
+  "https://aegis.utxo.one/6707358ee56ef069d83f4ca7b6289f1b1fc63b2848e1fbef1e8536ec9f4c8b9d.png",
+  "https://aegis.utxo.one/762ee7f9892ec8a9acb1b7f59d1f8f14652a3f1548c7483c0d53ad715d2a3ac4.png",
+  "https://aegis.utxo.one/cc6222886183ca369cccb4e65a2b3bea7a5c64701e8f489fcdadaada383bee70.png",
+  "https://aegis.utxo.one/cfcbdf51cf9723312faf1e1f6eb2f2b0bac72886fb77f4bf39fbe97348e350e6.png",
+  "https://aegis.utxo.one/f856a1c4d27aba9f22be60147ba56964bc96b23e273b1ddc7cf05c13aad9ef2f.png",
+]
+features = [
+  "Read RSS feeds",
+  "Read Nostr NIP-23 long-form articles",
+  "Import and export OPML",
+  "Runs on desktop with a web-based UI",
+  "Can be accessed remotely from apps such as Reeder, Readkit etc",
+]
+npub = "npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6"
+platforms = [ "desktop" ]
+source = "https://github.com/fiatjaf/narr"
+thumb = "https://cdn.jsdelivr.net/gh/fiatjaf/narr@v0.1.0/src/assets/graphicarts/favicon.png"
+url = "https://github.com/fiatjaf/narr/releases"
+
 [nos-social]
 name = "Nos Social"
 categories = [ "social" ]
