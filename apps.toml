@@ -93,6 +93,30 @@ source = "https://github.com/verbiricha/badges"
 thumb = "https://cdn.satellite.earth/f3d1586f50b7fa832e27f568d102c0c059db9d61377c234e5435650380a76ecf.svg"
 url = "https://badges.page/"
 
+[bouquet]
+name = "Bouquet"
+categories = [ "file-sharing" ]
+description = "A personal manager for Blossom media servers"
+gallery = [
+  "https://aegis.utxo.one/2fde63a38dde2d1e0127e5f99806e85b10336d9848d85828ba0e8b1f68937cc4.png",
+  "https://aegis.utxo.one/c69fd602e3b682a2355c871ec555ed7c4aaf24c8633f52205f263879a82b2972.png",
+  "https://aegis.utxo.one/c9665a1dfd9927bf055312c9dbf00de5be263a362e5245d379e8efb83e71073f.png",
+  "https://aegis.utxo.one/5b783521d97cba5da692a28b485a4ad92f1911c20d52131ff1032cbb0bf0750b.png"
+]
+features = [
+  "Upload files",
+  "Download files",
+  "Manage your list of mediaservers",
+  "Broadcast your list on Nostr",
+  "Sync files between servers",
+  "Browse files on your mediaservers"
+]
+npub = "npub1klr0dy2ul2dx9llk58czvpx73rprcmrvd5dc7ck8esg8f8es06qs427gxc"
+platforms = [ "web" ]
+source = "https://git.v0l.io/florian/bouquet"
+thumb = "https://bouquet.slidestr.net/bouquet.png"
+url = "https://bouquet.slidestr.net/"
+
 [chachi]
 name = "Chachi"
 categories = [ "group-chat" ]
