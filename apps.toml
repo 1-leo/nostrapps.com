@@ -24,7 +24,7 @@ url = "https://0xchat.com/"
 
 [alby]
 name = "Alby"
-categories = [ "money", "signers" ]
+categories = [ "signers" ]
 description = "Your bitcoin and nostr companion for the web"
 gallery = [
   "https://cdn.satellite.earth/b82b2119ec14276befa0cebeeea57ef4ce23db2bd15eca60758c4c4f532661a4.png",
@@ -59,7 +59,7 @@ url = "https://github.com/greenart7c3/Amber/releases"
 
 [amethyst]
 name = "Amethyst"
-categories = [ "social", "community", "streaming" ]
+categories = [ "microblogging", "photos", "streaming" ]
 description = "Amethyst brings the best decentralized social network to your Android phone"
 gallery = [
   "https://cdn.satellite.earth/03b136945e39297d8d9a6cf97af702de038a2b594a89fc988a78dff97667e2eb.webp",
@@ -75,7 +75,7 @@ url = "https://play.google.com/store/apps/details?id=com.vitorpamplona.amethyst&
 
 [badges]
 name = "Badges Page"
-categories = [ "nostr-management" ]
+categories = [ "community" ]
 description = "A manager for your nostr badges"
 gallery = [
   "https://cdn.satellite.earth/a3d2ae50bc500938792957e1d59e0c81cacffa42e762da149c1d6badac635390.png",
@@ -95,7 +95,7 @@ url = "https://badges.page/"
 
 [bouquet]
 name = "Bouquet"
-categories = [ "file-sharing" ]
+categories = [ "file-sharing", "tools" ]
 description = "A personal manager for Blossom media servers"
 gallery = [
   "https://aegis.utxo.one/2fde63a38dde2d1e0127e5f99806e85b10336d9848d85828ba0e8b1f68937cc4.png",
@@ -119,7 +119,7 @@ url = "https://bouquet.slidestr.net/"
 
 [chachi]
 name = "Chachi"
-categories = [ "group-chat" ]
+categories = [ "group-chat", "community" ]
 description = "A group chat and generic NIP-29 group posts client"
 gallery = [
   "https://cdn.satellite.earth/6e72236f02b922deeb715c552327133dcd503f01a633a74856301ba196139935.png",
@@ -152,7 +152,7 @@ url = "https://github.com/lumehq/coop/releases"
 
 [coracle]
 name = "Coracle"
-categories = [ "social" ]
+categories = [ "microblogging" ]
 description = "Nostr, the easy way."
 gallery = [
   "https://cdn.satellite.earth/621067dcc446cdb6bda35b798d9a13652f90240b2af723e96fb3437c39065a96.png",
@@ -175,7 +175,7 @@ url = "https://coracle.social"
 
 [damus]
 name = "Damus"
-categories = [ "social" ]
+categories = [ "microblogging" ]
 description = "A popular social client for iOS"
 gallery = [
   "https://cdn.satellite.earth/5da2fa87634ccdf1b0e3f7601f3d8e381dbce0525f4baa91da908c679713f671.png",
@@ -218,7 +218,7 @@ url = "https://dtan.xyz/"
 
 [emojito]
 name = "Emojito"
-categories = [ "nostr-management" ]
+categories = [ "tools" ]
 description = "Create custom emoji sets"
 gallery = [
   "https://cdn.satellite.earth/71e988d53a4c71efccdbaa7eae555e95567a912b1bc08bd6206f5a626cf555a1.png",
@@ -232,7 +232,7 @@ url = "https://emojito.meme/"
 
 [flotilla]
 name = "Flotilla"
-categories = [ "group-chat", "direct-message" ]
+categories = [ "group-chat", "direct-message", "community" ]
 description = "Relay chat client"
 gallery = [
   "https://cdn.satellite.earth/24b356d645f7c0eb64c0cb1f6bf7f1b224dbf583296cb1cc29f83c5810ab1e66.png",
@@ -253,7 +253,7 @@ url = "https://flotilla.social"
 
 [flycat]
 name = "Flycat"
-categories = [ "social", "blogging" ]
+categories = [ "microblogging", "blogging" ]
 description = "Explore Nostr universe and long form content"
 gallery = [
   "https://cdn.satellite.earth/c0db325584f1856f2a1b9dd4326c6bb7b0847fbc102e859f36b1650917ecae78.png",
@@ -275,7 +275,7 @@ url = "https://flycat.club/"
 
 [formstr]
 name = "Formstr"
-categories = [ "nostr-management" ]
+categories = [ "tools" ]
 description = "Create and share forms"
 gallery = [
   "https://cdn.satellite.earth/d5fd8984575d5da50162620416f405c9f7bca816682d5bc1fe5ad1c9dc80cb95.png",
@@ -306,7 +306,7 @@ url = "https://www.fountain.fm/"
 
 [freefrom]
 name = "FreeFrom"
-categories = [ "social" ]
+categories = [ "microblogging" ]
 description = "FreeFrom is an app dedicated to bringing privacy and free speech back to SNS"
 gallery = [
   "https://cdn.satellite.earth/48ce0c7c89d2447b2e272509371f6f2f732bc38c534bc4a71e68b11a37ccc2d3.png",
@@ -329,7 +329,7 @@ url = "https://freefrom.space/"
 
 [gifbuddy]
 name = "GIF Buddy"
-categories = [ "nostr-management" ]
+categories = [ "tools" ]
 description = "Nostrify gifs"
 features = [
   "Make GIFs from the external world available inside Nostr clients",
@@ -346,7 +346,7 @@ url = "https://gifbuddy.lol/"
 
 [gossip]
 name = "Gossip"
-categories = [ "social", "direct-message", "privacy" ]
+categories = [ "microblogging", "direct-message" ]
 description = "A desktop efficient Nostr client"
 gallery = [
   "https://cdn.satellite.earth/541b0bacb61f678fc8c041efdcbb5ec7508493f0545d300261d47994a64848e6.png",
@@ -394,7 +394,6 @@ url = "https://habla.news/"
 [highlighter]
 name = "Highlighter"
 categories = [
-  "nostr-management",
   "curation",
   "blogging",
   "video"
@@ -421,6 +420,46 @@ npub = "npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"
 platforms = [ "web" ]
 thumb = "https://cdn.satellite.earth/cea3aaa17c24a51bb4f18e3de40fab722c0393fd730045f577538e40844e8b7f.svg"
 url = "https://highlighter.com/"
+
+[olas]
+name = "Olas"
+categories = [ "photos", "videos" ]
+description = "Olas is a client for publishing and looking at photos"
+npub = "npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"
+gallery = [
+  "https://cdn.satellite.earth/661d8863114034006052ab19a4b906c3bb4d442f692d48d0ba4508c10f7ff120.png",
+  "https://cdn.satellite.earth/8b7374042db621ad758d1afe7b335037e4bdfee1b233589e0482247c1278969e.png",
+  "https://cdn.satellite.earth/f22dd8baafaf90730b946be9d0949ea3af4f96902cd6a2a6d8400cb053485a37.png"
+]
+url = "https://olas.app/"
+platforms = [ "android", "ios", "web" ]
+features = [
+  "Special high-quality photos dedicated client",
+  "Publish photos and browse photos",
+  "Publish and browse short videos",
+  "Browse media feeds from friends, extended network and from specific relays"
+]
+thumb = "https://cdn.satellite.earth/62fdebd3175157e8225df94bb02de012e4259f5170a0cee8ab5656d04c62489e.png"
+
+[jumble]
+name = "Jumble"
+description = "Jumble is a client focused on browsing relay feeds"
+categories = [ "relays", "photos", "microblogging" ]
+gallery = [
+  "https://cdn.satellite.earth/2466ba2a09a44b9788394f9e82fef04c61b9d8899cd6e4e1ebf4f1ec7bd1814b.png",
+  "https://cdn.satellite.earth/5d52c45d7d8ddd6e6b872f1dcfd25b29eddbabe223a4602d5b7615229a916d94.png"
+]
+url = "https://jumble.social/"
+platforms = [ "web" ]
+npub = "npub1syjmjy0dp62dhccq3g97fr87tngvpvzey08llyt6ul58m2zqpzps9wf6wl"
+features = [
+  "Browse individual relays by URL",
+  "Create and browse relay sets",
+  "Create and reply to notes",
+  "Follow people and browse the feed from your follows",
+  "Browse the kind:20 photos feed"
+]
+thumb = "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://jumble.social/&size=256"
 
 [keys-band]
 name = "Keys Band"
@@ -457,7 +496,7 @@ url = "https://listr.lol/"
 
 [lume]
 name = "Lume"
-categories = [ "social" ]
+categories = [ "microblogging" ]
 description = "Beautiful desktop client"
 gallery = [ "https://cdn.satellite.earth/cf8937c0b802b1019dfcd9ec4257db02bd71a26d97bf1fad193f7ed9eb1b9779.png" ]
 features = [
@@ -509,14 +548,36 @@ features = [
   "Can be accessed remotely from apps such as Reeder, Readkit etc",
 ]
 npub = "npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6"
-platforms = [ "desktop" ]
+platforms = [ "desktop", "web" ]
 source = "https://github.com/fiatjaf/narr"
 thumb = "https://cdn.jsdelivr.net/gh/fiatjaf/narr@v0.1.0/src/assets/graphicarts/favicon.png"
 url = "https://github.com/fiatjaf/narr/releases"
 
+[noflux]
+name = "Noflux"
+description = "Read RSS feeds and Nostr long-form content feeds"
+categories = [ "blogging" ]
+platforms = [ "desktop" ]
+npub = "npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6"
+source = "https://github.com/fiatjaf/noflux"
+gallery = [
+  "https://noflux.nostr.technology/images/overview.png",
+  "https://camo.githubusercontent.com/82e61820202702d2b540feb8330f95c7f2b27a086a592a7a5eb153569ec70758/68747470733a2f2f63646e2e736174656c6c6974652e65617274682f363565393036393133353032356436373432396234663637366162353862626136306539363666363862636430663835396236663734626464353466393131342e706e67",
+  "https://camo.githubusercontent.com/cba6a3bc38063f433561472253a9f2a06532766ca27f98b4eeb87d213fbe121d/68747470733a2f2f63646e2e736174656c6c6974652e65617274682f643162373864643937633131383065613735646565363933373565356531313463616339316265646636316335313163303235366363653634323165613337352e706e67"
+]
+features = [
+  "Read RSS feeds",
+  "Read Nostr NIP-23 long-form articles",
+  "Import and export OPML",
+  "Runs on desktop with a web-based UI",
+  "Can be accessed remotely from apps such as Reeder, Readkit etc",
+]
+thumb = "https://noflux.nostr.technology/favicon.ico"
+url = "https://github.com/fiatjaf/noflux/releases"
+
 [nos-social]
 name = "Nos Social"
-categories = [ "social" ]
+categories = [ "microblogging" ]
 description = "Join your peers in a healthy social network. Nos is our Nostr client for humans, not algorithms."
 gallery = [
   "https://cdn.satellite.earth/8f1e6de5420eff8ade427a472f804258b4fa9d0a8801945bd89c4158161e97d6.png",
@@ -733,7 +794,7 @@ url = "https://nostrends.vercel.app/"
 
 [nostrmo]
 name = "Nostrmo"
-categories = [ "social" ]
+categories = [ "microblogging" ]
 description = "A nostr client for iOS, Android, MacOS and Windows."
 gallery = [
   "https://cdn.satellite.earth/08921290e4deaedad5a2a578b39b623a521cc8a1acfbc5c5757d484652381b44.png",
@@ -772,7 +833,7 @@ url = "https://nostrocket.org/rockets"
 
 [nostrrr]
 name = "Nostrrr"
-categories = [ "nostr-management" ]
+categories = [ "relays" ]
 description = "Nostr relay explorer"
 gallery = [
   "https://cdn.satellite.earth/75fae4d84924f1d4c3cf067a0ef7f16cb92c5d1efc9786cdc4612a64f4c35971.png",
@@ -794,11 +855,10 @@ url = "https://nostrrr.com/"
 [nostrudel]
 name = "noStrudel"
 categories = [
-  "community",
-  "social",
+  "microblogging",
   "streaming",
   "file-sharing",
-  "nostr-management"
+  "tools"
 ]
 description = "The jack of all trades"
 gallery = [
@@ -825,7 +885,7 @@ url = "https://nostrudel.ninja/"
 
 [nostter]
 name = "Nostter"
-categories = [ "social" ]
+categories = [ "microblogging" ]
 description = "Calm social client"
 gallery = [
   "https://cdn.satellite.earth/8973059c317aa505df9aa3b6c679872c85d8d102e864ea2a998f8e741400e046.png",
@@ -847,7 +907,7 @@ url = "https://nostter.app/"
 
 [nostur]
 name = "Nostur"
-categories = [ "social" ]
+categories = [ "microblogging" ]
 description = "iOS client for Nostr"
 gallery = [
   "https://cdn.satellite.earth/023b5864bc783531805b80463b9d3fa16a816cecdedf088af6953bca951aba5e.png",
@@ -938,7 +998,7 @@ npub = "npub10a8kw2hsevhfycl4yhtg7vzrcpwpu7s6med27juf4lzqpsvy270qrh8zkw"
 source = "https://github.com/jamesmagoo/nostr-writer"
 url = "https://obsidian.md/plugins?search=nostr#"
 platforms = [ "desktop" ]
-categories = [ "writing" ]
+categories = [ "blogging" ]
 features = [
   "Directly publish your articles from Obsidian to Nostr with a couple of clicks",
   "Quickly compose and publish short form notes too",
@@ -959,7 +1019,7 @@ gallery = [
 
 [oddbean]
 name = "Oddbean"
-categories = [ "social" ]
+categories = [ "microblogging" ]
 description = "Hacker News style client"
 gallery = [ "https://cdn.satellite.earth/7c04a3e9e60136c6ad040b4e6f96e22c8892747a054e221e33035359f1a33b2d.png" ]
 features = [ "Hacker News style" ]
@@ -971,7 +1031,7 @@ url = "https://oddbean.com/"
 
 [openvibe]
 name = "Openvibe"
-categories = [ "social" ]
+categories = [ "microblogging" ]
 description = "Interact with anyone on the open internet."
 gallery = [
   "https://cdn.satellite.earth/6bde88a7e21438a27b9f1f3321612995f10285b23f6ded16d11982ff05f27eee.png",
@@ -1073,7 +1133,7 @@ url = "https://pollerama.fun/"
 
 [primal]
 name = "Primal"
-categories = [ "social" ]
+categories = [ "microblogging" ]
 description = "Multi-platform client"
 gallery = [
   "https://cdn.satellite.earth/b2cfa1e28cdcca55c60aa1f4d486cf6da4a663e1dc403d5efbd113f9438d9562.png",
@@ -1088,7 +1148,7 @@ url = "https://primal.net/downloads"
 
 [rabbit]
 name = "Rabbit"
-categories = [ "social" ]
+categories = [ "microblogging" ]
 description = "Multi-column layout client"
 gallery = [
   "https://cdn.satellite.earth/c5891f86aade7c5e7d4b3d668c17f41384a4caec4088dc2bce1ccf9dcb595f4b.png",
@@ -1132,7 +1192,7 @@ url = "https://satshoot.com/"
 
 [shipyard]
 name = "Shipyard"
-categories = [ "nostr-management", "blogging" ]
+categories = [ "blogging" ]
 description = "Schedule notes"
 gallery = [
   "https://cdn.satellite.earth/8749dcef54552d37312fd3492e3bbd79d9e5dbb48504ff4e60b81b3eb3f39442.png",
@@ -1193,7 +1253,7 @@ url = "https://slidestr.net/"
 
 [snort]
 name = "Snort"
-categories = [ "social" ]
+categories = [ "microblogging" ]
 description = "Make Nostr sexy"
 gallery = [
   "https://cdn.satellite.earth/d3be3ed192261daea42076632f6ee81f025d35ce6ac15738668ee60152a89788.png",
@@ -1241,7 +1301,7 @@ url = "https://stemstr.app/"
 [wikifreedia]
 name = "Wikifreedia"
 thumb = "https://cdn.satellite.earth/064536fe832f87eb16e113ff227b61eb34ae4cd8e4ece3ef2b67d71257e52c71.png"
-categories = [ "writing" ]
+categories = []
 gallery = [
   "https://cdn.satellite.earth/ced7434fcb503cff67f4ce99ebc80aea07911cc04411896b14bdfafa6cf4d228.png",
   "https://cdn.satellite.earth/326c2b5d1f47afdb2b92bbb4ef5b8b9e70f2559be84726bd12748c6578fcaa8f.png",
@@ -1268,7 +1328,7 @@ gallery = [
   "https://cdn.satellite.earth/a0e0dfd814d51028917f4d58611c134a7c3c370f4624f76013751332c91f62a2.png",
   "https://cdn.satellite.earth/a061b2670cead1b75b66226bfbf8c5a1ee7804f5ed305849146f18315c33fbd0.png"
 ]
-categories = [ "writing" ]
+categories = []
 description = "A NIP-54 'wiki' client with multi-article view"
 features = [
   "View multiple articles, lists of articles or edit areas side-by-side",
@@ -1283,7 +1343,7 @@ platforms = [ "web" ]
 
 [wired]
 name = "Wired"
-categories = [ "social", "privacy" ]
+categories = [ "microblogging" ]
 description = "An anonymous-first agora"
 gallery = [
   "https://cdn.satellite.earth/0dcb91ecb5ce0e55ec9863fe6ddc19243cd1ab57bcd6411f61f59e4353441f4b.png",
@@ -1300,7 +1360,7 @@ url = "https://www.getwired.app/"
 
 [yakihonne]
 name = "Yakihonne"
-categories = [ "blogging" ]
+categories = [ "blogging", "microblogging", "curation" ]
 description = "Publish and curate long-form content"
 gallery = [
   "https://cdn.satellite.earth/9a9630e5b9fc020bce549175daa0e6a9772ed41879b8ba4100ff0ce2b8c18888.webp",
@@ -1387,7 +1447,7 @@ url = "https://zap.stream/"
 
 [zaplife]
 name = "Zaplife"
-categories = [ "nostr-management" ]
+categories = [ "tools" ]
 description = "See who zaps who on Nostr"
 gallery = [
   "https://cdn.satellite.earth/1d9cca97df5f393aa50962913af3413c9cee84a47c3c86b01ba020b204f287d5.png",
@@ -1407,7 +1467,7 @@ url = "https://zaplife.lol/"
 
 [zapplepay]
 name = "Zapplepay"
-categories = [ "money", "nostr-management" ]
+categories = [ "tools" ]
 description = "Zap from any client 🖕"
 gallery = [ "https://cdn.satellite.earth/be6dfb25ac5cd408d18a58504bd12ef200ca514b8287ca74f5a593b96cada02c.png" ]
 features = [
@@ -1423,7 +1483,7 @@ url = "https://www.zapplepay.com/"
 
 [Nostrame]
 name = "Nostrame"
-categories = [ "signers", "nostr-management" ]
+categories = [ "signers" ]
 description = "Nostr Account Management Extension"
 gallery = [
     "https://image.nostr.build/575e2e92a68b810f82faf43819184beb69719bb6177e9b9f3233a5315d604b10.png"

@@ -27,25 +27,24 @@ var (
 	log        = zerolog.New(os.Stderr).Output(zerolog.ConsoleWriter{Out: os.Stdout}).With().Timestamp().Logger()
 	apps       = make(map[string]AppDefinition)
 	categories = []string{
-		"audio",
-		"career",
-		"community",
-		"curation",
-		"direct-message",
-		"file-sharing",
+		"microblogging",
+		"photos",
+		"streaming",
+		"blogging",
 		"group-chat",
+		"community",
+		"tools",
+		"relays",
+		"video",
+		"direct-message",
+		"curation",
+		"file-sharing",
+		"audio",
 		"meatspace",
 		"marketplaces",
-		"money",
 		"music",
-		"privacy",
+		"career",
 		"signers",
-		"social",
-		"streaming",
-		"tools",
-		"video",
-		"writing",
-		"gaming",
 	}
 	platforms = []string{
 		"All",     // "all"
