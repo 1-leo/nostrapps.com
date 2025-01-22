@@ -35,10 +35,10 @@ type AppDefinition struct {
 }
 
 func (a AppDefinition) Fulltext() string {
-	return strings.Join([]string{
+	return strings.ToLower(strings.Join([]string{
 		a.Name,
 		a.Description,
 		a.URL,
 		a.Source,
-	}, " ")
+	}, " "))
 }
