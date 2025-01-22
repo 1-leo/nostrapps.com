@@ -230,6 +230,31 @@ platforms = [ "web" ]
 thumb = "https://cdn.satellite.earth/fac90a5973650cd728396e39d55a6b7b994fb91c7ad289b213195285285560b9.png"
 url = "https://emojito.meme/"
 
+[feeder]
+name = "Feeder"
+categories = [ "blogging" ]
+description = "Feeder is an open source feed reader created in 2014"
+gallery = [
+  "https://cdn.satellite.earth/43c376c6476566e39f9a21ab2b600873b5e04a33a25d08db4a228380111b8505.png",
+  "https://cdn.satellite.earth/83fd8e767dc3c3da778d55c6787a7b3e098425d2f17359514560cb23b43d1dfc.png",
+  "https://cdn.satellite.earth/c68135b7c76445739d6a1abfa80ea8bbb25ec65497d47c5a77fccd1bb13b157e.png",
+  "https://cdn.satellite.earth/61d8231355111749c37206e4cb583556f5b4a4865c29ca37980f4c4eb3ef4fae.png",
+  "https://cdn.satellite.earth/e8ddc1068c0c2e8c4089405ad6c6868d5af172ff5419497bfa7c473e755ac0cf.png"
+]
+features = [
+  "Subscribe to RSS and Nostr article feeds",
+  "Years of specialization in reading articles",
+  "Offline reading",
+  "OPML Import/Export",
+  "Notification support",
+  "Material design"
+]
+npub = "npub1kt6xgpqwkv558c24q4yvc7tpu34xl9w0kmwchlwszl5g5sa0wugsvazf4c"
+platforms = [ "android" ]
+source = "https://github.com/spacecowboy/Feeder"
+thumb = "https://cdn.satellite.earth/0e1d8b4829594fbc1c228cab413928d348f69d630bb524fb0cd1df3c6796124d.png"
+url = "https://github.com/spacecowboy/Feeder/releases"
+
 [flotilla]
 name = "Flotilla"
 categories = [ "group-chat", "direct-message", "community" ]
@@ -420,6 +445,25 @@ npub = "npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"
 platforms = [ "web" ]
 thumb = "https://cdn.satellite.earth/cea3aaa17c24a51bb4f18e3de40fab722c0393fd730045f577538e40844e8b7f.svg"
 url = "https://highlighter.com/"
+
+[iris]
+name = "Iris"
+categories = [ "microblogging" ]
+description = "Simple and fast web client"
+gallery = [
+  "https://image.nostr.build/325c6c9573a76bfea1091539ab218bd6023b13f7b7fd8e19138bcd5799503fba.png",
+  "https://image.nostr.build/27ce28127b2fd457d7be0cf583af941d39707a073c48a76550e8652ad49d6382.png"
+]
+features = [
+  "Short notes",
+  "Social graph filter",
+  "Image grid feeds"
+]
+npub = "npub1wnwwcv0a8wx0m9stck34ajlwhzuua68ts8mw3kjvspn42dcfyjxs4n95l8"
+platforms = [ "web" ]
+source = "https://github.com/irislib/iris-client"
+thumb = " https://image.nostr.build/5457b339d6ed801fe1c50f2cd47c3d5e2a5d41524fbea31f9bd0ae70e3c067b3.png"
+url = "https://iris.to"
 
 [olas]
 name = "Olas"
