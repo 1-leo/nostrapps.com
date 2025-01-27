@@ -488,7 +488,7 @@ thumb = "https://cdn.satellite.earth/62fdebd3175157e8225df94bb02de012e4259f5170a
 [jumble]
 name = "Jumble"
 description = "Jumble is a client focused on browsing relay feeds"
-categories = [ "relays", "photos", "microblogging" ]
+categories = [ "discovery", "photos", "microblogging" ]
 gallery = [
   "https://cdn.satellite.earth/2466ba2a09a44b9788394f9e82fef04c61b9d8899cd6e4e1ebf4f1ec7bd1814b.png",
   "https://cdn.satellite.earth/5d52c45d7d8ddd6e6b872f1dcfd25b29eddbabe223a4602d5b7615229a916d94.png"
@@ -523,7 +523,7 @@ url = "https://keys.band/"
 
 [listr]
 name = "Listr"
-categories = [ "nostr-management", "curation" ]
+categories = [ "curation" ]
 description = "Create nostr lists"
 gallery = [
   "https://cdn.satellite.earth/a0fd9f344ed98c80f54b08236fa4c702384123fd691f7e4add0119e973a61736.png",
@@ -659,7 +659,7 @@ url = "https://chromewebstore.google.com/detail/nos2x/kpgefcfmnafjgpblomihpgmejj
 
 [nosdrive]
 name = "Nosdrive"
-categories = [ "nostr-management" ]
+categories = [ "tools" ]
 description = "Back up your notes to Google Drive"
 gallery = [
   "https://cdn.satellite.earth/4c4d11676e7efafd2b5d5754ba3c141890dc424aa2d4d8d080810484923e0561.png"
@@ -672,7 +672,7 @@ url = "https://nosdrive.app/"
 
 [nosta]
 name = "Nosta"
-categories = [ "nostr-management" ]
+categories = [ "tools" ]
 description = "Simple, guided nostr onboarding "
 gallery = [
   "https://cdn.satellite.earth/d529bedb37d68b5b3890c45601103d8cd10575b38f4042373e2641212743344c.png",
@@ -693,7 +693,7 @@ url = "https://nosta.me/"
 
 [nostr-app-manager]
 name = "Nostr App Manager"
-categories = [ "nostr-management" ]
+categories = [ "tools" ]
 description = "Discover nostr apps"
 gallery = [
   "https://cdn.satellite.earth/8c8b137c56c67c25e226c698b9f223549c32ad87834df1986b638a9607cda427.png",
@@ -716,7 +716,7 @@ url = "https://nostrapp.link/"
 
 [nostr-band]
 name = "Nostr Band"
-categories = [ "nostr-management" ]
+categories = [ "discovery" ]
 description = "Nostr data and statistics advanced search."
 gallery = [
   "https://cdn.satellite.earth/c5ec5a508bb87805a21f7f60ad568b6cf1960b5737e789f9ce46ed683f006945.png",
@@ -799,7 +799,7 @@ url = "https://nostrnests.com/"
 
 [nostree]
 name = "Nostree"
-categories = [ "curation", "nostr-management" ]
+categories = [ "curation", "tools" ]
 description = "List and link aggregator."
 gallery = [
   "https://cdn.satellite.earth/9fc6da6660d1a3b5bacf40d234da538e5ffbe61d3edb4716944fcfc98daa3025.png",
@@ -814,27 +814,6 @@ platforms = [ "web" ]
 source = "https://github.com/gzuuus/linktr-nostr"
 thumb = "https://cdn.satellite.earth/93c90f7833cb0649fe6a04dd8c6eb9a22798497e299ee3f7c03349306aa2827c.svg"
 url = "https://nostree.me/"
-
-[nostrends]
-name = "Nostrends"
-categories = [ "nostr-management" ]
-description = "See what's trending on Nostr"
-gallery = [
-  "https://cdn.satellite.earth/549d5b6d960410f30817c6782547132faa88fb1491bd9a3c1e68d19e733b0c06.png",
-  "https://cdn.satellite.earth/33ce3e47afdd779c2223554a4fc1956ec2744444d4694fbad6ba16d41259cf90.png"
-]
-features = [
-  "Global daily and weekly trending notes",
-  "Global daily and weekly trending notes specifically in Japan",
-  "Shows the top trending notes",
-  "Super simple",
-  "Clean UI"
-]
-npub = "npub1f5uuywemqwlejj2d7he6zjw8jz9wr0r5z6q8lhttxj333ph24cjsymjmug"
-platforms = [ "web" ]
-source = "https://github.com/akiomik/nostrends"
-thumb = "https://cdn.satellite.earth/8eb3b7475962a4d9bd907bb28731835a4ecd93da7071091aeeb6fe3de89d201e.png"
-url = "https://nostrends.vercel.app/"
 
 [nostrmo]
 name = "Nostrmo"
@@ -858,7 +837,7 @@ url = "https://apps.apple.com/us/app/nostrmo/id6447441761"
 
 [nostrocket]
 name = "Nostrocket"
-categories = [ "nostr-management" ]
+categories = [ "crazy" ]
 description = "Separation of Business and State"
 gallery = [
   "https://cdn.satellite.earth/d27d517f88cef16cc59387ef66c368a7caca21ec99c3f552b78a9014e269192b.png",
@@ -877,7 +856,7 @@ url = "https://nostrocket.org/rockets"
 
 [nostrrr]
 name = "Nostrrr"
-categories = [ "relays" ]
+categories = [ "discovery", "microblogging" ]
 description = "Nostr relay explorer"
 gallery = [
   "https://cdn.satellite.earth/75fae4d84924f1d4c3cf067a0ef7f16cb92c5d1efc9786cdc4612a64f4c35971.png",
@@ -991,7 +970,7 @@ url = "https://nostur.com/"
 
 [npub-pro]
 name = "npub.pro"
-categories = [ "nostr-management", "blogging" ]
+categories = [ "blogging" ]
 description = "Website from your nostr content"
 gallery = [
   "https://cdn.satellite.earth/957377be480dda1c2da26c5ec89dacdd347b537489a0becf6595ec4cc24d8188.png",
@@ -1122,7 +1101,7 @@ url = "https://ostrich.work/"
 
 [pinstr]
 name = "Pinstr"
-categories = [ "nostr-management", "curation" ]
+categories = [ "curation" ]
 description = "Like Pinterest but on nostr with zaps"
 gallery = [
   "https://cdn.satellite.earth/e3edfcf3b9064626b782d24f19dd068e799c9ca439737cd6f923f242532d7f16.png",
@@ -1159,8 +1138,8 @@ url = "https://plebeian.market/"
 
 [pollerama]
 name = "Pollerama"
-categories = [ "nostr-management" ]
-description = "Nostr polls"
+categories = [ "microblogging" ]
+description = "Nostr polls client"
 gallery = [
   "https://cdn.satellite.earth/bc274a5e1cbd6128339a379be25bc45d80f755753a4af5378bece84a1da48acb.png",
   "https://cdn.satellite.earth/ab96b9a238c01cf492bd2e5044f5e06673f8f784205caf156a2ff7e8a5f2a833.png"
@@ -1443,7 +1422,7 @@ url = "https://go.yondar.me/"
 
 [zap-store]
 name = "ZapStore"
-categories = [ "nostr-management", "curation" ]
+categories = [ "tools", "curation" ]
 description = "ZapStore is a permissionless app store"
 gallery = [
   "https://cdn.satellite.earth/339ca1993bb8667a5800b2b1ffad6a0120fba836081343596e4a9ac9617cf0cd.png",
@@ -1491,7 +1470,7 @@ url = "https://zap.stream/"
 
 [zaplife]
 name = "Zaplife"
-categories = [ "tools" ]
+categories = [ "discovery" ]
 description = "See who zaps who on Nostr"
 gallery = [
   "https://cdn.satellite.earth/1d9cca97df5f393aa50962913af3413c9cee84a47c3c86b01ba020b204f287d5.png",

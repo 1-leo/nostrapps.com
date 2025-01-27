@@ -34,7 +34,7 @@ var (
 		"group-chat",
 		"community",
 		"tools",
-		"relays",
+		"discovery",
 		"video",
 		"direct-message",
 		"curation",
