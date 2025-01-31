@@ -48,6 +48,7 @@ url = "https://getalby.com/"
 
 [alphaama]
 name = "alphaama"
+categories = [ "microblogging" ]
 description = "just a nostr fucking client"
 gallery = [
   "https://alphaama.com/media/alphaama_screenshot_00_start.png",
