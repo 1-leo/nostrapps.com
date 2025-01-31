@@ -46,6 +46,29 @@ platforms = [ "web" ]
 thumb = "https://cdn.satellite.earth/c37b7a44906ee3450b96e3b66e7320af08a5487f0e7b6b39728fdf5eb2ae57ea.png"
 url = "https://getalby.com/"
 
+[alphaama]
+name = "alphaama"
+description = "just a nostr fucking client"
+gallery = [
+  "https://alphaama.com/media/alphaama_screenshot_00_start.png",
+  "https://alphaama.com/media/alphaama_screenshot_01_readme.png",
+  "https://alphaama.com/media/alphaama_screenshot_02_input.png",
+  "https://alphaama.com/media/alphaama_screenshot_03_mods.png",
+  "https://alphaama.com/media/alphaama_screenshot_04_notes.png",
+  "https://alphaama.com/media/alphaama_screenshot_05_detail.png"
+]
+features = [
+  "CLI + GUI",
+  "run custom code",
+  "inspect notes",
+  "test stuff"
+]
+npub = "npub1nmr6w7qk0ta36vxysv77jv3d5rqghfc6d8sez8240rf3gja4vsmsd2yha8"
+platforms = [ "web" ]
+source = "https://github.com/eskema/alphaama"
+thumb = "https://alphaama.com/media/alphaama_logo_dark.png"
+url = "https://alphaama.com"
+
 [amber]
 name = "Amber"
 categories = [ "signers" ]
