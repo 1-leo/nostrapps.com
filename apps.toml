@@ -74,8 +74,21 @@ url = "https://alphaama.com"
 name = "Amber"
 categories = [ "signers" ]
 description = "Nostr signer on android"
-gallery = [ ]
-features = [ "Works on Android" ]
+gallery = [
+  "https://cdn.satellite.earth/7d81a7c3a6b41421a7dc4bbdd560763e160b038fe5979fa09dc792aca2b5e5ce.png",
+  "https://cdn.satellite.earth/b65582a3508646c9dbd50d5b0db598c30ffe9116ad6ebab89c611f6c5692fb67.png",
+  "https://cdn.satellite.earth/2402b87112e8ce60cc46793ffe99a7ad4594c346e826c4733c810d684a9507b4.png",
+  "https://cdn.satellite.earth/dbc2d310c53262b572dfad567a49e167248ff1ab34f793484f0e559154434ced.png",
+  "https://cdn.satellite.earth/ddfe02dca289c6404491fcf10829c878469d30248acb45039ecea3e1400f4599.png"
+]
+features = [
+  "Other Android apps can invoke it for signing events via NIP-55",
+  "Your key doesn't have to touch the other, less trusted, apps",
+  "Supports providing a NIP-46 signing Bunker",
+  "Multiple accounts",
+  "Fine-grained app authorizations",
+  "Activity log"
+]
 npub = "npub1w4uswmv6lu9yel005l3qgheysmr7tk9uvwluddznju3nuxalevvs2d0jr5"
 platforms = [ "android" ]
 thumb = "https://cdn.satellite.earth/f47cc0402578f70291b0623b55247d21b26ac3a636ec26e46d8350a85107e69c.svg"
