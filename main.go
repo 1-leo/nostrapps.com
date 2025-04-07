@@ -1,25 +1,20 @@
 package main
 
 import (
-	"context"
 	"embed"
 	"net/http"
 	"os"
 	"os/signal"
 
 	_ "github.com/a-h/templ"
-	"github.com/fiatjaf/khatru"
 	"github.com/kelseyhightower/envconfig"
-	"github.com/nbd-wtf/go-nostr"
 	"github.com/pelletier/go-toml"
 	"github.com/rs/cors"
 	"github.com/rs/zerolog"
 )
 
 type Settings struct {
-	Port           string `envconfig:"PORT" default:"3002"`
-	NostrSecretKey string `envconfig:"NOSTR_SECRET_KEY"`
-	NostrPublicKey string
+	Port string `envconfig:"PORT" default:"3002"`
 }
 
 var (
@@ -67,11 +62,6 @@ func main() {
 		log.Fatal().Err(err).Msg("couldn't process envconfig")
 		return
 	}
-	s.NostrPublicKey, err = nostr.GetPublicKey(s.NostrSecretKey)
-	if err != nil {
-		log.Fatal().Err(err).Msg("invalid secret key given")
-		return
-	}
 
 	// load all apps
 	if err := toml.Unmarshal(appsToml, &apps); err != nil {
@@ -83,20 +73,6 @@ func main() {
 	mux := http.NewServeMux()
 	var handler http.Handler = mux
 
-	// nostr relay
-	if s.NostrSecretKey != "" {
-		relay := khatru.NewRelay()
-		relay.RejectEvent = append(relay.RejectEvent,
-			func(ctx context.Context, event *nostr.Event) (reject bool, msg string) {
-				return true, "this relay is read-only"
-			},
-		)
-		relay.QueryEvents = append(relay.QueryEvents, handleRelayQuery)
-		mux = relay.Router()
-		handler = relay
-	}
-	// ~
-
 	// routes
 	mux.Handle("/static/", http.FileServer(http.FS(static)))
 	mux.HandleFunc("/apps/{app}", func(w http.ResponseWriter, r *http.Request) {
@@ -105,7 +81,7 @@ func main() {
 	mux.HandleFunc("/{app}", handleAppPage)
 	mux.HandleFunc("/{$}", handleHomePage)
 
-	log.Printf("listening at http://0.0.0.0:%s and signing with public key %s", s.Port, s.NostrPublicKey)
+	log.Printf("listening at http://0.0.0.0:%s", s.Port)
 	server := &http.Server{Addr: "0.0.0.0:" + s.Port, Handler: cors.AllowAll().Handler(handler)}
 	defer server.Close()
 	go func() {
