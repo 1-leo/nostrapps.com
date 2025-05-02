@@ -891,27 +891,6 @@ platforms = [ "web" ]
 thumb = "https://cdn.satellite.earth/0d405c31c16d931135fa206e7659abc7bbdf8c2115230bb98f14cbc4b075ab90.png"
 url = "https://nostrocket.org/rockets"
 
-[nostrrr]
-name = "Nostrrr"
-categories = [ "discovery", "microblogging" ]
-description = "Nostr relay explorer"
-gallery = [
-  "https://cdn.satellite.earth/75fae4d84924f1d4c3cf067a0ef7f16cb92c5d1efc9786cdc4612a64f4c35971.png",
-  "https://cdn.satellite.earth/6efb1d1deefdce3350a3d41d290e5dae8590f60df1f9e5195420104007a511d4.png",
-  "https://cdn.satellite.earth/ff92e5d2eaec64b10ee04f60edc27db30edc2f776b16505d2ea324c4a9942789.png",
-  "https://cdn.satellite.earth/c415b17e30b7bb07e2e08fd1384ca71c961c397e94f7fd82e7e11722ddd2dcf1.png"
-]
-features = [
-  "Look up relay information",
-  "Browse relay feeds",
-  "Browse individual profile feeds with smart relay selection",
-  "Simple and gets the job done"
-]
-npub = "npub107jk7htfv243u0x5ynn43scq9wrxtaasmrwwa8lfu2ydwag6cx2quqncxg"
-platforms = [ "web" ]
-thumb = "https://cdn.satellite.earth/cf6aab242ddd4435fa439c89f0b36937030c4a3ace847cc1eb9dd6474a832bff.svg"
-url = "https://nostrrr.com/"
-
 [nostrudel]
 name = "noStrudel"
 categories = [
