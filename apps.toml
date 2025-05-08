@@ -694,19 +694,6 @@ platforms = [ "web" ]
 thumb = "https://cdn.satellite.earth/c27be7ca88098725d14ddb176dc56cc417edc5096d82fafe20a728ed9d1e20f2.png"
 url = "https://chromewebstore.google.com/detail/nos2x/kpgefcfmnafjgpblomihpgmejjdanjjp"
 
-[nosdrive]
-name = "Nosdrive"
-categories = [ "tools" ]
-description = "Back up your notes to Google Drive"
-gallery = [
-  "https://cdn.satellite.earth/4c4d11676e7efafd2b5d5754ba3c141890dc424aa2d4d8d080810484923e0561.png"
-]
-features = [ "Save your nostr notes to Google Drive" ]
-npub = "npub108pv4cg5ag52nq082kd5leu9ffrn2gdg6g4xdwatn73y36uzplmq9uyev6"
-platforms = [ "web" ]
-thumb = "https://cdn.satellite.earth/bf68854638a8b9bdb1edff42b0f3baac8b4c4c58726d3f3345c73daa02db6532.svg"
-url = "https://nosdrive.app/"
-
 [nosta]
 name = "Nosta"
 categories = [ "tools" ]
