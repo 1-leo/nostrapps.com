@@ -575,6 +575,33 @@ platforms = [ "web" ]
 thumb = "https://cdn.satellite.earth/b6225467a0cdf710d77b69e7fc82af692a758263f7f5cee31c8e5ccf72b54d95.png"
 url = "https://listr.lol/"
 
+[lumilumi]
+name = "lumilumi"
+categories = [ "microblogging" ]
+description = "Switch between full and low-data modes — a flexible Nostr web client"
+features = [
+  "Environment-specific settings",
+  "Progressive blur slider for warning content",
+  "Mute words, threads, users, and kinds",
+  "Location tagging on notes",
+  "Polls with voting",
+  "Status edit",
+  "Channel creation",
+  "Birthday display and celebration with animation"
+]
+npub = "npub1sjcvg64knxkrt6ev52rywzu9uzqakgy8ehhk8yezxmpewsthst6sw3jqcw"
+platforms = [ "web" ]
+thumb = "https://lumilumi.app/favicon.ico"
+gallery = [
+  "https://cdn.satellite.earth/cbab039f7c1833d1ce533afeb283e49fc8be46055de32e75b37f3e0d2dc05164.webp",
+  "https://cdn.satellite.earth/a65504120db8a497c5410df3f7a24176a4b025d00d8074591b290865fff619ba.webp",
+  "https://cdn.satellite.earth/d231311529414f0451d6d0ee167a7b3f87d1de32324a200ae5fb4b2ac4abc6c3.webp",
+  "https://cdn.satellite.earth/9cad848c8d772d6895a77d45160daebcc37c26031e917371b8e8d82c35505e97.webp",
+  "https://cdn.satellite.earth/e91b0558cced983c4a275233f4c0651abdef6bd73c5a91d420299e473b680dfa.webp",
+  "https://cdn.satellite.earth/fa1ccafbe016ccdf8230828a1dc2d17c419eb7e65d0210fb892aaebdc9bd573d.webp"
+]
+url = "https://lumilumi.app/"
+
 [lume]
 name = "Lume"
 categories = [ "microblogging" ]
@@ -1467,7 +1494,7 @@ features = [
   "Set up stream goals"
 ]
 npub = "npub1v0lxxxxutpvrelsksy8cdhgfux9l6a42hsj2qzquu2zk7vc9qnkszrqj49"
-platforms = [ "web" ]
+platforms = [ "web", "android", "ios" ]
 thumb = "https://cdn.satellite.earth/71dcbdc1413713d148c18d92e3b66ceaef78919cba4bfbab6086d42f9cc12a96.svg"
 url = "https://zap.stream/"
 
