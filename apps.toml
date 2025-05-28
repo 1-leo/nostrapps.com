@@ -187,6 +187,24 @@ source = "https://github.com/lumehq/coop"
 thumb = "https://cdn.satellite.earth/e3a66a27c98177ff6d25584752b254df9934d19cdc523f577b757f98825019c9.png"
 url = "https://github.com/lumehq/coop/releases"
 
+[coolr]
+name = "Coolr"
+categories = [ "group-chat" ]
+description = "A minimalist, IRC like chat app built on Nostr. Fast and temporary."
+gallery = [
+  "https://r2.primal.net/cache/8/0c/2b/80c2b128957b034fce14a2227ea2c227657dc7d50c15a359b4f142c6389d1879.png",
+]
+features = [
+  "Ephemeral chat",
+  "Mentions",
+  "Share links",
+  "Channels"
+]
+npub = "npub1ch8a4xxsru2jkdynmx27a4xdknv72k5h8yjld702y3mf5k3puauqmszh48"
+platforms = [ "web" ]
+thumb = "https://coolr.chat/apple-touch-icon.png"
+url = "https://coolr.chat"
+
 [coracle]
 name = "Coracle"
 categories = [ "microblogging" ]
