@@ -471,36 +471,6 @@ source = "https://github.com/verbiricha/habla"
 thumb = "https://cdn.satellite.earth/270694a2f68d486a4f97dfafed7622839869a8759161dfe9946f64a1418a1885.svg"
 url = "https://habla.news/"
 
-[highlighter]
-name = "Highlighter"
-categories = [
-  "curation",
-  "blogging",
-  "video"
-]
-description = "Discover and share curated insights by people you trust"
-gallery = [
-  "https://cdn.satellite.earth/5855f741c50ec73b60b0824e14e7c4cdf17a1c94e5bd79e5d7db0aa7e8836444.png",
-  "https://cdn.satellite.earth/aef12a938d09cc1d050e856f6cf0530acda5829605c473c351610809ff6b3c88.png",
-  "https://cdn.satellite.earth/baaad34a0c325fc176131a16f70308ebbf2b5ae9c9ace754988df422822ec5d8.png",
-  "https://cdn.satellite.earth/f135120c4c1120adf1701fd6166b4ebd184d35eebee16edade540fb8422cb629.png",
-  "https://cdn.satellite.earth/60617d694d05bd74406960e9357ca138539e717a299dd0b69a584d826cade6e9.png",
-  "https://cdn.satellite.earth/d6d36ca31f935df3d4023c67d159961b9f7de93d7ba09bf6b934dcc7953d5f81.png",
-  "https://cdn.satellite.earth/32b339c37472c4c6a8addfe7027281cb76a655e3190999df43557ccc7ec2921f.png",
-  "https://cdn.satellite.earth/b29692b839cf356130350514adc6beedc23611a2ad5e5fee7576705f18a48c7c.png"
-]
-features = [
-  "Read and write long-form articles",
-  "Discover what people you trust found interesting and insightful",
-  "Understand why they found it interesting or insightful with their comments attached",
-  "Send sats, comment or share your favorite highlights",
-  "Highlight anything"
-]
-npub = "npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"
-platforms = [ "web" ]
-thumb = "https://cdn.satellite.earth/cea3aaa17c24a51bb4f18e3de40fab722c0393fd730045f577538e40844e8b7f.svg"
-url = "https://highlighter.com/"
-
 [iris]
 name = "Iris"
 categories = [ "microblogging" ]
@@ -739,27 +709,6 @@ platforms = [ "web" ]
 thumb = "https://cdn.satellite.earth/c27be7ca88098725d14ddb176dc56cc417edc5096d82fafe20a728ed9d1e20f2.png"
 url = "https://chromewebstore.google.com/detail/nos2x/kpgefcfmnafjgpblomihpgmejjdanjjp"
 
-[nosta]
-name = "Nosta"
-categories = [ "tools" ]
-description = "Simple, guided nostr onboarding "
-gallery = [
-  "https://cdn.satellite.earth/d529bedb37d68b5b3890c45601103d8cd10575b38f4042373e2641212743344c.png",
-  "https://cdn.satellite.earth/e242fb3596e19ba5a689ef5da585c04352e44486e79b02b95ec72ab082c098af.png",
-  "https://cdn.satellite.earth/b44b14532c81fe325df73139f4cd3a0b87504805fd1f6227ebfd12fed168f91e.png",
-  "https://cdn.satellite.earth/0331f04938db6d4885d52bf2d4f0665025546957dbe81d6f5d419d332653f7ad.png"
-]
-features = [
-  "Guided onboarding",
-  "Recovery phrase to restore access",
-  "Good UX with explainers",
-  "Beautiful design"
-]
-npub = "npub1kuc70777tsvj67fl75s2dmy376t97hv05xmyuyshzzy6vhj5q5jstv0eyw"
-platforms = [ "web" ]
-thumb = "https://cdn.satellite.earth/efcb1b9c6d1d3f8238ba2e7c083e058e36f9f039f7aef42e231961555a76b2da.jpg"
-url = "https://nosta.me/"
-
 [nostr-app-manager]
 name = "Nostr App Manager"
 categories = [ "tools" ]
@@ -828,24 +777,6 @@ npub = "npub1zfss807aer0j26mwp2la0ume0jqde3823rmu97ra6sgyyg956e0s6xw445"
 platforms = [ "web" ]
 thumb = "https://cdn.satellite.earth/77b8ee1524761f99c825ef7c48fada261c94a1de60470cce6c57c3c9d96e30db.svg"
 url = "https://chromewebstore.google.com/detail/nostr-connect/ampjiinddmggbhpebhaegmjkbbeofoaj"
-
-[zap-cooking]
-name = "Zap Cooking"
-categories = [ "curation" ]
-description = "Recipes over nostr"
-gallery = [
-  "https://cdn.satellite.earth/65b7f301313936479e2dfb5212c5bf67099a52f49f100ce76c3b122f7590e704.png",
-  "https://cdn.satellite.earth/6c9f85cf88adbc810c70d439402ee5e37a5b85886025b2492e8073cec9efa073.png"
-]
-features = [
-  "Browse recipes",
-  "Add your own recipes",
-  "Earn sats via zaps"
-]
-npub = "npub15u3cqhx6vuj3rywg0ph5mfv009lxja6cyvqn2jagaydukq6zmjwqex05rq"
-platforms = [ "web" ]
-thumb = "https://cdn.satellite.earth/f1b9ba8e35154b3c591272985c1763896b516d080936958ab659f9b3e8122809.svg"
-url = "https://zap.cooking/"
 
 [nostr-nests]
 name = "Nests"
