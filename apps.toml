@@ -658,7 +658,7 @@ npub = "npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6"
 source = "https://github.com/fiatjaf/noflux"
 gallery = [
   "https://noflux.nostr.technology/images/overview.png",
-  "https://camo.githubusercontent.com/82e61820202702d2b540feb8330f95c7f2b27a086a592a7a5eb153569ec70758/68747470733a2f2f63646e2e736174656c6c6974652e65617274682f363565393036393133353032356436373432396234663637366162353862626136306539363666363862636430663835396236663734626464353466393131342e706e67",
+  "https://camo.githubusercontent.com/82e61820202702d2b540feb8330f95c7f2b27a086a592a7a5eb153569ec70758/68747470733a2f2f63646e2e736174656c6c6974652e65617274682f3635653930363931333530323564363734323962346636376162353862626136306539363666363862636430663835396236663734626464353466393131342e706e67",
   "https://camo.githubusercontent.com/cba6a3bc38063f433561472253a9f2a06532766ca27f98b4eeb87d213fbe121d/68747470733a2f2f63646e2e736174656c6c6974652e65617274682f643162373864643937633131383065613735646565363933373565356531313463616339316265646636316335313163303235366363653634323165613337352e706e67"
 ]
 features = [
@@ -907,73 +907,6 @@ source = "https://github.com/SnowCait/nostter"
 thumb = "https://cdn.satellite.earth/5ffa60e1d900cdaf31fca109eb7f18e715b692cf8d941b16a639a01389a8847b.svg"
 url = "https://nostter.app/"
 
-[nostur]
-name = "Nostur"
-categories = [ "microblogging" ]
-description = "iOS client for Nostr"
-gallery = [
-  "https://cdn.satellite.earth/023b5864bc783531805b80463b9d3fa16a816cecdedf088af6953bca951aba5e.png",
-  "https://cdn.satellite.earth/45d9cb32fcc565e70660b203d0fc3c9888ae90eb3b8ae1fc3aa76fd8aa592392.png",
-  "https://cdn.satellite.earth/4087bed7a3789324bd28540fd0a38a1b0e808c927cb5da72e2f83325021dcc0b.png"
-]
-features = [
-  "Multi-account",
-  "Guest account",
-  "Your posts stored on your device and can be exported",
-  "Bookmarks and personal notes",
-  "Follow and explore timeline",
-  "Remembers where you left off scrolling when reopening app",
-  "Undo accidental tap on Like",
-  "Autocomplete names when typing",
-  "Lightning zaps",
-  "Lightning wallet selection",
-  "Direct Messages",
-  "Domain verification",
-  "Badges",
-  "Block list",
-  "Muted conversations",
-  "Notifications for mentions, reactions and zaps",
-  "Image previews/zoom/pan",
-  "Gif/Video playback",
-  "Option to turn signature verification off",
-  "Option to hide badges from profile and emojis from names",
-  "Fast local database",
-  "Big detail pane for iPad/macOS",
-  "Login as someone else (read-only mode)",
-  "Choose which relays to send to and receive from"
-]
-npub = "npub1n0sturny6w9zn2wwexju3m6asu7zh7jnv2jt2kx6tlmfhs7thq0qnflahe"
-platforms = [ "ios" ]
-thumb = "https://cdn.satellite.earth/b8175c6c56618d70e4df740ab18d75d1d70e10de52a9be978e274d3fc836302f.png"
-url = "https://nostur.com/"
-
-[npub-pro]
-name = "npub.pro"
-categories = [ "blogging" ]
-description = "Website from your nostr content"
-gallery = [
-  "https://cdn.satellite.earth/957377be480dda1c2da26c5ec89dacdd347b537489a0becf6595ec4cc24d8188.png",
-  "https://cdn.satellite.earth/521da16b9aedb6942cd6a4b34c3427674fede7a8a4b7f17c6066d2a2027e9448.png",
-  "https://cdn.satellite.earth/89b885fbefe46b0638fba9463b8db1536531fda99d7bf4eb9fa34fa8326bd8f3.png",
-  "https://cdn.satellite.earth/362c48bf1406d224eefaed8384cd91000c60083194fd947d943c2104a91e323e.png"
-]
-features = [
-  "Create a website out of your nostr content",
-  "SEO friendly",
-  "Use any 3rd party tools",
-  "Works like an app",
-  "Beautiful Ghost themes to choose from",
-  "Zero maintenance",
-  "Custom domains",
-  "Open source and self-hostable",
-  "Natively Social",
-  "Publish from any other nostr app"
-]
-npub = "npub1xdtducdnjerex88gkg2qk2atsdlqsyxqaag4h05jmcpyspqt30wscmntxy"
-platforms = [ "web" ]
-thumb = "https://cdn.satellite.earth/47d5e9ee499e816d06ef5b5920b5922259becc035df51df542293f3c036d5996.svg"
-url = "https://npub.pro/"
-
 [nsec-app]
 name = "Nsec App"
 categories = [ "signers" ]
@@ -1114,102 +1047,6 @@ npub = "npub1a3um269aaf3u5cy37kuykrrrnsg2pyv7za06pxjduv25lq5sdujs2qmdj6"
 platforms = [ "web" ]
 thumb = "https://cdn.satellite.earth/792280c1ef9699589aa713692b727f2865630d8104a5fb04e4e40c9bddca54ec.png"
 url = "https://plebeian.market/"
-
-[pollerama]
-name = "Pollerama"
-categories = [ "microblogging" ]
-description = "Nostr polls client"
-gallery = [
-  "https://cdn.satellite.earth/bc274a5e1cbd6128339a379be25bc45d80f755753a4af5378bece84a1da48acb.png",
-  "https://cdn.satellite.earth/ab96b9a238c01cf492bd2e5044f5e06673f8f784205caf156a2ff7e8a5f2a833.png"
-]
-features = [
-  "Browse polls created here or on other clients",
-  "Create polls",
-  "Vote on polls",
-]
-npub = "npub1cgd35mxmy37vhkfcmjckk9dylguz6q8l67cj6h9m45tj5rx569cql9kfex"
-platforms = [ "web" ]
-thumb = "https://cdn.satellite.earth/e7316fb7fdea488085364cb5124a8cecfc0d635d266056c518ae44e29e658a90.svg"
-url = "https://pollerama.fun/"
-
-[primal]
-name = "Primal"
-categories = [ "microblogging" ]
-description = "Multi-platform client"
-gallery = [
-  "https://cdn.satellite.earth/b2cfa1e28cdcca55c60aa1f4d486cf6da4a663e1dc403d5efbd113f9438d9562.png",
-  "https://cdn.satellite.earth/159c386367b1781f0ae251bc687ccbdf6302dc6b6e235abefe5002776155f06f.png",
-  "https://cdn.satellite.earth/4b584539bdc80de04a3ec5c8f3ebcb3e1d8275825705117a3f1c86b4115dd7e1.png"
-]
-features = []
-npub = "npub12vkcxr0luzwp8e673v29eqjhrr7p9vqq8asav85swaepclllj09sylpugg"
-platforms = [ "web", "android", "ios" ]
-thumb = "https://cdn.satellite.earth/e38c2555c5125be2431728250555e073c950856e7873ea401df142b729f30813.svg"
-url = "https://primal.net/downloads"
-
-[rabbit]
-name = "Rabbit"
-categories = [ "microblogging" ]
-description = "Multi-column layout client"
-gallery = [
-  "https://cdn.satellite.earth/c5891f86aade7c5e7d4b3d668c17f41384a4caec4088dc2bce1ccf9dcb595f4b.png",
-  "https://cdn.satellite.earth/f75d097d6694cd6421c6ed123e06eba37af7c45a71cca00d31de0f175a6d0c7d.png"
-]
-features = [ "Multi-column", "Tweetdeck-like UI" ]
-npub = "npub1jcsr6e38dcepf65nkmrc54mu8jd8y70eael9rv308wxpwep6sxwqgsscyc"
-platforms = [ "web" ]
-thumb = "https://cdn.satellite.earth/35caf3ec824c5cf301c61d921e5e3cf3d12f9ef40e742e1ea26657cf3b093a9b.png"
-url = "https://syusui-s.github.io/rabbit/#/"
-
-[satshoot]
-name = "SatShoot"
-categories = [ "freelancing", "troubleshooting", "career", "marketplaces" ]
-description = "Freelance for sats on Nostr"
-gallery = [
-  "https://satshoot.com/screenshots/mobile/app_screenshot_1.jpg",
-  "https://satshoot.com/screenshots/mobile/app_screenshot_2.jpg",
-  "https://satshoot.com/screenshots/mobile/app_screenshot_3.jpg",
-  "https://satshoot.com//screenshots/mobile/app_screenshot_4.jpg",
-  "https://satshoot.com/screenshots/desktop/app_screenshot_1_desktop.png",
-  "https://satshoot.com/screenshots/desktop/app_screenshot_2_desktop.png",
-  "https://satshoot.com/screenshots/desktop/app_screenshot_3_desktop.png",
-  "https://satshoot.com/screenshots/desktop/app_screenshot_4_desktop.png",
-]
-features = [
-  "Post problems on SatShoot",
-  "Make money solving problems as a Freelancer",
-  "Share problems or freelance services on your feed",
-  "Bidding system for Clients to choose the best Offer",
-  "Chat in DMs",
-  "Post Reviews on Freelancers or Clients",
-  "Build Reputation",
-  "Public Zaps as Payments",
-  "Use your Web of Trust to keep scammers away"
-]
-npub = "npub16p8v7varqwjes5hak6q7mz6pygqm4pwc6gve4mrned3xs8tz42gq7kfhdw"
-platforms = [ "web" ]
-thumb = "https://image.nostr.build/43b219f4d0931ba751aea6b3abacbe36d174a2d3f59c56dfa1e438d83c9b318e.jpg"
-url = "https://satshoot.com/"
-
-[shipyard]
-name = "Shipyard"
-categories = [ "blogging" ]
-description = "Schedule notes"
-gallery = [
-  "https://cdn.satellite.earth/8749dcef54552d37312fd3492e3bbd79d9e5dbb48504ff4e60b81b3eb3f39442.png",
-  "https://cdn.satellite.earth/e68102092dc378a3ec6e8c86919892d24c58ef9d2723e1fdfa9da597bcba605e.png"
-]
-features = [
-  "Schedule nostr notes",
-  "Schedule reposts",
-  "Note drafts",
-  "Multi-account support"
-]
-npub = "npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"
-platforms = [ "web" ]
-thumb = "https://cdn.satellite.earth/e91ca1e8fbab281cb08668fe4860875c84299fb726228bc8c64e6e9ba326a6dc.svg"
-url = "https://shipyard.pub/"
 
 [shopstr]
 name = "Shopstr"
@@ -1504,3 +1341,27 @@ npub = "npub1lm93678pyyxxdta28lyjaq4pyfps6cqpk9y04w3seu4wfeh6alesnzwwz2"
 platforms = [ "web" ]
 thumb = "https://image.nostr.build/453bef44562672bc893fed27530a3611dbe86c0ecfd2187edba863beab8fb6d3.png"
 url = "https://chromewebstore.google.com/detail/nostrame/phfdiknibomfgpefcicfckkklimoniej"
+
+[lantern]
+name = "Lantern"
+categories = [ "tools", "curation" ]
+description = "Collaboratively annotate, highlight, and bookmark web pages and PDF documents on Nostr"
+gallery = [
+  "https://lh3.googleusercontent.com/XprFdoUyqmFP5rJSpF-VOfPCr8P-RMuftHTdHeZo6zhMcFXhb3nqFNCPsJnheiB6ZdDy8blXm5u96Ncju7clvnrFwQ=s1280-w1280-h800",
+  "https://lh3.googleusercontent.com/bLIEQPkgNAIO1aH8ZOryaGQDXvcKkkCnbgi9hFt89PcfJRNkFbcjqGzYYmv6lVasVMehui0XQU9roYBUe9jK1ijMDw=s1280-w1280-h800",
+  "https://lh3.googleusercontent.com/Es_5_zaREGqd3IbOo0Vo_LIeRWgtpBVZUz298dcsdrd9d_3LwJ823fU1SfxzDFBslW-k_JXXRRiSa71W9jVF2Dxl8A=s1280-w1280-h800"
+]
+features = [
+  "Publish page notes, annotations, bookmarks and highlights to Nostr",
+  "Fork of Hypothesis with Nostr integration",
+  "Follows NIP-84 for Highlights and NIP-22 for replies and annotations",
+  "NIP-65 relay lists for publishing events",
+  "NIP-51 relay sets for custom relay groups",
+  "Login with nsec or NIP-46 bunker",
+  "URL normalization"
+]
+npub = "npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6"
+platforms = [ "web" ]
+source = "https://git.fiatjaf.com/lantern"
+thumb = "https://lh3.googleusercontent.com/aV2Br8dbpnyO1LS5cZRwwx3qN7gmLOvYNSGLq2keecKaFgzD93RkBZFcALizJMeUcNtot4wUWvCEWF7YH6CYQYgcquc=s60"
+url = "https://chromewebstore.google.com/detail/lantern/jjoijlenmgefkaeiomoaelcljfibpcgh"
