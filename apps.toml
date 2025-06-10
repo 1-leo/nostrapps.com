@@ -407,6 +407,28 @@ platforms = [ "ios", "android" ]
 thumb = "https://cdn.satellite.earth/a21a0c29fc3afe32275ba835e62bd5fd50a032c519fadb8aad6b29fa10854463.png"
 url = "https://freefrom.space/"
 
+[futr]
+name = "futr"
+categories = [ "direct-message", "microblogging", "community" ]
+description = "nostr desktop client"
+gallery = [
+  "https://i.postimg.cc/mrKXHQT8/futr-feed.png",
+  "https://i.postimg.cc/7hkKBwGz/futr-home.png",
+  "https://i.postimg.cc/rmWhCKmc/futr-login.png",
+  "https://i.postimg.cc/sx4wqq7N/futr-relay.png"
+]
+features = [
+  "Native application using OpenGL (no browser)",
+  "Private encrypted Chats (NIP-17)",
+  "Outbox Model",
+  "Linux & Windows"
+]
+npub = "npub18wxf0t5jsmcpy57ylzx595twskx8eyj382lj7wp9rtlhzdg5hnnqvt4xra"
+platforms = [ "desktop" ]
+source = "https://github.com/futrnostr/futr"
+thumb = "https://avatars.githubusercontent.com/u/178206216?s=200&v=4"
+url = "https://futrnostr.com"
+
 [gifbuddy]
 name = "GIF Buddy"
 categories = [ "tools" ]
