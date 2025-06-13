@@ -1387,3 +1387,28 @@ platforms = [ "web" ]
 source = "https://git.fiatjaf.com/lantern"
 thumb = "https://lh3.googleusercontent.com/aV2Br8dbpnyO1LS5cZRwwx3qN7gmLOvYNSGLq2keecKaFgzD93RkBZFcALizJMeUcNtot4wUWvCEWF7YH6CYQYgcquc=s60"
 url = "https://chromewebstore.google.com/detail/lantern/jjoijlenmgefkaeiomoaelcljfibpcgh"
+
+
+[camelus]
+name = "camelus"
+categories = [ "microblogging" ]
+description = "Microblogging. No algorithms, no ads, connect with people who matter."
+gallery = [
+  "https://camelus.app/images/stores/phoneScreenshots/1_en-GB.png",
+  "https://camelus.app/images/stores/phoneScreenshots/2_en-GB.png",
+  "https://camelus.app/images/stores/phoneScreenshots/3_en-GB.png",
+  "https://camelus.app/images/stores/phoneScreenshots/4_en-GB.png",
+  "https://camelus.app/images/stores/phoneScreenshots/5_en-GB.png",
+]
+features = [
+  "Intuitive user interface",
+  "Short notes",
+  "Profile search",
+  "Inbox/Outbox on the phone, no external caching server",
+  "Starter packs",
+  "Easy onboarding",
+]
+npub = "npub1camelhq7t54m7hkata58sklug2vm83masprf2lx8n0zdykke6vcqxl9339"
+platforms = [  "android", "ios" ]
+thumb = "https://camelus.app/images/icon_512.png"
+url = "https://camelus.app"
