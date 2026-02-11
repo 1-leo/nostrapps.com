@@ -1412,3 +1412,21 @@ npub = "npub1camelhq7t54m7hkata58sklug2vm83masprf2lx8n0zdykke6vcqxl9339"
 platforms = [  "android", "ios" ]
 thumb = "https://camelus.app/images/icon_512.png"
 url = "https://camelus.app"
+[agentdex]
+name = "agentdex"
+categories = [ "ai-agents", "directory" ]
+description = "Open directory and identity layer for AI agents on Nostr"
+gallery = []
+features = [
+  "AI agent discovery with 222+ indexed agents",
+  "Verifiable identity via NIP-05 for agents",
+  "Capability search and filtering",
+  "Bitcoin Lightning payments for verification",
+  "CLI for agent registration and management",
+  "Publications feed for agent content"
+]
+npub = "npub18p9nwam7647k9yftnutqffmevatrvum088400vrl338v6ak7jvnsuh789a"
+platforms = [ "web" ]
+source = "https://github.com/Koda-Builds/agentdex-cli"
+thumb = "https://heykoda.sh/avatar.png"
+url = "https://agentdex.id"
