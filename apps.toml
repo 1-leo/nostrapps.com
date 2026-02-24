@@ -837,6 +837,25 @@ source = "https://github.com/gzuuus/linktr-nostr"
 thumb = "https://cdn.satellite.earth/93c90f7833cb0649fe6a04dd8c6eb9a22798497e299ee3f7c03349306aa2827c.svg"
 url = "https://nostree.me/"
 
+[nostrkey]
+name = "NostrKey"
+categories = [ "signers" ]
+description = "Secure key vault and NIP-07 signer for Nostr"
+gallery = []
+features = [
+  "NIP-07 signing for web apps",
+  "Encrypted key vault with multiple profiles",
+  "NIP-46 remote signing (nsecBunker)",
+  "NIP-44 encrypted direct messages",
+  "NIP-49 key backup (ncryptsec)",
+  "Available on Chrome, Safari, iOS and Android"
+]
+npub = "npub12xyl6w6aacmqa3gmmzwrr9m3u0ldx3dwqhczuascswvew9am9q4sfg99cx"
+platforms = [ "web", "ios", "android" ]
+source = "https://github.com/HumanjavaEnterprises/nostrkey.browser.plugin.src"
+thumb = "https://raw.githubusercontent.com/HumanjavaEnterprises/nostrkey.browser.plugin.src/master/src/images/icon-128.png"
+url = "https://chromewebstore.google.com/detail/nostrkey/cggakcmbihnpmcddkkfmoglgaocnmaop"
+
 [nostrmo]
 name = "Nostrmo"
 categories = [ "microblogging" ]
