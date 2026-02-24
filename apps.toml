@@ -853,7 +853,7 @@ features = [
 npub = "npub12xyl6w6aacmqa3gmmzwrr9m3u0ldx3dwqhczuascswvew9am9q4sfg99cx"
 platforms = [ "web", "ios", "android" ]
 source = "https://github.com/HumanjavaEnterprises/nostrkey.browser.plugin.src"
-thumb = "https://raw.githubusercontent.com/HumanjavaEnterprises/nostrkey.browser.plugin.src/master/src/images/icon-128.png"
+thumb = "https://raw.githubusercontent.com/HumanjavaEnterprises/nostrkey.browser.plugin.src/master/logo.png"
 url = "https://chromewebstore.google.com/detail/nostrkey/cggakcmbihnpmcddkkfmoglgaocnmaop"
 
 [nostrmo]
