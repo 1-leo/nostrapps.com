@@ -1145,7 +1145,7 @@ description = "A Nostr badge system for digital sovereignty milestones. Claim ba
 gallery = [
   "https://npub16pg5zadrrhseg2qjt9lwfcl50zcc8alnt7mnaend3j04wjz4gnjqn6efzc.blossom.band/7ffafd6f43734c8c819a6cad4f76c0e8065749bfe5b27af283a60b6174b0dd8e.png",
   "https://npub16pg5zadrrhseg2qjt9lwfcl50zcc8alnt7mnaend3j04wjz4gnjqn6efzc.blossom.band/946f1afbbb798a357d72a5b4973638fdb3043fa504dc6bf566f6be79ba609fbc.png",
-  "https://npub16pg5zadrrhseg2qjt9lwfcl50zcc8alnt7mnaend3j04wjz4gnjqn6efzc.blossom.band/d56c9022ca2df5d484d6fa286134612f3f8f5fca06ce890909755db27de87f44.png",
+  "https://npub16pg5zadrrhseg2qjt9lwfcl50zcc8alnt7mnaend3j04wjz4gnjqn6efzc.blossom.band/d0a743c1d28b318003e44f03655fa28cfdf7a5753b2c3b3454b37a05949ce489.png",
 ]
 features = [
   "Claim sovereignty badges like Password Sovereign and Encrypted Comms",
