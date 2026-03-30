@@ -1138,6 +1138,27 @@ source = "https://github.com/v0l/snort"
 thumb = "https://cdn.satellite.earth/bcdaa1704da7ab79c222de2ad8197d148f925f53ce8cfc23ecfb5e83d976f9df.svg"
 url = "https://snort.social/"
 
+[sovereignty-badges]
+name = "Sovereignty Badges"
+categories = [ "community", "tools" ]
+description = "A Nostr badge system for digital sovereignty milestones. Claim badges like Password Sovereign and Encrypted Comms, built on NIP-58. Helps new users get established on Nostr through guided sovereignty onboarding."
+gallery = [
+  "https://npub16pg5zadrrhseg2qjt9lwfcl50zcc8alnt7mnaend3j04wjz4gnjqn6efzc.blossom.band/52a070117e4a3536c32efd09d92c81542cd15d2042b8de0a40f49fea694ed685.png",
+  "https://npub16pg5zadrrhseg2qjt9lwfcl50zcc8alnt7mnaend3j04wjz4gnjqn6efzc.blossom.band/acbe99fe6a8653bc01933b4468ad81461d9f1a29efca6831a23946c51105a82c.png",
+  "https://npub16pg5zadrrhseg2qjt9lwfcl50zcc8alnt7mnaend3j04wjz4gnjqn6efzc.blossom.band/c226f4bf3a5ba85a7680a421275cfa5676e01da06694962f6490a4431c0f97dd.png",
+]
+features = [
+  "Claim sovereignty badges like Password Sovereign and Encrypted Comms",
+  "NIP-58 badge protocol — awards and profile display on Nostr",
+  "Guided onboarding path for new Nostr users",
+  "Badge feed showing community claims in real time",
+]
+npub = "npub1g5z5glqcxr6y8fz3hmafj7yt0uuzlhum0ldnrddknnhlt692zy5sr9vjka"
+platforms = [ "web" ]
+source = "https://github.com/jorgenclaw/sovereignty-by-design"
+thumb = "https://npub16pg5zadrrhseg2qjt9lwfcl50zcc8alnt7mnaend3j04wjz4gnjqn6efzc.blossom.band/6046cd90206d9ee0e29f664cba319db123aecd9c231c70961a469436179787b7.png"
+url = "https://sovereignty.jorgenclaw.ai/app/"
+
 [stemstr]
 name = "Stemstr"
 categories = [ "music" ]
