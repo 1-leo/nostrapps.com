@@ -1143,9 +1143,9 @@ name = "Sovereignty Badges"
 categories = [ "community", "tools" ]
 description = "A Nostr badge system for digital sovereignty milestones. Claim badges like Password Sovereign and Encrypted Comms, built on NIP-58. Helps new users get established on Nostr through guided sovereignty onboarding."
 gallery = [
-  "https://npub16pg5zadrrhseg2qjt9lwfcl50zcc8alnt7mnaend3j04wjz4gnjqn6efzc.blossom.band/52a070117e4a3536c32efd09d92c81542cd15d2042b8de0a40f49fea694ed685.png",
-  "https://npub16pg5zadrrhseg2qjt9lwfcl50zcc8alnt7mnaend3j04wjz4gnjqn6efzc.blossom.band/acbe99fe6a8653bc01933b4468ad81461d9f1a29efca6831a23946c51105a82c.png",
-  "https://npub16pg5zadrrhseg2qjt9lwfcl50zcc8alnt7mnaend3j04wjz4gnjqn6efzc.blossom.band/c226f4bf3a5ba85a7680a421275cfa5676e01da06694962f6490a4431c0f97dd.png",
+  "https://npub16pg5zadrrhseg2qjt9lwfcl50zcc8alnt7mnaend3j04wjz4gnjqn6efzc.blossom.band/7ffafd6f43734c8c819a6cad4f76c0e8065749bfe5b27af283a60b6174b0dd8e.png",
+  "https://npub16pg5zadrrhseg2qjt9lwfcl50zcc8alnt7mnaend3j04wjz4gnjqn6efzc.blossom.band/946f1afbbb798a357d72a5b4973638fdb3043fa504dc6bf566f6be79ba609fbc.png",
+  "https://npub16pg5zadrrhseg2qjt9lwfcl50zcc8alnt7mnaend3j04wjz4gnjqn6efzc.blossom.band/d56c9022ca2df5d484d6fa286134612f3f8f5fca06ce890909755db27de87f44.png",
 ]
 features = [
   "Claim sovereignty badges like Password Sovereign and Encrypted Comms",
