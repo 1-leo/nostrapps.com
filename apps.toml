@@ -1,3 +1,10 @@
+[safetok]
+name = "SafeTok"
+categories = [ "direct-message", "audio", "video", "file-sharing" ]
+description = "DMs, audio/video calling"
+platforms = [ "web" ]
+url = "https://safetok.me"
+
 [0xchat]
 name = "0xchat"
 categories = [ "direct-message", "group-chat" ]
